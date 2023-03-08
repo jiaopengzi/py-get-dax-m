@@ -152,3 +152,4 @@ demo/
 *.pbit
 *.pbix
 # *.exe
+pyvenv.cfg
