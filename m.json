@@ -1,0 +1,2656 @@
+{
+    "AccessControlEntry.ConditionToIdentities": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/accesscontrolentry-conditiontoidentities",
+        "description-en-us": "Returns a list of identities that the condition will accept.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/accesscontrolentry-conditiontoidentities",
+        "description-zh-cn": "返回此条件将接受的标识列表。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Access.Database": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/access-database",
+        "description-en-us": "Returns a structural representation of an Microsoft Access database.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/access-database",
+        "description-zh-cn": "返回 Microsoft Access 数据库的结构表示形式。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "ActiveDirectory.Domains": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/activedirectory-domains",
+        "description-en-us": "Returns a list of Active Directory domains in the same forest as the specified domain or of the current machine's domain if none is specified.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/activedirectory-domains",
+        "description-zh-cn": "返回与指定域或当前计算机的域（如果未指定任何域）处于同一个林中的 Active Directory 域的列表。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "AdobeAnalytics.Cubes": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/adobeanalytics-cubes",
+        "description-en-us": "Returns the report suites in Adobe Analytics.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/adobeanalytics-cubes",
+        "description-zh-cn": "在 Adobe Analytics 中返回报表套件。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "AdoDotNet.DataSource": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/adodotnet-datasource",
+        "description-en-us": "Returns the schema collection for an ADO.NET data source.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/adodotnet-datasource",
+        "description-zh-cn": "返回 ADO.NET 数据源的架构集合。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "AdoDotNet.Query": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/adodotnet-query",
+        "description-en-us": "Returns the schema collection for an ADO.NET data source.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/adodotnet-query",
+        "description-zh-cn": "返回 ADO.NET 数据源的架构集合。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "AnalysisServices.Database": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/analysisservices-database",
+        "description-en-us": "Returns a table of multidimensional cubes or tabular models from the Analysis Services database.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/analysisservices-database",
+        "description-zh-cn": "从 Analysis Services 数据库中返回多维数据集或表格模型的表。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "AnalysisServices.Databases": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/analysisservices-databases",
+        "description-en-us": "Returns the Analysis Services databases on a particular host.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/analysisservices-databases",
+        "description-zh-cn": "将 Analysis Services 数据库返回到特定的主机上。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "AzureStorage.BlobContents": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/azurestorage-blobcontents",
+        "description-en-us": "Returns the content of the specified blob from an Azure storage vault.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/azurestorage-blobcontents",
+        "description-zh-cn": "从 Azure 存储库返回指定 blob 的内容。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "AzureStorage.Blobs": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/azurestorage-blobs",
+        "description-en-us": "Returns a navigational table containing all containers found in the Azure Storage account. Each row has the container name and a link to the container blobs.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/azurestorage-blobs",
+        "description-zh-cn": "返回一个导航表，其中包含在 Azure 存储帐户中找到的所有容器。 每一行都有容器名称和指向容器 blob 的一个链接。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "AzureStorage.DataLake": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/azurestorage-datalake",
+        "description-en-us": "Returns a navigational table containing the documents found in the specified container and its subfolders from Azure Data Lake Storage.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/azurestorage-datalake",
+        "description-zh-cn": "返回一个导航表，其中包含在 Azure Data Lake Storage 的指定容器及其子文件夹中找到的文档。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "AzureStorage.DataLakeContents": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/azurestorage-datalakecontents",
+        "description-en-us": "Returns the content of the specified file from an Azure Data Lake Storage filesystem.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/azurestorage-datalakecontents",
+        "description-zh-cn": "从 Azure Data Lake Storage 文件系统返回指定文件的内容。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "AzureStorage.Tables": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/azurestorage-tables",
+        "description-en-us": "Returns a navigational table containing a row for each table found at the account URL from an Azure storage vault. Each row contains a link to the azure table.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/azurestorage-tables",
+        "description-zh-cn": "返回一个导航表，对于从 Azure 存储库中的帐户 URL 处找到的每个表，都作为一行包含在此表中。 每一行都包含一个指向 Azure 表的链接。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Cdm.Contents": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/cdm-contents",
+        "description-en-us": "This function is unavailable because it requires .NET 4.5.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/cdm-contents",
+        "description-zh-cn": "此函数不可用，因为它需要使用 .NET 4.5。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Csv.Document": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/csv-document",
+        "description-en-us": "Returns the contents of a CSV document as a table using the specified encoding.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/csv-document",
+        "description-zh-cn": "使用指定的编码以表的形式返回 CSV 文档的内容。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Cube.AddAndExpandDimensionColumn": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/cube-addandexpanddimensioncolumn",
+        "description-en-us": "Merges the specified dimension table, dimensionSelector, into the cube's, cube, filter context and changes the dimensional granularity by expanding the specified set, attributeNames, of dimension attributes.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/cube-addandexpanddimensioncolumn",
+        "description-zh-cn": "将指定维度表 dimensionSelector 合并到多维数据集的 cube 筛选上下文中，并通过展开维度属性的指定集 attributeNames 来更改维度粒度。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Cube.AddMeasureColumn": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/cube-addmeasurecolumn",
+        "description-en-us": "Adds a column with the name column to the cube that contains the results of the measure measureSelector applied in the row context of each row.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/cube-addmeasurecolumn",
+        "description-zh-cn": "向多维数据集添加包含名称列的列，其中包含在每行的行上下文中应用的度量值 measureSelector 的结果。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Cube.ApplyParameter": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/cube-applyparameter",
+        "description-en-us": "Returns a cube after applying parameter with arguments to cube.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/cube-applyparameter",
+        "description-zh-cn": "将形参与实参应用于多维数据集后返回多维数据集。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Cube.AttributeMemberId": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/cube-attributememberid",
+        "description-en-us": "Returns the unique member identifier from a member property value.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/cube-attributememberid",
+        "description-zh-cn": "从成员属性值返回唯一的成员标识符。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Cube.AttributeMemberProperty": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/cube-attributememberproperty",
+        "description-en-us": "Returns the property propertyName of dimension attribute attribute.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/cube-attributememberproperty",
+        "description-zh-cn": "返回维度属性 attribute 的属性 propertyName。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Cube.CollapseAndRemoveColumns": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/cube-collapseandremovecolumns",
+        "description-en-us": "Changes the dimensional granularity of the filter context for the cube by collapsing the attributes mapped to the specified columns columnNames.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/cube-collapseandremovecolumns",
+        "description-zh-cn": "通过折叠映射至指定列 columnNames 的属性，为多维数据集更改筛选上下文的维度粒度。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Cube.Dimensions": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/cube-dimensions",
+        "description-en-us": "Returns a table containing the set of available dimensions within the cube.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/cube-dimensions",
+        "description-zh-cn": "返回包含多维数据集中可用维度集的表。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Cube.DisplayFolders": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/cube-displayfolders",
+        "description-en-us": "Returns a nested tree of tables representing the display folder hierarchy of the objects (for example, dimensions and measures).",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/cube-displayfolders",
+        "description-zh-cn": "返回一个表嵌套树，它表示对象（如维度和度量值）的显示文件夹层次结构。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Cube.MeasureProperties": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/cube-measureproperties",
+        "description-en-us": "Returns a table containing the set of available properties for measures that are expanded in the cube.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/cube-measureproperties",
+        "description-zh-cn": "返回一个表，此表包含在多维数据集中扩展的度量值的可用属性集。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Cube.MeasureProperty": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/cube-measureproperty",
+        "description-en-us": "Returns the property of a measure.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/cube-measureproperty",
+        "description-zh-cn": "返回度量值的属性。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Cube.Measures": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/cube-measures",
+        "description-en-us": "Returns a table containing the set of available measures within the cube.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/cube-measures",
+        "description-zh-cn": "返回包含多维数据集中可用度量值集的表。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Cube.Parameters": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/cube-parameters",
+        "description-en-us": "Returns a table containing the set of parameters that can be applied to cube.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/cube-parameters",
+        "description-zh-cn": "返回一个表，此表包含可应用于多维数据集的参数集。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Cube.Properties": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/cube-properties",
+        "description-en-us": "Returns a table containing the set of available properties for dimensions that are expanded in the cube.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/cube-properties",
+        "description-zh-cn": "返回一个表，此表包含在多维数据集中扩展的维度的可用属性集。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Cube.PropertyKey": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/cube-propertykey",
+        "description-en-us": "Returns the key of property property.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/cube-propertykey",
+        "description-zh-cn": "返回属性 property 的键。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Cube.ReplaceDimensions": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/cube-replacedimensions",
+        "description-en-us": "Cube.ReplaceDimensions",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/cube-replacedimensions",
+        "description-zh-cn": "Cube.ReplaceDimensions",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Replaces the set of dimensions returned by Cube.Dimensions.": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m//en-us/powerquery-m/cube-dimensions",
+        "description-en-us": "Replaces the set of dimensions returned by Cube.Dimensions.",
+        "category-en-us": "Accessing data functions"
+    },
+    "Cube.Transform": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/cube-transform",
+        "description-en-us": "Applies the list cube functions, transforms, on the cube.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/cube-transform",
+        "description-zh-cn": "在多维数据集上应用列表多维数据集函数 transforms。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "DB2.Database": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/db2-database",
+        "description-en-us": "Returns a table of SQL tables and views available in a Db2 database.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/db2-database",
+        "description-zh-cn": "返回 Db2 数据库中可用的 SQL 表和视图的表。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Essbase.Cubes": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/essbase-cubes",
+        "description-en-us": "Returns the cubes in an Essbase instance grouped by Essbase server.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/essbase-cubes",
+        "description-zh-cn": "返回 Essbase 实例中按 Essbase 服务器分组的多维数据集。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Excel.CurrentWorkbook": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/excel-currentworkbook",
+        "description-en-us": "Returns the tables in the current Excel Workbook.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/excel-currentworkbook",
+        "description-zh-cn": "返回当前 Excel 工作簿中的表。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Excel.Workbook": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/excel-workbook",
+        "description-en-us": "Returns a table representing sheets in the given excel workbook.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/excel-workbook",
+        "description-zh-cn": "返回表示给定 excel 工作簿中工作表的表。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Exchange.Contents": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/exchange-contents",
+        "description-en-us": "Returns a table of contents from a Microsoft Exchange account.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/exchange-contents",
+        "description-zh-cn": "返回来自 Microsoft Exchange 帐户的目录。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "File.Contents": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/file-contents",
+        "description-en-us": "Returns the binary contents of the file located at a path.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/file-contents",
+        "description-zh-cn": "返回位于某一路径处的文件的二进制内容。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Folder.Contents": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/folder-contents",
+        "description-en-us": "Returns a table containing the properties and contents of the files and folders found in the specified folder.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/folder-contents",
+        "description-zh-cn": "返回一个表，其中包含在指定文件夹中找到的文件和文件夹的属性和内容。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Folder.Files": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/folder-files",
+        "description-en-us": "Returns a table containing a row for each file found at a folder path, and subfolders. Each row contains properties of the folder or file and a link to its content.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/folder-files",
+        "description-zh-cn": "返回一个表，其中包含在文件夹路径处和子文件夹中找到的每个文件的行。 每一行都包含文件夹或文件的属性以及指向其内容的链接。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "GoogleAnalytics.Accounts": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/googleanalytics-accounts",
+        "description-en-us": "Returns the Google Analytics accounts for the current credential.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/googleanalytics-accounts",
+        "description-zh-cn": "返回当前凭据的 Google Analytics 帐户。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Hdfs.Contents": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/hdfs-contents",
+        "description-en-us": "Returns a table containing a row for each folder and file found at the folder url, {0}, from a Hadoop file system. Each row contains properties of the folder or file and a link to its content.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/hdfs-contents",
+        "description-zh-cn": "返回一个表，其中包含在 Hadoop 文件系统的文件夹 URL 和 {0} 中找到的每个文件夹和文件的行。 每一行都包含文件夹或文件的属性以及指向其内容的链接。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Hdfs.Files": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/hdfs-files",
+        "description-en-us": "Returns a table containing a row for each file found at the folder url, {0}, and subfolders from a Hadoop file system. Each row contains properties of the file and a link to its content.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/hdfs-files",
+        "description-zh-cn": "返回一个表，其中包含在 Hadoop 文件系统的文件夹 URL、{0} 和子文件夹中找到的每个文件的行。 每一行都包含文件的属性以及指向其内容的链接。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "HdInsight.Containers": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/hdinsight-containers",
+        "description-en-us": "Returns a navigational table containing all containers found in the HDInsight account. Each row has the container name and table containing its files.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/hdinsight-containers",
+        "description-zh-cn": "返回一个导航表，其中包含在 HDInsight 帐户中找到的所有容器。 每一行都有容器名称和包含其文件的表。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "HdInsight.Contents": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/hdinsight-contents",
+        "description-en-us": "Returns a navigational table containing all containers found in the HDInsight account. Each row has the container name and table containing its files.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/hdinsight-contents",
+        "description-zh-cn": "返回一个导航表，其中包含在 HDInsight 帐户中找到的所有容器。 每一行都有容器名称和包含其文件的表。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "HdInsight.Files": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/hdinsight-files",
+        "description-en-us": "Returns a table containing a row for each folder and file found at the container URL, and subfolders from an HDInsight account. Each row contains properties of the file/folder and a link to its content.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/hdinsight-files",
+        "description-zh-cn": "返回一个表，其中包含在 HDInsight 帐户的容器 URL 处和子文件夹中找到的每个文件夹和文件的行。 每一行都包含文件/文件夹的属性以及指向其内容的链接。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Html.Table": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/html-table",
+        "description-en-us": "Returns a table containing the results of running the specified CSS selectors against the provided HTML.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/html-table",
+        "description-zh-cn": "返回一个表，其中包含针对所提供的 HTML 运行指定 CSS 选择器的结果。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Identity.From": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/identity-from",
+        "description-en-us": "Creates an identity.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/identity-from",
+        "description-zh-cn": "创建标识。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Identity.IsMemberOf": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/identity-ismemberof",
+        "description-en-us": "Determines whether an identity is a member of an identity collection.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/identity-ismemberof",
+        "description-zh-cn": "确定某标识是否为某一标识集合的成员。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "IdentityProvider.Default": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/identityprovider-default",
+        "description-en-us": "The default identity provider for the current host.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/identityprovider-default",
+        "description-zh-cn": "当前主机的默认标识提供程序。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Informix.Database": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/informix-database",
+        "description-en-us": "Returns a table of SQL tables and views available in an Informix database on server server in the database instance named database.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/informix-database",
+        "description-zh-cn": "返回 SQL 表和视图的一个表，这些表和视图在名为 database 数据库实例中服务器 server 上的 Informix 数据库中可用。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Json.Document": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/json-document",
+        "description-en-us": "Returns the contents of a JSON document. The contents may be directly passed to the function as text, or it may be the binary value returned by a function like File.Contents.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/json-document",
+        "description-zh-cn": "返回 JSON 文档的内容。 这些内容可能会直接作为文本传递给函数，或者可能是由 File.Contents 等函数返回的二进制值。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Json.FromValue": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/json-fromvalue",
+        "description-en-us": "Produces a JSON representation of a given value value with a text encoding specified by encoding.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/json-fromvalue",
+        "description-zh-cn": "使用 encoding 指定的文本编码生成给定值的 JSON 表示形式。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "MySQL.Database": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/mysql-database",
+        "description-en-us": "Returns a table with data relating to the tables in the specified MySQL Database.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/mysql-database",
+        "description-zh-cn": "返回一个表，其中包含与指定 MySQL 数据库中的表相关的数据。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "OData.Feed": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/odata-feed",
+        "description-en-us": "Returns a table of OData feeds offered by an OData serviceUri.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/odata-feed",
+        "description-zh-cn": "返回 OData serviceUri 提供的 OData 数据源表。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Odbc.DataSource": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "description-en-us": "Returns a table of SQL tables and views from the ODBC data source specified by the connection string connectionString.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/odbc-datasource",
+        "description-zh-cn": "从连接字符串 connectionString 指定的 ODBC 数据源中返回 SQL 表和视图的表。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Odbc.InferOptions": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/odbc-inferoptions",
+        "description-en-us": "Returns the result of trying to infer SQL capabilities for an ODBC driver.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/odbc-inferoptions",
+        "description-zh-cn": "返回尝试推断 ODBC 驱动程序的 SQL 功能的结果。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Odbc.Query": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/odbc-query",
+        "description-en-us": "Connects to a generic provider with the given connection string and returns the result of evaluating the query.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/odbc-query",
+        "description-zh-cn": "使用给定的连接字符串连接到通用提供程序并返回评估查询的结果。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "OleDb.DataSource": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/oledb-datasource",
+        "description-en-us": "Returns a table of SQL tables and views from the OLE DB data source specified by the connection string.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/oledb-datasource",
+        "description-zh-cn": "从连接字符串指定的 OLE DB 数据源中返回 SQL 表和视图的表。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "OleDb.Query": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/oledb-query",
+        "description-en-us": "Returns the result of running a native query on an OLE DB data source.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/oledb-query",
+        "description-zh-cn": "返回在 OLE DB 数据源上运行本机查询的结果。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Oracle.Database": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/oracle-database",
+        "description-en-us": "Returns a table with data relating to the tables in the specified Oracle Database.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/oracle-database",
+        "description-zh-cn": "返回一个表，其中包含与指定 Oracle Database 中的表相关的数据。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Pdf.Tables": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/pdf-tables",
+        "description-en-us": "Returns any tables found in a PDF file.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/pdf-tables",
+        "description-zh-cn": "返回 PDF 文件中找到的任何表。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "PostgreSQL.Database": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/postgresql-database",
+        "description-en-us": "Returns a table with data relating to the tables in the specified PostgreSQL Database.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/postgresql-database",
+        "description-zh-cn": "返回一个表，其中包含与指定 PostgreSQL 数据库中的表相关的数据。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "RData.FromBinary": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/rdata-frombinary",
+        "description-en-us": "Returns a record of data frames from the RData file.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/rdata-frombinary",
+        "description-zh-cn": "从 RData 文件返回数据帧记录。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Salesforce.Data": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/salesforce-data",
+        "description-en-us": "Connects to the Salesforce Objects API and returns the set of available objects (i.e. Accounts).",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/salesforce-data",
+        "description-zh-cn": "连接到 Salesforce Objects API 并返回一组可用对象（即帐户）。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Salesforce.Reports": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/salesforce-reports",
+        "description-en-us": "Connects to the Salesforce Reports API and returns the set of available reports.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/salesforce-reports",
+        "description-zh-cn": "连接到 Salesforce Reports API 并返回一组可用报表。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "SapBusinessWarehouse.Cubes": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/sapbusinesswarehouse-cubes",
+        "description-en-us": "Returns the InfoCubes and queries in an SAP Business Warehouse system grouped by InfoArea.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/sapbusinesswarehouse-cubes",
+        "description-zh-cn": "返回 SAP Business Warehouse 系统中按 InfoArea 分组的 InfoCubes 和查询。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "SapHana.Database": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/saphana-database",
+        "description-en-us": "Returns the packages in an SAP HANA database.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/saphana-database",
+        "description-zh-cn": "返回 SAP HANA 数据库中的包。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "SharePoint.Contents": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/sharepoint-contents",
+        "description-en-us": "Returns a table containing a row for each folder and document found at the SharePoint site url. Each row contains properties of the folder or file and a link to its content.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/sharepoint-contents",
+        "description-zh-cn": "返回一个表，其中包含在 SharePoint 站点 URL 处找到的每个文件夹和文档的行。 每一行都包含文件夹或文件的属性以及指向其内容的链接。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "SharePoint.Files": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/sharepoint-files",
+        "description-en-us": "Returns a table containing a row for each document found at the SharePoint site url, and subfolders. Each row contains properties of the folder or file and a link to its content.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/sharepoint-files",
+        "description-zh-cn": "返回一个表，其中包含在 SharePoint 站点 URL 处和子文件夹中找到的每个文档的行。 每一行都包含文件夹或文件的属性以及指向其内容的链接。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "SharePoint.Tables": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/sharepoint-tables",
+        "description-en-us": "Returns a table containing the result of a SharePoint List as an OData feed.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/sharepoint-tables",
+        "description-zh-cn": "返回一个表，其中包含作为 OData 源的 SharePoint 列表的结果。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Soda.Feed": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/soda-feed",
+        "description-en-us": "Returns the resulting table of a CSV file that can be accessed using the SODA 2.0 API. The URL must point to a valid SODA-compliant source that ends in a .csv extension.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/soda-feed",
+        "description-zh-cn": "返回可使用 SODA 2.0 API 访问的 CSV 文件的结果表。 URL 必须指向与 SODA 兼容的且以 .csv 扩展名结尾的有效的源。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Sql.Database": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/sql-database",
+        "description-en-us": "Returns a table containing SQL tables located on a SQL Server instance database.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/sql-database",
+        "description-zh-cn": "返回一个表，其中包含位于 SQL Server 实例数据库上的 SQL 表。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Sql.Databases": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/sql-databases",
+        "description-en-us": "Returns a table with references to databases located on a SQL Server instance. Returns a navigation table.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/sql-databases",
+        "description-zh-cn": "返回一个表，其中包含对位于 SQL Server 实例上的数据库的引用。 返回导航表。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Sybase.Database": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/sybase-database",
+        "description-en-us": "Returns a table with data relating to the tables in the specified Sybase Database.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/sybase-database",
+        "description-zh-cn": "返回一个表，其中包含与指定 Sybase 数据库中的表相关的数据。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Teradata.Database": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/teradata-database",
+        "description-en-us": "Returns a table with data relating to the tables in the specified Teradata Database.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/teradata-database",
+        "description-zh-cn": "返回一个表，其中包含与指定 Teradata 数据库中的表相关的数据。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "WebAction.Request": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/webaction-request",
+        "description-en-us": "Creates an action that, when executed, will return the results of performing a method request against url using HTTP as a binary value.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/webaction-request",
+        "description-zh-cn": "创建以下操作：执行后，将使用 HTTP 针对 URL 执行方法请求的结果作为二进制值返回。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Web.BrowserContents": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/web-browsercontents",
+        "description-en-us": "Returns the HTML for the specified URL, as viewed by a web browser.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/web-browsercontents",
+        "description-zh-cn": "返回由 Web 浏览器查看的指定 URL 的 HTML。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Web.Contents": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/web-contents",
+        "description-en-us": "Returns the contents downloaded from a web URL as a binary value.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/web-contents",
+        "description-zh-cn": "将从 Web URL 下载的内容作为二进制值返回。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Web.Headers": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/web-headers",
+        "description-en-us": "Returns the HTTP headers downloaded from the URL as a record value.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/web-headers",
+        "description-zh-cn": "返回从 URL 下载的 HTTP 标头作为记录值。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Web.Page": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/web-page",
+        "description-en-us": "Returns the contents of an HTML webpage as a table.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/web-page",
+        "description-zh-cn": "将 HTML 网页的内容作为表返回。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Xml.Document": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/xml-document",
+        "description-en-us": "Returns the contents of an XML document as a hierarchical table (list of records).",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/xml-document",
+        "description-zh-cn": "返回 XML 文档的内容作为层次结构表（记录列表）。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "Xml.Tables": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/xml-tables",
+        "description-en-us": "Returns the contents of an XML document as a nested collection of flattened tables.",
+        "category-en-us": "Accessing data functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/xml-tables",
+        "description-zh-cn": "返回 XML 文档的内容作为平展表的嵌套集合。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "替换 Cube.Dimensions 返回的一组维度。": {
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m//zh-cn/powerquery-m/cube-dimensions",
+        "description-zh-cn": "替换 Cube.Dimensions 返回的一组维度。",
+        "category-zh-cn": "数据访问函数"
+    },
+    "BinaryFormat.7BitEncodedSignedInteger": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-7bitencodedsignedinteger",
+        "description-en-us": "A binary format that reads a 64-bit signed integer that was encoded using a 7-bit variable-length encoding.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-7bitencodedsignedinteger",
+        "description-zh-cn": "一种二进制格式，读取使用 7 位可变长度编码进行编码的 64 位带符号整数。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.7BitEncodedUnsignedInteger": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-7bitencodedunsignedinteger",
+        "description-en-us": "A binary format that reads a 64-bit unsigned integer that was encoded using a 7-bit variable-length encoding.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-7bitencodedunsignedinteger",
+        "description-zh-cn": "一种二进制格式，读取使用 7 位可变长度编码进行编码的 64 位无符号整数。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.Binary": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-binary",
+        "description-en-us": "Returns a binary format that reads a binary value.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-binary",
+        "description-zh-cn": "返回读取二进制值的二进制格式。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.Byte": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-byte",
+        "description-en-us": "A binary format that reads an 8-bit unsigned integer.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-byte",
+        "description-zh-cn": "读取 8 位无符号整数的二进制格式。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.Choice": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-choice",
+        "description-en-us": "Returns a binary format that chooses the next binary format based on a value that has already been read.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-choice",
+        "description-zh-cn": "返回一个二进制格式，它基于已读取的值选择下一个二进制格式。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.Decimal": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-decimal",
+        "description-en-us": "A binary format that reads a .NET 16-byte decimal value.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-decimal",
+        "description-zh-cn": "读取 .NET 16 字节十进制值的二进制格式。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.Double": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-double",
+        "description-en-us": "A binary format that reads an 8-byte IEEE double-precision floating point value.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-double",
+        "description-zh-cn": "读取 8 字节 IEEE 双精度浮点值的二进制格式。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.Group": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-group",
+        "description-en-us": "Returns a binary format that reads a group of items. Each item value is preceded by a unique key value. The result is a list of item values.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-group",
+        "description-zh-cn": "返回读取一组项的二进制格式。 每个项值的前面都有一个唯一的键值。 结果是项值列表。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.Length": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-length",
+        "description-en-us": "Returns a binary format that limits the amount of data that can be read. Both BinaryFormat.List and BinaryFormat.Binary can be used to read until end of the data. BinaryFormat.Length can be used to limit the number of bytes that are read.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-length",
+        "description-zh-cn": "返回一个二进制格式，它限制可读取的数据量。 BinaryFormat.List 和BinaryFormat.Binary 均可用于读取，直至数据结束。 BinaryFormat.Length 可以用于限制所读取的字节数。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.List": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-list",
+        "description-en-us": "Returns a binary format that reads a sequence of items and returns a list.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-list",
+        "description-zh-cn": "返回读取项序列并返回一个列表的二进制格式。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.Null": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-null",
+        "description-en-us": "A binary format that reads zero bytes and returns null.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-null",
+        "description-zh-cn": "读取零字节并且返回 NULL 的二进制格式。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.Record": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-record",
+        "description-en-us": "Returns a binary format that reads a record. Each field in the record can have a different binary format.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-record",
+        "description-zh-cn": "返回读取记录的二进制格式。 记录中的每个字段都可以有不同的二进制格式。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.SignedInteger16": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-signedinteger16",
+        "description-en-us": "A binary format that reads a 16-bit signed integer.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-signedinteger16",
+        "description-zh-cn": "读取 16 位带符号整数的二进制格式。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.SignedInteger32": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-signedinteger32",
+        "description-en-us": "A binary format that reads a 32-bit signed integer.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-signedinteger32",
+        "description-zh-cn": "读取 32 位带符号整数的二进制格式。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.SignedInteger64": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-signedinteger64",
+        "description-en-us": "A binary format that reads a 64-bit signed integer.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-signedinteger64",
+        "description-zh-cn": "读取 64 位带符号整数的二进制格式。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.Single": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-single",
+        "description-en-us": "A binary format that reads a 4-byte IEEE single-precision floating point value.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-single",
+        "description-zh-cn": "读取 4 字节 IEEE 单精度浮点值的二进制格式。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.Text": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-text",
+        "description-en-us": "Returns a binary format that reads a text value. The optional encoding value specifies the encoding of the text.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-text",
+        "description-zh-cn": "返回读取文本值的二进制格式。 可选的编码值指定文本的编码。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.Transform": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-transform",
+        "description-en-us": "Returns a binary format that will transform the values read by another binary format.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-transform",
+        "description-zh-cn": "返回一个二进制格式，该二进制格式将转换由另一个二进制格式读取的值。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.UnsignedInteger16": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-unsignedinteger16",
+        "description-en-us": "A binary format that reads a 16-bit unsigned integer.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-unsignedinteger16",
+        "description-zh-cn": "读取 16 位无符号整数的二进制格式。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.UnsignedInteger32": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-unsignedinteger32",
+        "description-en-us": "A binary format that reads a 32-bit unsigned integer.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-unsignedinteger32",
+        "description-zh-cn": "读取 32 位无符号整数的二进制格式。",
+        "category-zh-cn": "二进制函数"
+    },
+    "BinaryFormat.UnsignedInteger64": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/binaryformat-unsignedinteger64",
+        "description-en-us": "A binary format that reads a 64-bit unsigned integer.",
+        "category-en-us": "Binary functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-unsignedinteger64",
+        "description-zh-cn": "读取 64 位无符号整数的二进制格式。",
+        "category-zh-cn": "二进制函数"
+    },
+    "Combiner.CombineTextByDelimiter": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/combiner-combinetextbydelimiter",
+        "description-en-us": "Returns a function that combines a list of text into a single text using the specified delimiter.",
+        "category-en-us": "Combiner functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/combiner-combinetextbydelimiter",
+        "description-zh-cn": "返回一个函数，它使用指定的分隔符将文本列表合并成单个文本。",
+        "category-zh-cn": "合并器函数"
+    },
+    "Combiner.CombineTextByEachDelimiter": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/combiner-combinetextbyeachdelimiter",
+        "description-en-us": "Returns a function that combines a list of text into a single text using each specified delimiter in sequence.",
+        "category-en-us": "Combiner functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/combiner-combinetextbyeachdelimiter",
+        "description-zh-cn": "返回一个函数，它按顺序使用每个指定的分隔符将文本列表合并成单个文本。",
+        "category-zh-cn": "合并器函数"
+    },
+    "Combiner.CombineTextByLengths": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/combiner-combinetextbylengths",
+        "description-en-us": "Returns a function that combines a list of text into a single text using the specified lengths.",
+        "category-en-us": "Combiner functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/combiner-combinetextbylengths",
+        "description-zh-cn": "返回一个函数，它使用指定的长度将文本列表合并成单个文本。",
+        "category-zh-cn": "合并器函数"
+    },
+    "Combiner.CombineTextByPositions": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/combiner-combinetextbypositions",
+        "description-en-us": "Returns a function that combines a list of text into a single text using the specified positions.",
+        "category-en-us": "Combiner functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/combiner-combinetextbypositions",
+        "description-zh-cn": "返回一个函数，它使用指定的位置将文本列表合并成单个文本。",
+        "category-zh-cn": "合并器函数"
+    },
+    "Combiner.CombineTextByRanges": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/combiner-combinetextbyranges",
+        "description-en-us": "Returns a function that combines a list of text into a single text using the specified positions and lengths.",
+        "category-en-us": "Combiner functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/combiner-combinetextbyranges",
+        "description-zh-cn": "返回一个函数，它使用指定的位置和长度将文本列表合并成单个文本。",
+        "category-zh-cn": "合并器函数"
+    },
+    "Comparer.Equals": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/comparer-equals",
+        "description-en-us": "Returns a logical value based on the equality check over the two given values.",
+        "category-en-us": "Comparer functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/comparer-equals",
+        "description-zh-cn": "在对两个给定值进行同等性检查的基础上返回一个逻辑值。",
+        "category-zh-cn": "比较器函数"
+    },
+    "Comparer.FromCulture": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/comparer-fromculture",
+        "description-en-us": "Returns a comparer function given the culture and a logical value for case sensitivity for the comparison. The default value for ignoreCase is false. The value for culture are well known text representations of locales used in the .NET framework.",
+        "category-en-us": "Comparer functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/comparer-fromculture",
+        "description-zh-cn": "返回一个比较器函数，得出用于比较的区分大小写的区域性和逻辑值。 ignoreCase 的默认值为 false。 区域性值是 .NET Framework 中所使用的区域设置的已知文本表示形式。",
+        "category-zh-cn": "比较器函数"
+    },
+    "Comparer.Ordinal": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/comparer-ordinal",
+        "description-en-us": "Returns a comparer function which uses Ordinal rules to compare values.",
+        "category-en-us": "Comparer functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/comparer-ordinal",
+        "description-zh-cn": "返回一个使用 Ordinal 规则的比较器函数以比较值。",
+        "category-zh-cn": "比较器函数"
+    },
+    "Comparer.OrdinalIgnoreCase": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/comparer-ordinalignorecase",
+        "description-en-us": "Returns a case-insensitive comparer function which uses Ordinal rules to compare the provided values x and y.",
+        "category-en-us": "Comparer functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/comparer-ordinalignorecase",
+        "description-zh-cn": "返回使用 Ordinal 规则来比较提供的值 x 和 y 的不区分大小写的比较器函数。",
+        "category-zh-cn": "比较器函数"
+    },
+    "Date.AddDays": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-adddays",
+        "description-en-us": "Returns a Date/DateTime/DateTimeZone value with the day portion incremented by the number of days provided. It also handles incrementing the month and year potions of the value as appropriate.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-adddays",
+        "description-zh-cn": "返回一个 Date/DateTime/DateTimeZone 值，其中天数部分是按提供的天数递增的。 它还会根据需要处理值的月份和年份部分的递增。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.AddMonths": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-addmonths",
+        "description-en-us": "Returns a DateTime value with the month portion incremented by n months.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-addmonths",
+        "description-zh-cn": "返回一个 DateTime 值，其中月份部分是按 n 个月递增的。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.AddQuarters": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-addquarters",
+        "description-en-us": "Returns a Date/DateTime/DateTimeZone value incremented by the number of quarters provided. Each quarter is defined as a duration of three months. It also handles incrementing the year potion of the value as appropriate.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-addquarters",
+        "description-zh-cn": "返回一个 Date/DateTime/DateTimeZone 值，此值是按提供的季度数递增的。 每个季度定义为为期三个月的一段时间。 它还会根据需要处理值的年份部分的递增。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.AddWeeks": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-addweeks",
+        "description-en-us": "Returns a Date/DateTime/DateTimeZone value incremented by the number of weeks provided. Each week is defined as a duration of seven days. It also handles incrementing the month and year potions of the value as appropriate.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-addweeks",
+        "description-zh-cn": "返回一个 Date/DateTime/DateTimeZone 值，此值是按提供的周数递增的。 每周定义为为期七天的一段时间。 它还会根据需要处理值的月份和年份部分的递增。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.AddYears": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-addyears",
+        "description-en-us": "Returns a DateTime value with the year portion incremented by n years.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-addyears",
+        "description-zh-cn": "返回一个 DateTime 值，其中年份部分是按 n 年递增的。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.Day": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-day",
+        "description-en-us": "Returns the day for a DateTime value.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-day",
+        "description-zh-cn": "返回 DateTime 值的日。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.DayOfWeek": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-dayofweek",
+        "description-en-us": "Returns a number (from 0 to 6) indicating the day of the week of the provided value.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-dayofweek",
+        "description-zh-cn": "返回数字（介于 0 到 6 之间）以指明提供的值是星期几。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.DayOfWeekName": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-dayofweekname",
+        "description-en-us": "Returns the day of the week name.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-dayofweekname",
+        "description-zh-cn": "返回星期几。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.DayOfYear": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-dayofyear",
+        "description-en-us": "Returns a number that represents the day of the year from a DateTime value.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-dayofyear",
+        "description-zh-cn": "从 DateTime 值返回一个数字，此数字表示一年中的第几日。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.DaysInMonth": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-daysinmonth",
+        "description-en-us": "Returns the number of days in the month from a DateTime value.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-daysinmonth",
+        "description-zh-cn": "从 DateTime 值返回所在月份的天数。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.EndOfDay": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-endofday",
+        "description-en-us": "Returns the end of the day.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-endofday",
+        "description-zh-cn": "返回天结束值。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.EndOfMonth": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-endofmonth",
+        "description-en-us": "Returns the end of the month.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-endofmonth",
+        "description-zh-cn": "返回月份结束值。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.EndOfQuarter": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-endofquarter",
+        "description-en-us": "Returns the end of the quarter.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-endofquarter",
+        "description-zh-cn": "返回季度结束值。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.EndOfWeek": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-endofweek",
+        "description-en-us": "Returns the end of the week.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-endofweek",
+        "description-zh-cn": "返回周结束值。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.EndOfYear": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-endofyear",
+        "description-en-us": "Returns the end of the year.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-endofyear",
+        "description-zh-cn": "返回年份结束值。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.From": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-from",
+        "description-en-us": "Returns a date value from a value.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-from",
+        "description-zh-cn": "返回值中的日期值。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.FromText": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-fromtext",
+        "description-en-us": "Creates a Date from local, universal, and custom Date formats.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-fromtext",
+        "description-zh-cn": "根据本地、通用和自定义日期格式创建日期。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInCurrentDay": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isincurrentday",
+        "description-en-us": "Indicates whether the given datetime value dateTime occurs during the current day, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isincurrentday",
+        "description-zh-cn": "指示给定的日期/时间值 dateTime 是否按系统当前日期和时间所确定的那样处于当日内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInCurrentMonth": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isincurrentmonth",
+        "description-en-us": "Returns a logical value indicating whether the given Date/DateTime/DateTimeZone occurred during the current month, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isincurrentmonth",
+        "description-zh-cn": "返回一个逻辑值，此值指示给定的 Date/DateTime/DateTimeZone 是否按系统当前日期和时间所确定的那样处于当前月份内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInCurrentQuarter": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isincurrentquarter",
+        "description-en-us": "Returns a logical value indicating whether the given Date/DateTime/DateTimeZone occurred during the current quarter, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isincurrentquarter",
+        "description-zh-cn": "返回一个逻辑值，此值指示给定的 Date/DateTime/DateTimeZone 是否按系统当前日期和时间所确定的那样处于当前季度内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInCurrentWeek": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isincurrentweek",
+        "description-en-us": "Returns a logical value indicating whether the given Date/DateTime/DateTimeZone occurred during the current week, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isincurrentweek",
+        "description-zh-cn": "返回一个逻辑值，此值指示给定的 Date/DateTime/DateTimeZone 是否按系统当前日期和时间所确定的那样处于当周内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInCurrentYear": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isincurrentyear",
+        "description-en-us": "Returns a logical value indicating whether the given Date/DateTime/DateTimeZone occurred during the current year, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isincurrentyear",
+        "description-zh-cn": "返回一个逻辑值，此值指示给定的 Date/DateTime/DateTimeZone 是否按系统当前日期和时间所确定的那样处于当年内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInNextDay": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinnextday",
+        "description-en-us": "Indicates whether the given datetime value dateTime occurs during the next day, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinnextday",
+        "description-zh-cn": "指示给定的日期/时间值 dateTime 是否按系统当前日期和时间所确定的那样处于下一天内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInNextMonth": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinnextmonth",
+        "description-en-us": "Returns a logical value indicating whether the given Date/DateTime/DateTimeZone occurred during the next month, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinnextmonth",
+        "description-zh-cn": "返回一个逻辑值，此值指示给定的 Date/DateTime/DateTimeZone 是否按系统当前日期和时间所确定的那样处于下一月内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInNextNDays": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinnextndays",
+        "description-en-us": "Indicates whether the given datetime value dateTime occurs during the next number of days, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinnextndays",
+        "description-zh-cn": "指示给定的日期/时间值 dateTime 是否按系统当前日期和时间所确定的那样处于下一天数内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInNextNMonths": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinnextnmonths",
+        "description-en-us": "Indicates whether the given datetime value dateTime occurs during the next number of months, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinnextnmonths",
+        "description-zh-cn": "指示给定的日期/时间值 dateTime 是否按系统当前日期和时间所确定的那样处于下一月数内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInNextNQuarters": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinnextnquarters",
+        "description-en-us": "Indicates whether the given datetime value dateTime occurs during the next number of quarters, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinnextnquarters",
+        "description-zh-cn": "指示给定的日期/时间值 dateTime 是否按系统当前日期和时间所确定的那样处于下一季度数内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInNextNWeeks": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinnextnweeks",
+        "description-en-us": "Indicates whether the given datetime value dateTime occurs during the next number of weeks, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinnextnweeks",
+        "description-zh-cn": "指示给定的日期/时间值 dateTime 是否按系统当前日期和时间所确定的那样处于下一周数内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInNextNYears": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinnextnyears",
+        "description-en-us": "Indicates whether the given datetime value dateTime occurs during the next number of years, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinnextnyears",
+        "description-zh-cn": "指示给定的日期/时间值 dateTime 是否按系统当前日期和时间所确定的那样处于下一年数内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInNextQuarter": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinnextquarter",
+        "description-en-us": "Returns a logical value indicating whether the given Date/DateTime/DateTimeZone occurred during the next quarter, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinnextquarter",
+        "description-zh-cn": "返回一个逻辑值，此值指示给定的 Date/DateTime/DateTimeZone 是否按系统当前日期和时间所确定的那样处于下一季度内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInNextWeek": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinnextweek",
+        "description-en-us": "Returns a logical value indicating whether the given Date/DateTime/DateTimeZone occurred during the next week, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinnextweek",
+        "description-zh-cn": "返回一个逻辑值，此值指示给定的 Date/DateTime/DateTimeZone 是否按系统当前日期和时间所确定的那样处于下一周内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInNextYear": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinnextyear",
+        "description-en-us": "Returns a logical value indicating whether the given Date/DateTime/DateTimeZone occurred during the next year, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinnextyear",
+        "description-zh-cn": "返回一个逻辑值，此值指示给定的 Date/DateTime/DateTimeZone 是否按系统当前日期和时间所确定的那样处于下一年内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInPreviousDay": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinpreviousday",
+        "description-en-us": "Indicates whether the given datetime value dateTime occurs during the previous day, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinpreviousday",
+        "description-zh-cn": "指示给定的日期/时间值 dateTime 是否按系统当前日期和时间所确定的那样处于前一天内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInPreviousMonth": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinpreviousmonth",
+        "description-en-us": "Returns a logical value indicating whether the given Date/DateTime/DateTimeZone occurred during the previous month, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinpreviousmonth",
+        "description-zh-cn": "返回一个逻辑值，此值指示给定的 Date/DateTime/DateTimeZone 是否按系统当前日期和时间所确定的那样处于上一月内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInPreviousNDays": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinpreviousndays",
+        "description-en-us": "Indicates whether the given datetime value dateTime occurs during the previous number of days, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinpreviousndays",
+        "description-zh-cn": "指示给定的日期/时间值 dateTime 是否按系统当前日期和时间所确定的那样处于上一天数内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInPreviousNMonths": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinpreviousnmonths",
+        "description-en-us": "Indicates whether the given datetime value dateTime occurs during the previous number of months, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinpreviousnmonths",
+        "description-zh-cn": "指示给定的日期/时间值 dateTime 是否按系统当前日期和时间所确定的那样处于上一月数内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInPreviousNQuarters": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinpreviousnquarters",
+        "description-en-us": "Indicates whether the given datetime value dateTime occurs during the previous number of quarters, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinpreviousnquarters",
+        "description-zh-cn": "指示给定的日期/时间值 dateTime 是否按系统当前日期和时间所确定的那样处于上一季度数内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInPreviousNWeeks": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinpreviousnweeks",
+        "description-en-us": "Indicates whether the given datetime value dateTime occurs during the previous number of weeks, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinpreviousnweeks",
+        "description-zh-cn": "指示给定的日期/时间值 dateTime 是否按系统当前日期和时间所确定的那样处于上一周数内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInPreviousNYears": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinpreviousnyears",
+        "description-en-us": "Indicates whether the given datetime value dateTime occurs during the previous number of years, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinpreviousnyears",
+        "description-zh-cn": "指示给定的日期/时间值 dateTime 是否按系统当前日期和时间所确定的那样处于上一年数内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInPreviousQuarter": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinpreviousquarter",
+        "description-en-us": "Returns a logical value indicating whether the given Date/DateTime/DateTimeZone occurred during the previous quarter, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinpreviousquarter",
+        "description-zh-cn": "返回一个逻辑值，此值指示给定的 Date/DateTime/DateTimeZone 是否按系统当前日期和时间所确定的那样处于上一季度内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInPreviousWeek": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinpreviousweek",
+        "description-en-us": "Returns a logical value indicating whether the given Date/DateTime/DateTimeZone occurred during the previous week, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinpreviousweek",
+        "description-zh-cn": "返回一个逻辑值，此值指示给定的 Date/DateTime/DateTimeZone 是否按系统当前日期和时间所确定的那样处于上一周内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInPreviousYear": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinpreviousyear",
+        "description-en-us": "Returns a logical value indicating whether the given Date/DateTime/DateTimeZone occurred during the previous year, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinpreviousyear",
+        "description-zh-cn": "返回一个逻辑值，此值指示给定的 Date/DateTime/DateTimeZone 是否按系统当前日期和时间所确定的那样处于上一年内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsInYearToDate": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isinyeartodate",
+        "description-en-us": "Returns a logical value indicating whether the given Date/DateTime/DateTimeZone occurred in the period starting January 1st of the current year and ending on the current day, as determined by the current date and time on the system.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isinyeartodate",
+        "description-zh-cn": "返回一个逻辑值，此值指示给定的 Date/DateTime/DateTimeZone 是否按系统当前日期和时间所确定的那样处于以当前年份 1 月 1 日开始至当前日期结束的时间段内。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.IsLeapYear": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-isleapyear",
+        "description-en-us": "Returns a logical value indicating whether the year portion of a DateTime value is a leap year.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-isleapyear",
+        "description-zh-cn": "返回一个逻辑值，此值指示 DateTime 值的年份部分是否为闰年。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.Month": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-month",
+        "description-en-us": "Returns the month from a DateTime value.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-month",
+        "description-zh-cn": "返回 DateTime 值中的月份。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.MonthName": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-monthname",
+        "description-en-us": "Returns the name of the month component.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-monthname",
+        "description-zh-cn": "返回月份部分的名称。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.QuarterOfYear": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-quarterofyear",
+        "description-en-us": "Returns a number between 1 and 4 for the quarter of the year from a DateTime value.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-quarterofyear",
+        "description-zh-cn": "返回介于 1 到 4 之间的一个数字，此数字表示 DateTime 值中该年份的季度。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.StartOfDay": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-startofday",
+        "description-en-us": "Returns the start of the day.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-startofday",
+        "description-zh-cn": "返回天开始值。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.StartOfMonth": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-startofmonth",
+        "description-en-us": "Returns the start of the month.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-startofmonth",
+        "description-zh-cn": "返回月份开始值。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.StartOfQuarter": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-startofquarter",
+        "description-en-us": "Returns the start of the quarter.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-startofquarter",
+        "description-zh-cn": "返回季度开始值。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.StartOfWeek": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-startofweek",
+        "description-en-us": "Returns the start of the week.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-startofweek",
+        "description-zh-cn": "返回周开始值。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.StartOfYear": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-startofyear",
+        "description-en-us": "Returns the start of the year.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-startofyear",
+        "description-zh-cn": "返回年份开始值。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.ToRecord": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-torecord",
+        "description-en-us": "Returns a record containing parts of a Date value.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-torecord",
+        "description-zh-cn": "返回包含 Date 值的各个部分的记录。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.ToText": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-totext",
+        "description-en-us": "Returns a text value from a Date value.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-totext",
+        "description-zh-cn": "返回 Date 值中的文本值。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.WeekOfMonth": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-weekofmonth",
+        "description-en-us": "Returns a number for the count of week in the current month.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-weekofmonth",
+        "description-zh-cn": "返回一个数字，此数字表示当前月份中的周数。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.WeekOfYear": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-weekofyear",
+        "description-en-us": "Returns a number for the count of week in the current year.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-weekofyear",
+        "description-zh-cn": "返回一个数字，此数字表示当前年份中的周数。",
+        "category-zh-cn": "日期函数"
+    },
+    "Date.Year": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/date-year",
+        "description-en-us": "Returns the year from a DateTime value.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/date-year",
+        "description-zh-cn": "返回 DateTime 值中的年份。",
+        "category-zh-cn": "日期函数"
+    },
+    "#date": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/sharpdate",
+        "description-en-us": "Creates a date value from year, month, and day.",
+        "category-en-us": "Date functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/sharpdate",
+        "description-zh-cn": "从年、月和日创建一个日期值。",
+        "category-zh-cn": "日期函数"
+    },
+    "DateTime.AddZone": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-addzone",
+        "description-en-us": "Adds timezone information to the datetime value.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-addzone",
+        "description-zh-cn": "将时区信息添加到日期/时间值。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.Date": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-date",
+        "description-en-us": "Returns a date part from a DateTime value.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-date",
+        "description-zh-cn": "返回日期/时间值的日期部分。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.FixedLocalNow": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-fixedlocalnow",
+        "description-en-us": "Returns a DateTime value set to the current date and time on the system.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-fixedlocalnow",
+        "description-zh-cn": "返回设置为系统上的当前日期和时间的 DateTime 值。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.From": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-from",
+        "description-en-us": "Returns a datetime value from a value.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-from",
+        "description-zh-cn": "返回值中的日期时间值。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.FromFileTime": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-fromfiletime",
+        "description-en-us": "Returns a DateTime value from the supplied number.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-fromfiletime",
+        "description-zh-cn": "返回提供的表中的 DateTime 值。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.FromText": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-fromtext",
+        "description-en-us": "Creates a datetime from local and universal datetime formats.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-fromtext",
+        "description-zh-cn": "从本地和通用日期时间格式创建日期时间。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.IsInCurrentHour": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-isincurrenthour",
+        "description-en-us": "Indicates whether the given datetime value occurs during the current hour, as determined by the current date and time on the system.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-isincurrenthour",
+        "description-zh-cn": "指示给定的日期/时间值是否为当前这一小时的时间（由系统上的当前日期和时间确定）。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.IsInCurrentMinute": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-isincurrentminute",
+        "description-en-us": "Indicates whether the given datetime value occurs during the current minute, as determined by the current date and time on the system.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-isincurrentminute",
+        "description-zh-cn": "指示给定的日期/时间值是否为当前这一分钟的时间（由系统上的当前日期和时间确定）。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.IsInCurrentSecond": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-isincurrentsecond",
+        "description-en-us": "Indicates whether the given datetime value occurs during the current second, as determined by the current date and time on the system.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-isincurrentsecond",
+        "description-zh-cn": "指示给定的日期/时间值是否为当前这一秒的时间（由系统上的当前日期和时间确定）。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.IsInNextHour": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-isinnexthour",
+        "description-en-us": "Indicates whether the given datetime value occurs during the next hour, as determined by the current date and time on the system.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-isinnexthour",
+        "description-zh-cn": "指示给定的日期/时间值是否为下一小时的时间（由系统上的当前日期和时间确定）。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.IsInNextMinute": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-isinnextminute",
+        "description-en-us": "Indicates whether the given datetime value occurs during the next minute, as determined by the current date and time on the system.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-isinnextminute",
+        "description-zh-cn": "指示给定的日期/时间值是否为下一分钟的时间（由系统上的当前日期和时间确定）。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.IsInNextNHours": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-isinnextnhours",
+        "description-en-us": "Indicates whether the given datetime value occurs during the next number of hours, as determined by the current date and time on the system.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-isinnextnhours",
+        "description-zh-cn": "指示给定的日期/时间值是否为下几个小时的时间（由系统上的当前日期和时间确定）。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.IsInNextNMinutes": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-isinnextnminutes",
+        "description-en-us": "Indicates whether the given datetime value occurs during the next number of minutes, as determined by the current date and time on the system.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-isinnextnminutes",
+        "description-zh-cn": "指示给定的日期/时间值是否为接下来的几分钟时间（由系统上的当前日期和时间确定）。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.IsInNextNSeconds": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-isinnextnseconds",
+        "description-en-us": "Indicates whether the given datetime value occurs during the next number of seconds, as determined by the current date and time on the system.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-isinnextnseconds",
+        "description-zh-cn": "指示给定的日期/时间值是否为接下来的几秒钟时间（由系统上的当前日期和时间确定）。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.IsInNextSecond": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-isinnextsecond",
+        "description-en-us": "Indicates whether the given datetime value occurs during the next second, as determined by the current date and time on the system.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-isinnextsecond",
+        "description-zh-cn": "指示给定的日期/时间值是否为下一秒的时间（由系统上的当前日期和时间确定）。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.IsInPreviousHour": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-isinprevioushour",
+        "description-en-us": "Indicates whether the given datetime value occurs during the previous hour, as determined by the current date and time on the system.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-isinprevioushour",
+        "description-zh-cn": "指示给定的日期/时间值是否为上一小时的时间（由系统上的当前日期和时间确定）。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.IsInPreviousMinute": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-isinpreviousminute",
+        "description-en-us": "Indicates whether the given datetime value occurs during the previous minute, as determined by the current date and time on the system.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-isinpreviousminute",
+        "description-zh-cn": "指示给定的日期/时间值是否为上一分钟的时间（由系统上的当前日期和时间确定）。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.IsInPreviousNHours": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-isinpreviousnhours",
+        "description-en-us": "Indicates whether the given datetime value occurs during the previous number of hours, as determined by the current date and time on the system.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-isinpreviousnhours",
+        "description-zh-cn": "指示给定的日期/时间值是否为前几个小时的时间（由系统上的当前日期和时间确定）。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.IsInPreviousNMinutes": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-isinpreviousnminutes",
+        "description-en-us": "Indicates whether the given datetime value occurs during the previous number of minutes, as determined by the current date and time on the system.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-isinpreviousnminutes",
+        "description-zh-cn": "指示给定的日期/时间值是否为前几分钟的时间（由系统上的当前日期和时间确定）。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.IsInPreviousNSeconds": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-isinpreviousnseconds",
+        "description-en-us": "Indicates whether the given datetime value occurs during the previous number of seconds, as determined by the current date and time on the system.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-isinpreviousnseconds",
+        "description-zh-cn": "指示给定的日期/时间值是否为前几秒钟的时间（由系统上的当前日期和时间确定）。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.IsInPreviousSecond": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-isinprevioussecond",
+        "description-en-us": "Indicates whether the given datetime value occurs during the previous second, as determined by the current date and time on the system.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-isinprevioussecond",
+        "description-zh-cn": "指示给定的日期/时间值是否为前一秒的时间（由系统上的当前日期和时间确定）。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.LocalNow": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-localnow",
+        "description-en-us": "Returns a datetime value set to the current date and time on the system.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-localnow",
+        "description-zh-cn": "返回设置为系统上的当前日期和时间的 DateTime 值。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.Time": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-time",
+        "description-en-us": "Returns a time part from a DateTime value.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-time",
+        "description-zh-cn": "返回 DateTime 值的时间部分。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.ToRecord": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-torecord",
+        "description-en-us": "Returns a record containing parts of a DateTime value.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-torecord",
+        "description-zh-cn": "返回包含 DateTime 值的各个部分的记录。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTime.ToText": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetime-totext",
+        "description-en-us": "Returns a text value from a DateTime value.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetime-totext",
+        "description-zh-cn": "从 DateTime 值返回文本值。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "#datetime": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/sharpdatetime",
+        "description-en-us": "Creates a datetime value from year, month, day, hour, minute, and second.",
+        "category-en-us": "DateTime functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/sharpdatetime",
+        "description-zh-cn": "使用年、月、日、小时、分钟和秒创建一个日期/时间值。",
+        "category-zh-cn": "日期/时间函数"
+    },
+    "DateTimeZone.FixedLocalNow": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetimezone-fixedlocalnow",
+        "description-en-us": "Returns a DateTimeZone value set to the current date, time, and timezone offset on the system.",
+        "category-en-us": "DateTimeZone functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetimezone-fixedlocalnow",
+        "description-zh-cn": "返回一个 DateTimeZone 值，该值设置为系统上的当前日期、时间和时区偏移量。",
+        "category-zh-cn": "日期/时间/时区函数"
+    },
+    "DateTimeZone.FixedUtcNow": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetimezone-fixedutcnow",
+        "description-en-us": "Returns the current date and time in UTC (the GMT timezone).",
+        "category-en-us": "DateTimeZone functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetimezone-fixedutcnow",
+        "description-zh-cn": "返回采用 UTC（GMT 时区）表示的当前日期和时间。",
+        "category-zh-cn": "日期/时间/时区函数"
+    },
+    "DateTimeZone.From": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetimezone-from",
+        "description-en-us": "Returns a datetimezone value from a value.",
+        "category-en-us": "DateTimeZone functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetimezone-from",
+        "description-zh-cn": "从给定值返回 datetimezone 值。",
+        "category-zh-cn": "日期/时间/时区函数"
+    },
+    "DateTimeZone.FromFileTime": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetimezone-fromfiletime",
+        "description-en-us": "Returns a DateTimeZone from a number value.",
+        "category-en-us": "DateTimeZone functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetimezone-fromfiletime",
+        "description-zh-cn": "从数值返回 DateTimeZone。",
+        "category-zh-cn": "日期/时间/时区函数"
+    },
+    "DateTimeZone.FromText": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetimezone-fromtext",
+        "description-en-us": "Creates a datetimezone from local, universal, and custom datetimezone formats.",
+        "category-en-us": "DateTimeZone functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetimezone-fromtext",
+        "description-zh-cn": "根据本地、通用和自定义 datetimezone 格式创建 datetimezone。",
+        "category-zh-cn": "日期/时间/时区函数"
+    },
+    "DateTimeZone.LocalNow": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetimezone-localnow",
+        "description-en-us": "Returns a DateTime value set to the current system date and time.",
+        "category-en-us": "DateTimeZone functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetimezone-localnow",
+        "description-zh-cn": "返回设置为当前系统日期和时间的 DateTime 值。",
+        "category-zh-cn": "日期/时间/时区函数"
+    },
+    "DateTimeZone.RemoveZone": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetimezone-removezone",
+        "description-en-us": "Returns a datetime value with the zone information removed from the input datetimezone value.",
+        "category-en-us": "DateTimeZone functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetimezone-removezone",
+        "description-zh-cn": "返回从输入的 datetimezone 值中删除时区信息后得到的日期时间值。",
+        "category-zh-cn": "日期/时间/时区函数"
+    },
+    "DateTimeZone.SwitchZone": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetimezone-switchzone",
+        "description-en-us": "Changes the timezone information for the input DateTimeZone.",
+        "category-en-us": "DateTimeZone functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetimezone-switchzone",
+        "description-zh-cn": "更改输入 DateTimeZone 的时区信息。",
+        "category-zh-cn": "日期/时间/时区函数"
+    },
+    "DateTimeZone.ToLocal": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetimezone-tolocal",
+        "description-en-us": "Returns a DateTime value from the local time zone.",
+        "category-en-us": "DateTimeZone functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetimezone-tolocal",
+        "description-zh-cn": "从本地时区返回 DateTime 值。",
+        "category-zh-cn": "日期/时间/时区函数"
+    },
+    "DateTimeZone.ToRecord": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetimezone-torecord",
+        "description-en-us": "Returns a record containing parts of a DateTime value.",
+        "category-en-us": "DateTimeZone functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetimezone-torecord",
+        "description-zh-cn": "返回包含 DateTime 值的各个部分的记录。",
+        "category-zh-cn": "日期/时间/时区函数"
+    },
+    "DateTimeZone.ToText": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetimezone-totext",
+        "description-en-us": "Returns a text value from a DateTime value.",
+        "category-en-us": "DateTimeZone functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetimezone-totext",
+        "description-zh-cn": "从 DateTime 值返回文本值。",
+        "category-zh-cn": "日期/时间/时区函数"
+    },
+    "DateTimeZone.ToUtc": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetimezone-toutc",
+        "description-en-us": "Returns a DateTime value to the Utc time zone.",
+        "category-en-us": "DateTimeZone functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetimezone-toutc",
+        "description-zh-cn": "返回将 DateTime 值转换到 UTC 时区后所得的值。",
+        "category-zh-cn": "日期/时间/时区函数"
+    },
+    "DateTimeZone.UtcNow": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetimezone-utcnow",
+        "description-en-us": "Returns a DateTime value set to the current system date and time in the Utc timezone.",
+        "category-en-us": "DateTimeZone functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetimezone-utcnow",
+        "description-zh-cn": "返回设置当前系统日期和 Utc 时区的时间的 DateTime 值。",
+        "category-zh-cn": "日期/时间/时区函数"
+    },
+    "DateTimeZone.ZoneHours": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetimezone-zonehours",
+        "description-en-us": "Returns a time zone hour value from a DateTime value.",
+        "category-en-us": "DateTimeZone functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetimezone-zonehours",
+        "description-zh-cn": "从 DateTime 值返回时区小时值。",
+        "category-zh-cn": "日期/时间/时区函数"
+    },
+    "DateTimeZone.ZoneMinutes": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/datetimezone-zoneminutes",
+        "description-en-us": "Returns a time zone minute value from a DateTime value.",
+        "category-en-us": "DateTimeZone functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/datetimezone-zoneminutes",
+        "description-zh-cn": "从 DateTime 值返回时区分钟值。",
+        "category-zh-cn": "日期/时间/时区函数"
+    },
+    "#datetimezone": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/sharpdatetimezone",
+        "description-en-us": "Creates a datetimezone value from year, month, day, hour, minute, second, offset-hours, and offset-minutes.",
+        "category-en-us": "DateTimeZone functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/sharpdatetimezone",
+        "description-zh-cn": "从年、月、日、小时、分钟、秒、偏移小时和偏移分钟创建一个 datetimezone 值。",
+        "category-zh-cn": "日期/时间/时区函数"
+    },
+    "Duration.Days": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/duration-days",
+        "description-en-us": "Returns the days portion of a duration.",
+        "category-en-us": "Duration functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/duration-days",
+        "description-zh-cn": "返回持续时间的天数部分。",
+        "category-zh-cn": "持续时间函数"
+    },
+    "Duration.From": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/duration-from",
+        "description-en-us": "Returns a duration value from a value.",
+        "category-en-us": "Duration functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/duration-from",
+        "description-zh-cn": "从值中返回持续时间值。",
+        "category-zh-cn": "持续时间函数"
+    },
+    "Duration.FromText": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/duration-fromtext",
+        "description-en-us": "Returns a Duration value from a text value.",
+        "category-en-us": "Duration functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/duration-fromtext",
+        "description-zh-cn": "从文本值中返回持续时间值。",
+        "category-zh-cn": "持续时间函数"
+    },
+    "Duration.Hours": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/duration-hours",
+        "description-en-us": "Returns the hours portion of a duration.",
+        "category-en-us": "Duration functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/duration-hours",
+        "description-zh-cn": "返回持续时间的小时数部分。",
+        "category-zh-cn": "持续时间函数"
+    },
+    "Duration.Minutes": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/duration-minutes",
+        "description-en-us": "Returns the minutes portion of a duration.",
+        "category-en-us": "Duration functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/duration-minutes",
+        "description-zh-cn": "返回持续时间的分钟数部分。",
+        "category-zh-cn": "持续时间函数"
+    },
+    "Duration.Seconds": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/duration-seconds",
+        "description-en-us": "Returns the seconds portion of a duration.",
+        "category-en-us": "Duration functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/duration-seconds",
+        "description-zh-cn": "返回持续时间的秒数部分。",
+        "category-zh-cn": "持续时间函数"
+    },
+    "Duration.ToRecord": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/duration-torecord",
+        "description-en-us": "Returns a record with parts of a Duration value.",
+        "category-en-us": "Duration functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/duration-torecord",
+        "description-zh-cn": "返回带有部分持续时间值的记录。",
+        "category-zh-cn": "持续时间函数"
+    },
+    "Duration.TotalDays": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/duration-totaldays",
+        "description-en-us": "Returns the total magnitude of days from a Duration value.",
+        "category-en-us": "Duration functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/duration-totaldays",
+        "description-zh-cn": "返回持续时间值的总天数幅度。",
+        "category-zh-cn": "持续时间函数"
+    },
+    "Duration.TotalHours": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/duration-totalhours",
+        "description-en-us": "Returns the total magnitude of hours from a Duration value.",
+        "category-en-us": "Duration functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/duration-totalhours",
+        "description-zh-cn": "返回持续时间值的总小时数幅度。",
+        "category-zh-cn": "持续时间函数"
+    },
+    "Duration.TotalMinutes": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/duration-totalminutes",
+        "description-en-us": "Returns the total magnitude of minutes from a Duration value.",
+        "category-en-us": "Duration functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/duration-totalminutes",
+        "description-zh-cn": "返回持续时间值的总分钟数幅度。",
+        "category-zh-cn": "持续时间函数"
+    },
+    "Duration.TotalSeconds": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/duration-totalseconds",
+        "description-en-us": "Returns the total magnitude of seconds from a duration value.",
+        "category-en-us": "Duration functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/duration-totalseconds",
+        "description-zh-cn": "返回持续时间值的总秒数幅度。",
+        "category-zh-cn": "持续时间函数"
+    },
+    "Duration.ToText": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/duration-totext",
+        "description-en-us": "Returns a text value from a Duration value.",
+        "category-en-us": "Duration functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/duration-totext",
+        "description-zh-cn": "从持续时间值中返回文本值。",
+        "category-zh-cn": "持续时间函数"
+    },
+    "#duration": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/sharpduration",
+        "description-en-us": "Creates a duration value from days, hours, minutes, and seconds.",
+        "category-en-us": "Duration functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/sharpduration",
+        "description-zh-cn": "从日、小时、分钟和秒创建一个持续时间值。",
+        "category-zh-cn": "持续时间函数"
+    },
+    "Diagnostics.ActivityId": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/diagnostics-activityid",
+        "description-en-us": "Returns an opaque identifier for the currently-running evaluation.",
+        "category-en-us": "Error handling",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/diagnostics-activityid",
+        "description-zh-cn": "为当前正在运行的计算返回不透明的标识符。",
+        "category-zh-cn": "错误处理"
+    },
+    "Diagnostics.Trace": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/diagnostics-trace",
+        "description-en-us": "Writes a trace message, if tracing is enabled, and returns value.",
+        "category-en-us": "Error handling",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/diagnostics-trace",
+        "description-zh-cn": "写入跟踪消息（如果已启用跟踪）并返回值。",
+        "category-zh-cn": "错误处理"
+    },
+    "Error.Record": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/error-record",
+        "description-en-us": "Returns a record containing fields Reason, Message, and Detail set to the provided values. The record can be used to raise or throw an error.",
+        "category-en-us": "Error handling",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/error-record",
+        "description-zh-cn": "返回一个记录，其中包含设置为所提供值的“原因”、“消息”、“详细信息”字段。 该记录可用于引发错误。",
+        "category-zh-cn": "错误处理"
+    },
+    "Expression.Constant": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/expression-constant",
+        "description-en-us": "Returns the M source code representation of a constant value.",
+        "category-en-us": "Expression functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/expression-constant",
+        "description-zh-cn": "返回常数值的 M 源代码表示形式。",
+        "category-zh-cn": "表达式函数"
+    },
+    "Expression.Evaluate": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/expression-evaluate",
+        "description-en-us": "Returns the result of evaluating an M expression.",
+        "category-en-us": "Expression functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/expression-evaluate",
+        "description-zh-cn": "返回 M 表达式的计算结果。",
+        "category-zh-cn": "表达式函数"
+    },
+    "Expression.Identifier": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/expression-identifier",
+        "description-en-us": "Returns the M source code representation of an identifier.",
+        "category-en-us": "Expression functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/expression-identifier",
+        "description-zh-cn": "返回标识符的 M 源代码表示形式。",
+        "category-zh-cn": "表达式函数"
+    },
+    "Function.From": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/function-from",
+        "description-en-us": "Takes a unary function function and creates a new function with the type functionType that constructs a list out of its arguments and passes it to function.",
+        "category-en-us": "Function values",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/function-from",
+        "description-zh-cn": "采用一元函数 function 并创建一个类型为 functionType 的新函数，用于构造其参数列表，并将其传递给 function。",
+        "category-zh-cn": "函数值"
+    },
+    "Function.Invoke": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/function-invoke",
+        "description-en-us": "Invokes the given function using the specified and returns the result.",
+        "category-en-us": "Function values",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/function-invoke",
+        "description-zh-cn": "使用指定内容调用给定的函数并返回结果。",
+        "category-zh-cn": "函数值"
+    },
+    "Function.InvokeAfter": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/function-invokeafter",
+        "description-en-us": "Returns the result of invoking function after duration delay has passed.",
+        "category-en-us": "Function values",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/function-invokeafter",
+        "description-zh-cn": "经过一段持续延迟后，返回调用函数的结果。",
+        "category-zh-cn": "函数值"
+    },
+    "Function.IsDataSource": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/function-isdatasource",
+        "description-en-us": "Returns whether or not function is considered a data source.",
+        "category-en-us": "Function values",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/function-isdatasource",
+        "description-zh-cn": "返回是否将函数视为数据源。",
+        "category-zh-cn": "函数值"
+    },
+    "Function.ScalarVector": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/function-scalarvector",
+        "description-en-us": "Returns a scalar function of type scalarFunctionType that invokes vectorFunction with a single row of arguments and returns its single output.",
+        "category-en-us": "Function values",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/function-scalarvector",
+        "description-zh-cn": "返回 scalarFunctionType 类型的标量函数，此函数使用单行参数调用 vectorFunction 并返回其单个输出。",
+        "category-zh-cn": "函数值"
+    },
+    "List.Count": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/list-count",
+        "description-en-us": "Returns the number of items in a list.",
+        "category-en-us": "List functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/list-count",
+        "description-zh-cn": "返回列表中的项数。",
+        "category-zh-cn": "列表函数"
+    },
+    "List.NonNullCount": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/list-nonnullcount",
+        "description-en-us": "Returns the number of items in a list excluding null values",
+        "category-en-us": "List functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/list-nonnullcount",
+        "description-zh-cn": "返回列表中不包括 null 值的项数",
+        "category-zh-cn": "列表函数"
+    },
+    "List.IsEmpty": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/list-isempty",
+        "description-en-us": "Returns whether a list is empty.",
+        "category-en-us": "List functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/list-isempty",
+        "description-zh-cn": "返回列表是否为空。",
+        "category-zh-cn": "列表函数"
+    },
+    "Lines.FromBinary": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/lines-frombinary",
+        "description-en-us": "Converts a binary value to a list of text values split at lines breaks.",
+        "category-en-us": "Lines functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/lines-frombinary",
+        "description-zh-cn": "将二进制值转换为在换行符处拆分的文本值列表。",
+        "category-zh-cn": "行函数"
+    },
+    "Lines.FromText": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/lines-fromtext",
+        "description-en-us": "Converts a text value to a list of text values split at lines breaks.",
+        "category-en-us": "Lines functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/lines-fromtext",
+        "description-zh-cn": "将文本值转换为在换行符处拆分的文本值列表。",
+        "category-zh-cn": "行函数"
+    },
+    "Lines.ToBinary": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/lines-tobinary",
+        "description-en-us": "Converts a list of text into a binary value using the specified encoding and lineSeparator.The specified lineSeparator is appended to each line. If not specified then the carriage return and line feed characters are used.",
+        "category-en-us": "Lines functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/lines-tobinary",
+        "description-zh-cn": "使用指定的编码和 lineSeparator 将文本列表转换为二进制值。指定的 lineSeparator 追加到每行之后。 如果未指定，则会使用回车和换行字符。",
+        "category-zh-cn": "行函数"
+    },
+    "Lines.ToText": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/lines-totext",
+        "description-en-us": "Converts a list of text into a single text. The specified lineSeparator is appended to each line. If not specified then the carriage return and line feed characters are used.",
+        "category-en-us": "Lines functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/lines-totext",
+        "description-zh-cn": "将文本列表转换成单个文本。 指定的 lineSeparator 将追加到每一行之后。 如果未指定，则会使用回车和换行字符。",
+        "category-zh-cn": "行函数"
+    },
+    "Logical.From": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/logical-from",
+        "description-en-us": "Returns a logical value from a value.",
+        "category-en-us": "Logical functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/logical-from",
+        "description-zh-cn": "从某个值返回逻辑值。",
+        "category-zh-cn": "逻辑函数"
+    },
+    "Logical.FromText": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/logical-fromtext",
+        "description-en-us": "Returns a logical value of true or false from a text value.",
+        "category-en-us": "Logical functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/logical-fromtext",
+        "description-zh-cn": "从文本值返回逻辑值 true 或 false。",
+        "category-zh-cn": "逻辑函数"
+    },
+    "Logical.ToText": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/logical-totext",
+        "description-en-us": "Returns a text value from a logical value.",
+        "category-en-us": "Logical functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/logical-totext",
+        "description-zh-cn": "从逻辑值返回文本值。",
+        "category-zh-cn": "逻辑函数"
+    },
+    "Number.IsEven": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/number-iseven",
+        "description-en-us": "Returns true if a value is an even number.",
+        "category-en-us": "Number functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/number-iseven",
+        "description-zh-cn": "如果值为偶数，则返回 true。",
+        "category-zh-cn": "数字函数"
+    },
+    "Number.IsNaN": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/number-isnan",
+        "description-en-us": "Returns true if a value is Number.NaN.",
+        "category-en-us": "Number functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/number-isnan",
+        "description-zh-cn": "如果值为 Number.NaN，则返回 true。",
+        "category-zh-cn": "数字函数"
+    },
+    "Number.IsOdd": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/number-isodd",
+        "description-en-us": "Returns true if a value is an odd number.",
+        "category-en-us": "Number functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/number-isodd",
+        "description-zh-cn": "如果值为奇数，则返回 true。",
+        "category-zh-cn": "数字函数"
+    },
+    "Record.FieldCount": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/record-fieldcount",
+        "description-en-us": "Returns the number of fields in a record.",
+        "category-en-us": "Record functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/record-fieldcount",
+        "description-zh-cn": "返回记录中的字段数。",
+        "category-zh-cn": "记录函数"
+    },
+    "Record.HasFields": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/record-hasfields",
+        "description-en-us": "Returns true if the field name or field names are present in a record.",
+        "category-en-us": "Record functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/record-hasfields",
+        "description-zh-cn": "如果记录中存在一个或多个字段名称，则返回 true。",
+        "category-zh-cn": "记录函数"
+    },
+    "Replacer.ReplaceText": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/replacer-replacetext",
+        "description-en-us": "Replacer.ReplaceText",
+        "category-en-us": "Replacer functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/replacer-replacetext",
+        "description-zh-cn": "Replacer.ReplaceText",
+        "category-zh-cn": "替换器函数"
+    },
+    "This function be provided to List.ReplaceValue or Table.ReplaceValue to do replace of text values in list and table values respectively.": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/list-replacevalue",
+        "description-en-us": "This function be provided to List.ReplaceValue or Table.ReplaceValue to do replace of text values in list and table values respectively.",
+        "category-en-us": "Replacer functions"
+    },
+    "Replacer.ReplaceValue": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/replacer-replacevalue",
+        "description-en-us": "This function be provided to List.ReplaceValue or Table.ReplaceValue to do replace values in list and table values respectively.",
+        "category-en-us": "Replacer functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/replacer-replacevalue",
+        "description-zh-cn": "此函数可提供给 List.ReplaceValue 或 Table.ReplaceValue，分别用于替换列表中的值和表值。",
+        "category-zh-cn": "替换器函数"
+    },
+    "此函数可提供给 List.ReplaceValue 或 Table.ReplaceValue，分别用于替换列表中的文本值和表值。": {
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/list-replacevalue",
+        "description-zh-cn": "此函数可提供给 List.ReplaceValue 或 Table.ReplaceValue，分别用于替换列表中的文本值和表值。",
+        "category-zh-cn": "替换器函数"
+    },
+    "Splitter.SplitByNothing": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/splitter-splitbynothing",
+        "description-en-us": "Returns a function that does no splitting, returning its argument as a single element list.",
+        "category-en-us": "Splitter functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/splitter-splitbynothing",
+        "description-zh-cn": "返回不拆分且将其参数作为单元素列表返回的函数。",
+        "category-zh-cn": "拆分器函数"
+    },
+    "Splitter.SplitTextByCharacterTransition": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/splitter-splittextbycharactertransition",
+        "description-en-us": "Returns a function that splits text into a list of text according to a transition from one kind of character to another.",
+        "category-en-us": "Splitter functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/splitter-splittextbycharactertransition",
+        "description-zh-cn": "返回一个函数，该函数根据从一种字符到另一种字符的转换过程将文本拆分为文本列表。",
+        "category-zh-cn": "拆分器函数"
+    },
+    "Splitter.SplitTextByAnyDelimiter": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/splitter-splittextbyanydelimiter",
+        "description-en-us": "Returns a function that splits text by any supported delimiter.",
+        "category-en-us": "Splitter functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/splitter-splittextbyanydelimiter",
+        "description-zh-cn": "返回一个函数，此函数按任何受支持的分隔符拆分文本。",
+        "category-zh-cn": "拆分器函数"
+    },
+    "Splitter.SplitTextByDelimiter": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/splitter-splittextbydelimiter",
+        "description-en-us": "Returns a function that will split text according to a delimiter.",
+        "category-en-us": "Splitter functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/splitter-splittextbydelimiter",
+        "description-zh-cn": "返回一个函数，此函数根据某一分隔符拆分文本。",
+        "category-zh-cn": "拆分器函数"
+    },
+    "Splitter.SplitTextByEachDelimiter": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/splitter-splittextbyeachdelimiter",
+        "description-en-us": "Returns a function that splits text by each delimiter in turn.",
+        "category-en-us": "Splitter functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/splitter-splittextbyeachdelimiter",
+        "description-zh-cn": "返回一个函数，此函数依次按每个分隔符拆分文本。",
+        "category-zh-cn": "拆分器函数"
+    },
+    "Splitter.SplitTextByLengths": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/splitter-splittextbylengths",
+        "description-en-us": "Returns a function that splits text according to the specified lengths.",
+        "category-en-us": "Splitter functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/splitter-splittextbylengths",
+        "description-zh-cn": "返回一个函数，此函数根据指定长度拆分文本。",
+        "category-zh-cn": "拆分器函数"
+    },
+    "Splitter.SplitTextByPositions": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/splitter-splittextbypositions",
+        "description-en-us": "Returns a function that splits text according to the specified positions.",
+        "category-en-us": "Splitter functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/splitter-splittextbypositions",
+        "description-zh-cn": "返回一个函数，此函数根据指定位置拆分文本。",
+        "category-zh-cn": "拆分器函数"
+    },
+    "Splitter.SplitTextByRanges": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/splitter-splittextbyranges",
+        "description-en-us": "Returns a function that splits text according to the specified ranges.",
+        "category-en-us": "Splitter functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/splitter-splittextbyranges",
+        "description-zh-cn": "返回一个函数，此函数根据指定范围拆分文本。",
+        "category-zh-cn": "拆分器函数"
+    },
+    "Splitter.SplitTextByRepeatedLengths": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/splitter-splittextbyrepeatedlengths",
+        "description-en-us": "Returns a function that splits text into a list of text after the specified length repeatedly.",
+        "category-en-us": "Splitter functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/splitter-splittextbyrepeatedlengths",
+        "description-zh-cn": "返回一个函数，此函数在指定的长度后反复将文本拆分为文本列表。",
+        "category-zh-cn": "拆分器函数"
+    },
+    "Splitter.SplitTextByWhitespace": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/splitter-splittextbywhitespace",
+        "description-en-us": "Returns a function that splits text according to whitespace.",
+        "category-en-us": "Splitter functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/splitter-splittextbywhitespace",
+        "description-zh-cn": "返回一个函数，此函数根据空格拆分文本。",
+        "category-zh-cn": "拆分器函数"
+    },
+    "ItemExpression.From": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/itemexpression-from",
+        "description-en-us": "Returns the abstract syntax tree (AST) for the body of a function.",
+        "category-en-us": "Table functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/itemexpression-from",
+        "description-zh-cn": "返回函数主体的抽象语法树 (AST)。",
+        "category-zh-cn": "表函数"
+    },
+    "ItemExpression.Item": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/itemexpression-item",
+        "description-en-us": "An abstract syntax tree (AST) node representing the item in an item expression.",
+        "category-en-us": "Table functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/itemexpression-item",
+        "description-zh-cn": "表示项表达式中项的抽象语法树 (AST) 节点。",
+        "category-zh-cn": "表函数"
+    },
+    "RowExpression.Column": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/rowexpression-column",
+        "description-en-us": "Returns an abstract syntax tree (AST) that represents access to a column within a row expression.",
+        "category-en-us": "Table functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/rowexpression-column",
+        "description-zh-cn": "返回表示对行表达式中列的访问权限的抽象语法树 (AST)。",
+        "category-zh-cn": "表函数"
+    },
+    "RowExpression.From": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/rowexpression-from",
+        "description-en-us": "Returns the abstract syntax tree (AST) for the body of a function.",
+        "category-en-us": "Table functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/rowexpression-from",
+        "description-zh-cn": "返回函数主体的抽象语法树 (AST)。",
+        "category-zh-cn": "表函数"
+    },
+    "RowExpression.Row": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/rowexpression-row",
+        "description-en-us": "An abstract syntax tree (AST) node representing the row in a row expression.",
+        "category-en-us": "Table functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/rowexpression-row",
+        "description-zh-cn": "表示行表达式中行的抽象语法树 (AST) 节点。",
+        "category-zh-cn": "表函数"
+    },
+    "Table.FromColumns": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/table-fromcolumns",
+        "description-en-us": "Returns a table from a list containing nested lists with the column names and values.",
+        "category-en-us": "Table functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/table-fromcolumns",
+        "description-zh-cn": "从包含嵌套列表的列表中返回一个带有列名称和值的表。",
+        "category-zh-cn": "表函数"
+    },
+    "Table.FromList": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/table-fromlist",
+        "description-en-us": "Converts a list into a table by applying the specified splitting function to each item in the list.",
+        "category-en-us": "Table functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/table-fromlist",
+        "description-zh-cn": "通过将指定的拆分函数应用于列表中的每一项，将列表转换为表。",
+        "category-zh-cn": "表函数"
+    },
+    "Table.FromRecords": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/table-fromrecords",
+        "description-en-us": "Returns a table from a list of records.",
+        "category-en-us": "Table functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/table-fromrecords",
+        "description-zh-cn": "从记录列表中返回一个表。",
+        "category-zh-cn": "表函数"
+    },
+    "Table.FromRows": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/table-fromrows",
+        "description-en-us": "Creates a table from the list where each element of the list is a list that contains the column values for a single row.",
+        "category-en-us": "Table functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/table-fromrows",
+        "description-zh-cn": "从列表中创建一个表，其中列表的每个元素都是包含单行列值的列表。",
+        "category-zh-cn": "表函数"
+    },
+    "Table.FromValue": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/table-fromvalue",
+        "description-en-us": "Returns a table with a column containing the provided value or list of values.",
+        "category-en-us": "Table functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/table-fromvalue",
+        "description-zh-cn": "返回一个表，此表中的某一列包含所提供的值或值列表。",
+        "category-zh-cn": "表函数"
+    },
+    "Table.FuzzyGroup": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/table-fuzzygroup",
+        "description-en-us": "Groups the rows of a table by fuzzily matching values in the specified column for each row.",
+        "category-en-us": "Table functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/table-fuzzygroup",
+        "description-zh-cn": "按每行的指定列中模糊匹配的值对表的行进行分组。",
+        "category-zh-cn": "表函数"
+    },
+    "Table.FuzzyJoin": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/table-fuzzyjoin",
+        "description-en-us": "Joins the rows from the two tables that fuzzy match based on the given keys.",
+        "category-en-us": "Table functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/table-fuzzyjoin",
+        "description-zh-cn": "联接两个表中基于给定键模糊匹配的行。",
+        "category-zh-cn": "表函数"
+    },
+    "Table.FuzzyNestedJoin": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/table-fuzzynestedjoin",
+        "description-en-us": "Performs a fuzzy join between tables on supplied columns and produces the join result in a new column.",
+        "category-en-us": "Table functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/table-fuzzynestedjoin",
+        "description-zh-cn": "在两个表之间对提供的列执行模糊联接，并在新列中生成联接结果。",
+        "category-zh-cn": "表函数"
+    },
+    "Table.Split": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/table-split",
+        "description-en-us": "Splits the specified table into a list of tables using the specified page size.",
+        "category-en-us": "Table functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/table-split",
+        "description-zh-cn": "使用指定页面大小将指定表拆分为一表列表。",
+        "category-zh-cn": "表函数"
+    },
+    "Table.View": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/table-view",
+        "description-en-us": "Creates or extends a table with user-defined handlers for query and action operations.",
+        "category-en-us": "Table functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/table-view",
+        "description-zh-cn": "使用用户定义的处理程序创建或扩展表以执行查询和操作。",
+        "category-zh-cn": "表函数"
+    },
+    "Table.ViewError": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/table-viewerror",
+        "description-en-us": "Table.ViewError",
+        "category-en-us": "Table functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/table-viewerror",
+        "description-zh-cn": "Table.ViewError",
+        "category-zh-cn": "表函数"
+    },
+    "Creates a modified error record which won't trigger a fallback when thrown by a handler defined on a view (via Table.View).": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/table-view",
+        "description-en-us": "Creates a modified error record which won't trigger a fallback when thrown by a handler defined on a view (via Table.View).",
+        "category-en-us": "Table functions"
+    },
+    "Table.ViewFunction": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/table-viewfunction",
+        "description-en-us": "Creates a function that can be intercepted by a handler defined on a view (via Table.View).",
+        "category-en-us": "Table functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/table-viewfunction",
+        "description-zh-cn": "创建一个可以由在视图上（通过 Table.View）定义的处理程序截获的函数。",
+        "category-zh-cn": "表函数"
+    },
+    "创建修改后的错误记录，该记录在视图上定义的处理程序引发时（通过 Table.View）将不会触发回退。": {
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/table-view",
+        "description-zh-cn": "创建修改后的错误记录，该记录在视图上定义的处理程序引发时（通过 Table.View）将不会触发回退。",
+        "category-zh-cn": "表函数"
+    },
+    "Text.InferNumberType": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/text-infernumbertype",
+        "description-en-us": "Infers the granular number type (Int64.Type, Double.Type, and so on) of a number encoded in text.",
+        "category-en-us": "Text functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/text-infernumbertype",
+        "description-zh-cn": "推断文本中编码的数字的粒度数字类型（Int64.Type、Double.Type 等）。",
+        "category-zh-cn": "文本函数"
+    },
+    "Text.Length": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/text-length",
+        "description-en-us": "Returns the number of characters in a text value.",
+        "category-en-us": "Text functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/text-length",
+        "description-zh-cn": "返回文本值中的字符数。",
+        "category-zh-cn": "文本函数"
+    },
+    "Time.EndOfHour": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/time-endofhour",
+        "description-en-us": "Returns the end of the hour.",
+        "category-en-us": "Time functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/time-endofhour",
+        "description-zh-cn": "返回小时结束值。",
+        "category-zh-cn": "时间函数"
+    },
+    "Time.From": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/time-from",
+        "description-en-us": "Returns a time value from a value.",
+        "category-en-us": "Time functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/time-from",
+        "description-zh-cn": "返回值中的时间值。",
+        "category-zh-cn": "时间函数"
+    },
+    "Time.FromText": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/time-fromtext",
+        "description-en-us": "Creates a Time from local, universal, and custom Time formats.",
+        "category-en-us": "Time functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/time-fromtext",
+        "description-zh-cn": "根据本地、通用和自定义时间格式创建时间。",
+        "category-zh-cn": "时间函数"
+    },
+    "Time.Hour": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/time-hour",
+        "description-en-us": "Returns an hour value from a DateTime value.",
+        "category-en-us": "Time functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/time-hour",
+        "description-zh-cn": "返回 DateTime 值的小时值。",
+        "category-zh-cn": "时间函数"
+    },
+    "Time.Minute": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/time-minute",
+        "description-en-us": "Returns a minute value from a DateTime value.",
+        "category-en-us": "Time functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/time-minute",
+        "description-zh-cn": "返回 DateTime 值的分钟值。",
+        "category-zh-cn": "时间函数"
+    },
+    "Time.Second": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/time-second",
+        "description-en-us": "Returns a second value from a DateTime value",
+        "category-en-us": "Time functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/time-second",
+        "description-zh-cn": "返回 DateTime 值中的秒值",
+        "category-zh-cn": "时间函数"
+    },
+    "Time.StartOfHour": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/time-startofhour",
+        "description-en-us": "Returns the start of the hour.",
+        "category-en-us": "Time functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/time-startofhour",
+        "description-zh-cn": "返回小时开始值。",
+        "category-zh-cn": "时间函数"
+    },
+    "Time.ToRecord": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/time-torecord",
+        "description-en-us": "Returns a record containing parts of a Date value.",
+        "category-en-us": "Time functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/time-torecord",
+        "description-zh-cn": "返回包含 Date 值的各个部分的记录。",
+        "category-zh-cn": "时间函数"
+    },
+    "Time.ToText": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/time-totext",
+        "description-en-us": "Returns a text value from a Time value.",
+        "category-en-us": "Time functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/time-totext",
+        "description-zh-cn": "返回 Time 值的文本值。",
+        "category-zh-cn": "时间函数"
+    },
+    "#time": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/sharptime",
+        "description-en-us": "Creates a time value from hour, minute, and second.",
+        "category-en-us": "Time functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/sharptime",
+        "description-zh-cn": "从小时、分钟和秒创建一个时间值。",
+        "category-zh-cn": "时间函数"
+    },
+    "Type.AddTableKey": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-addtablekey",
+        "description-en-us": "Add a key to a table type.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-addtablekey",
+        "description-zh-cn": "向表类型添加键。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.ClosedRecord": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-closedrecord",
+        "description-en-us": "The given type must be a record type returns a closed version of the given record type (or the same type, if it is already closed)",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-closedrecord",
+        "description-zh-cn": "给定类型必须是记录类型，返回给定记录类型的已关闭版本（如果已关闭，则返回相同类型）",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.Facets": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-facets",
+        "description-en-us": "Returns the facets of a type.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-facets",
+        "description-zh-cn": "返回类型的 Facet。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.ForFunction": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-forfunction",
+        "description-en-us": "Creates a function type from the given .",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-forfunction",
+        "description-zh-cn": "从给定的类型创建函数类型。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.ForRecord": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-forrecord",
+        "description-en-us": "Returns a Record type from a fields record.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-forrecord",
+        "description-zh-cn": "从字段记录返回记录类型。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.FunctionParameters": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-functionparameters",
+        "description-en-us": "Returns a record with field values set to the name of the parameters of a function type, and their values set to their corresponding types.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-functionparameters",
+        "description-zh-cn": "返回一个记录，它的字段值设置为函数类型的参数名称，值设置为相应的类型。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.FunctionRequiredParameters": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-functionrequiredparameters",
+        "description-en-us": "Returns a number indicating the minimum number of parameters required to invoke the a type of function.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-functionrequiredparameters",
+        "description-zh-cn": "返回一个数字，表明调用函数类型所需的最少参数数目。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.FunctionReturn": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-functionreturn",
+        "description-en-us": "Returns a type returned by a function type.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-functionreturn",
+        "description-zh-cn": "返回由函数类型返回的类型。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.Is": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-is",
+        "description-en-us": "Determines if a value of the first type is always compatible with the second type.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-is",
+        "description-zh-cn": "确定第一种类型的值是否始终与第二种类型兼容。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.IsNullable": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-isnullable",
+        "description-en-us": "Returns true if a type is a nullable type; otherwise, false.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-isnullable",
+        "description-zh-cn": "如果类型是可以为 NULL 的类型，则返回 True；否则，返回 False。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.IsOpenRecord": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-isopenrecord",
+        "description-en-us": "Returns whether a record type is open.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-isopenrecord",
+        "description-zh-cn": "返回记录类型是否打开。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.ListItem": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-listitem",
+        "description-en-us": "Returns an item type from a list type.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-listitem",
+        "description-zh-cn": "从列表类型中返回项类型。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.NonNullable": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-nonnullable",
+        "description-en-us": "Returns the non nullable type from a type.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-nonnullable",
+        "description-zh-cn": "从一个类型返回不可为 NULL 的类型。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.OpenRecord": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-openrecord",
+        "description-en-us": "Returns an opened version of a record type, or the same type, if it is already open.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-openrecord",
+        "description-zh-cn": "返回记录类型的已打开版本（如果已打开，则返回相同类型）",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.RecordFields": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-recordfields",
+        "description-en-us": "Returns a record describing the fields of a record type with each field of the returned record type having a corresponding name and a value that is a record of the form [ Type = type, Optional = logical ].",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-recordfields",
+        "description-zh-cn": "以 [ Type = type, Optional = logical ] 格式返回一个记录，描述记录类型的字段，并且所返回记录类型的每个字段都有对应的名称和值。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.ReplaceFacets": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-replacefacets",
+        "description-en-us": "Replaces the facets of a type.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-replacefacets",
+        "description-zh-cn": "替换类型的 Facet。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.ReplaceTableKeys": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-replacetablekeys",
+        "description-en-us": "Replaces the keys in a table type.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-replacetablekeys",
+        "description-zh-cn": "替换表类型中的键。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.TableColumn": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-tablecolumn",
+        "description-en-us": "Returns the type of a column in a table.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-tablecolumn",
+        "description-zh-cn": "返回表中某列的类型。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.TableKeys": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-tablekeys",
+        "description-en-us": "Returns keys from a table type.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-tablekeys",
+        "description-zh-cn": "返回表类型中的键。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.TableRow": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-tablerow",
+        "description-en-us": "Returns a row type from a table type.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-tablerow",
+        "description-zh-cn": "从表类型返回行类型。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.TableSchema": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-tableschema",
+        "description-en-us": "Returns a table containing a description of the columns (i.e. the schema) of the specified table type.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-tableschema",
+        "description-zh-cn": "返回一个表，该表包含指定表类型的列的描述（即架构）。",
+        "category-zh-cn": "类型函数"
+    },
+    "Type.Union": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/type-union",
+        "description-en-us": "Returns the union of a list of types.",
+        "category-en-us": "Type functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/type-union",
+        "description-zh-cn": "返回类型列表的联合。",
+        "category-zh-cn": "类型函数"
+    },
+    "Uri.BuildQueryString": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/uri-buildquerystring",
+        "description-en-us": "Assemble a record into a URI query string.",
+        "category-en-us": "Uri functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/uri-buildquerystring",
+        "description-zh-cn": "将记录汇编入 URI 查询字符串。",
+        "category-zh-cn": "Uri 函数"
+    },
+    "Uri.Combine": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/uri-combine",
+        "description-en-us": "Returns a Uri based on the combination of the base and relative parts.",
+        "category-en-us": "Uri functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/uri-combine",
+        "description-zh-cn": "根据基部分和相关部分的组合返回 Uri。",
+        "category-zh-cn": "Uri 函数"
+    },
+    "Uri.EscapeDataString": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/uri-escapedatastring",
+        "description-en-us": "Encodes special characters in accordance with RFC 3986.",
+        "category-en-us": "Uri functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/uri-escapedatastring",
+        "description-zh-cn": "根据 RFC 3986 对特殊字符进行编码。",
+        "category-zh-cn": "Uri 函数"
+    },
+    "Uri.Parts": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/uri-parts",
+        "description-en-us": "Returns a record value with the fields set to the parts of a Uri text value.",
+        "category-en-us": "Uri functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/uri-parts",
+        "description-zh-cn": "返回一个记录值，其字段设置为 Uri 文本值的一部分。",
+        "category-zh-cn": "Uri 函数"
+    },
+    "Value.Alternates": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/value-alternates",
+        "description-en-us": "Expresses alternate query plans.",
+        "category-en-us": "Value functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/value-alternates",
+        "description-zh-cn": "表示备用查询计划。",
+        "category-zh-cn": "值函数"
+    },
+    "Value.Compare": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/value-compare",
+        "description-en-us": "Returns 1, 0, or -1 based on value1 being greater than, equal to, or less than the value2. An optional comparer function can be provided.",
+        "category-en-us": "Value functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/value-compare",
+        "description-zh-cn": "返回 1、0 或 -1，具体取决于 value1 是大于、等于还是小于 value2。 可提供可选的比较器函数。",
+        "category-zh-cn": "值函数"
+    },
+    "Value.Equals": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/value-equals",
+        "description-en-us": "Returns whether two values are equal.",
+        "category-en-us": "Value functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/value-equals",
+        "description-zh-cn": "返回两个值是否相等。",
+        "category-zh-cn": "值函数"
+    },
+    "Value.Expression": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/value-expression",
+        "description-en-us": "Returns an abstract syntax tree (AST) that represents the value's expression.",
+        "category-en-us": "Value functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/value-expression",
+        "description-zh-cn": "返回表示值表达式的抽象语法树 (AST)。",
+        "category-zh-cn": "值函数"
+    },
+    "Value.VersionIdentity": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/value-versionidentity",
+        "description-en-us": "Returns the version identity of a value.",
+        "category-en-us": "Value functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/value-versionidentity",
+        "description-zh-cn": "返回值的版本标识。",
+        "category-zh-cn": "值函数"
+    },
+    "Value.Versions": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/value-versions",
+        "description-en-us": "Returns a navigation table containing the available versions of a value.",
+        "category-en-us": "Value functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/value-versions",
+        "description-zh-cn": "返回一个导航表，其中包含值的可用版本。",
+        "category-zh-cn": "值函数"
+    },
+    "Value.NativeQuery": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/value-nativequery",
+        "description-en-us": "Evaluates a query against a target.",
+        "category-en-us": "Value functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/value-nativequery",
+        "description-zh-cn": "对目标计算查询。",
+        "category-zh-cn": "值函数"
+    },
+    "Value.NullableEquals": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/value-nullableequals",
+        "description-en-us": "Returns a logical value or null based on two values .",
+        "category-en-us": "Value functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/value-nullableequals",
+        "description-zh-cn": "基于两个值返回一个逻辑值或 NULL。",
+        "category-zh-cn": "值函数"
+    },
+    "Value.Optimize": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/value-optimize",
+        "description-en-us": "If value represents a query that can be optimized, returns the optimized query. Otherwise returns value.",
+        "category-en-us": "Value functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/value-optimize",
+        "description-zh-cn": "如果 value 表示可优化的查询，则返回优化后的查询。 否则，返回 value。",
+        "category-zh-cn": "值函数"
+    },
+    "Value.Type": {
+        "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/value-type",
+        "description-en-us": "Returns the type of the given value.",
+        "category-en-us": "Value functions",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/value-type",
+        "description-zh-cn": "返回给定值的类型。",
+        "category-zh-cn": "值函数"
+    }
+}
