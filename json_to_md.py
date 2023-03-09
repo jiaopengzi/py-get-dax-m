@@ -10,63 +10,115 @@
 """
 
 import os
-import sys
-import json
+
+from utils import Utils
 
 
-def base_dir() -> str:
-    """获取当前文件夹路径
+def json_to_m_md_category():
+    """通过 json 拼接成 m 函数 markdown 文件 (分类版)
 
-    Returns:
-            返回主文件文件夹绝对路径
+    :return: markdown 文件路径
     """
-    if getattr(sys, "frozen", False):
-        return os.path.dirname(os.path.abspath(sys.executable))
-    return os.path.dirname(os.path.abspath(__file__))
+    path_m = os.path.join(Utils.base_dir(), "m.json")
+    m_dic = Utils.read_json(path_m)
+
+    category = {m_dic[item]["category-zh-cn"]: "category" for item in m_dic}
+
+    h1 = '# Power Query M 函数文档(分类版)'
+    line1 = '| 函数名称 | 描述 | 链接 |'
+    line2 = '| :--: | :--: |:--: |'
+    md_list = [h1]
+    for index, c in enumerate(category):
+        h2 = f"## {index + 1}、{c}"
+        md_list.append(h2)
+        md_list.append(line1)
+        md_list.append(line2)
+        for key in m_dic:
+            if m_dic[key]["category-zh-cn"] == c:
+                line_n = f'| {key} | {m_dic[key]["description-zh-cn"]} | [中文]({m_dic[key]["url-zh-cn"]}) [英文]({m_dic[key]["url-en-us"]}) |'
+                md_list.append(line_n)
+
+    path_md = os.path.join(Utils.base_dir(), "m_category.md")
+    md_str = "\n".join(md_list)
+    return Utils.write_str_in_file(path_md, md_str)
 
 
-def read_file_to_str(path: str) -> str:
-    """读取文本文件
+def json_to_m_md_sort():
+    """通过 json 拼接成 m 函数 markdown 文件 (排序版)
 
-    Args:
-        path (str):文本文件的路径
-
-    Returns:读取的文件的文本内容
-
+    :return: markdown 文件路径
     """
-    with open(path, "r", encoding="utf8") as f:
-        return f.read()
+    path_m = os.path.join(Utils.base_dir(), "m.json")
+    m_dic = Utils.read_json(path_m)
+    keys = sorted(m_dic.keys(), reverse=False)
+
+    h1 = '# Power Query M 函数文档(排序版)'
+    line0 = '| 函数名称 | 描述 | 链接 |'
+    line1 = '| :--: | :--: |:--: |'
+    md_list = [h1, line0, line1]
+    for key in keys:
+        line_n = f'| {key} | {m_dic[key]["description-zh-cn"]} | [中文]({m_dic[key]["url-zh-cn"]}) [英文]({m_dic[key]["url-en-us"]}) |'
+        md_list.append(line_n)
+
+    path_md = os.path.join(Utils.base_dir(), "m_sort.md")
+    md_str = "\n".join(md_list)
+    return Utils.write_str_in_file(path_md, md_str)
 
 
-def read_json(path: str) -> dict:
-    """读取 json 文件
+def json_to_dax_md_category():
+    """通过 json 拼接成 dax 函数 markdown 文件 (分类版)
 
-    Args:
-        path (str):json文件的路径
-
-    Returns:json 转成的字典
-
+    :return: markdown 文件路径
     """
-    with open(path, "r", encoding="utf8") as f:
-        return json.load(f, strict=False)
+    path_dax = os.path.join(Utils.base_dir(), "dax.json")
+    dax_dic = Utils.read_json(path_dax)
+
+    category = {dax_dic[item]["category-zh-cn"]: "category" for item in dax_dic}
+
+    h1 = '# DAX 函数文档(分类版)'
+    line1 = '| 函数名称 | 描述 | 链接 |'
+    line2 = '| :--: | :--: |:--: |'
+    md_list = [h1]
+    for index, c in enumerate(category):
+        h2 = f"## {index + 1}、{c}"
+        md_list.append(h2)
+        md_list.append(line1)
+        md_list.append(line2)
+        for key in dax_dic:
+            if dax_dic[key]["category-zh-cn"] == c:
+                line_n = f'| {key} | {dax_dic[key]["description-zh-cn"]} | [中文]({dax_dic[key]["url-zh-cn"]}) [英文]({dax_dic[key]["url-en-us"]}) [SQLBI]({dax_dic[key]["url-dax-guide"]}) |'
+                md_list.append(line_n)
+
+    path_md = os.path.join(Utils.base_dir(), "dax_category.md")
+    md_str = "\n".join(md_list)
+    return Utils.write_str_in_file(path_md, md_str)
 
 
-def write_str_in_file(path: str, text_str: str, encoding="utf8") -> None:
-    """覆盖写入文本字符串写入文件
+def json_to_dax_md_sort():
+    """通过 json 拼接成 dax 函数 markdown 文件 (排序版)
 
-    Args:
-        path (str):
-        text_str (str): 需要写入文本
-        encoding (str): 编码方式、默认为 encoding="utf8"
-
-    Returns:None
-
+    :return: markdown 文件路径
     """
-    with open(path, "w", encoding=encoding) as f:
-        f.write(text_str)
+    path_dax = os.path.join(Utils.base_dir(), "dax.json")
+    dax_dic = Utils.read_json(path_dax)
+    keys = sorted(dax_dic.keys(), reverse=False)
+
+    h1 = '# DAX 函数文档(排序版)'
+    line0 = '| 函数名称 | 描述 | 链接 |'
+    line1 = '| :--: | :--: |:--: |'
+    md_list = [h1, line0, line1]
+    for key in keys:
+        line_n = f'| {key} | {dax_dic[key]["description-zh-cn"]} | [中文]({dax_dic[key]["url-zh-cn"]}) [英文]({dax_dic[key]["url-en-us"]}) [SQLBI]({dax_dic[key]["url-dax-guide"]}) |'
+        md_list.append(line_n)
+
+    path_md = os.path.join(Utils.base_dir(), "dax_sort.md")
+    md_str = "\n".join(md_list)
+    return Utils.write_str_in_file(path_md, md_str)
 
 
 if __name__ == "__main__":
-    path_dax = os.path.join(base_dir(), "dax.json")
-    dax_dic = read_json(path_dax)
-    print(dax_dic)
+    json_to_dax_md_category()
+    json_to_dax_md_sort()
+    json_to_m_md_category()
+    json_to_m_md_sort()
+    print("生成完毕！")

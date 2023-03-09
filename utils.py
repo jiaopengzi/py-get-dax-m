@@ -89,3 +89,44 @@ class Utils(object):
         content = bs.find("div", class_div)
         p = content.find("p")
         return p.text
+
+    @staticmethod
+    def read_file_to_str(path: str) -> str:
+        """读取文本文件
+
+        Args:
+            path (str):文本文件的路径
+
+        Returns:读取的文件的文本内容
+
+        """
+        with open(path, "r", encoding="utf8") as f:
+            return f.read()
+
+    @staticmethod
+    def read_json(path: str) -> dict:
+        """读取 json 文件
+
+        Args:
+            path (str):json文件的路径
+
+        Returns:json 转成的字典
+
+        """
+        with open(path, "r", encoding="utf8") as f:
+            return json.load(f, strict=False)
+
+    @staticmethod
+    def write_str_in_file(path: str, text_str: str, encoding="utf8") -> None:
+        """覆盖写入文本字符串写入文件
+
+        Args:
+            path (str):
+            text_str (str): 需要写入文本
+            encoding (str): 编码方式、默认为 encoding="utf8"
+
+        Returns:None
+
+        """
+        with open(path, "w", encoding=encoding) as f:
+            f.write(text_str)
