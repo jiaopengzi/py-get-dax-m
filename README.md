@@ -1,6 +1,6 @@
 # py-get-dax-m
 
-**博客：[www.jiaopengzi.com](www.jiaopengzi.com)**
+**更多内容关注博客：[焦棚子](www.jiaopengzi.com)**
 
 Python 获取 DAX 和 powerquery-m 官方文档信息, 用于代码分析和快速查阅等。
 ## 1、python 环境
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 python main.py
 
-# dax 文件, 大约耗时 276.18 秒！,注意英文版需要科学上网!
+# dax 文件, 大约耗时 276.18 秒！
 # m   文件, 大约耗时 386.98 秒！
 ```
 
