@@ -9,13 +9,8 @@
 @Description    :   python 获取 Power Query 官方文档信息
 """
 import os
-import sys
-import json
-import copy
-from bs4 import element
-from bs4 import BeautifulSoup
-import requests
-import lxml
+
+from utils import Utils
 
 
 class M(object):
@@ -23,68 +18,7 @@ class M(object):
     """
 
     @staticmethod
-    def write_json_in_file(path: str, json_dic: dict) -> None:
-        """覆盖写入 json 文件
-
-        Args:
-            path (str):json文件的路径
-            json_dic (dict):需要写入的字典内容
-
-        Returns:None
-
-        """
-        with open(path, "w", encoding="utf8") as f:
-            f.write(json.dumps(json_dic, indent=4, ensure_ascii=False))
-
-    @staticmethod
-    def base_dir() -> str:
-        """获取当前文件夹路径
-
-        Returns:
-                返回主文件文件夹绝对路径
-        """
-        if getattr(sys, "frozen", False):
-            return os.path.dirname(os.path.abspath(sys.executable))
-        return os.path.dirname(os.path.abspath(__file__))
-
-    @staticmethod
-    def get_m_category(language: str, dic: dict = None) -> dict:
-        """获取 Power Query 函数信息类别
-
-        :param language: 对应函数版本 中文版:zh-cn 和 英文版:en-us
-        :param dic: 函数类别字典
-        :return: 返回函数类别字典
-        """
-
-        if dic is None:
-            dic = {}
-        url = f'https://learn.microsoft.com/{language}/powerquery-m/power-query-m-function-reference'
-
-        try:
-            response = requests.get(url)
-            response.encoding = 'utf-8'
-        except:
-            raise Exception("请求失败")
-
-        html_content = response.text
-        bs = BeautifulSoup(html_content, "lxml")
-
-        class_div = {"class": "content"}
-        content = bs.find("div", class_div)
-        ul = content.find_all("ul")[1]
-
-        for li in ul:
-            # print(repr(li))
-            if li != '\n' and type(li) == element.Tag:
-                herf = li.a["href"]
-                if herf not in dic:
-                    dic[herf] = {}
-                dic[herf][f"category-{language}"] = li.a.text
-
-        return dic
-
-    @staticmethod
-    def get_m(category_m: str, language: str, dic_func: dict = None, dic_category: dict = None) -> dict:
+    def get_m() -> str:
         """获取 Power Query 函数信息
 
         :param category_m: 函数分类英文名称
@@ -94,65 +28,45 @@ class M(object):
         :return:返回函数参数字典
         """
 
-        global name
-        if dic_func is None:
-            dic_func = {}
-        url_base = f'https://learn.microsoft.com/{language}/powerquery-m/'
-        url = url_base + category_m
+        url_base_en = "https://learn.microsoft.com/en-us/powerquery-m/"
+        url_base_cn = "https://learn.microsoft.com/zh-cn/powerquery-m/"
+        url_en = "https://learn.microsoft.com/en-us/powerquery-m/toc.json"
+        url_cn = "https://learn.microsoft.com/zh-cn/powerquery-m/toc.json"
 
-        try:
-            response = requests.get(url)
-            response.encoding = 'utf-8'
-        except:
-            raise Exception("请求失败")
+        dic_en = Utils.response_json_to_dict(url_en)
+        dic_cn = Utils.response_json_to_dict(url_cn)
 
-        html_content = response.text
-        bs = BeautifulSoup(html_content, "lxml")
+        func_dict = {}
 
-        table = bs.find("table")
+        items_en = dic_en.get("items")[0].get("children")[10].get("children")
+        items_cn = dic_cn.get("items")[0].get("children")[10].get("children")
+        # print(items_cn)
+        # i = 0
+        for item_en, item_cn in zip(items_en[2:], items_cn[2:]):
 
-        rows = table.find_all("tr")
+            category_en = item_en.get("toc_title")
+            category_cn = item_cn.get("toc_title")
+            group_en = item_en.get("children")
 
-        for row in rows[1:]:
-            cols = row.find_all("td")
-            for col in cols:
-                if col.a is not None:
-                    name = col.text
-
-                    if name not in dic_func:
-                        dic_func[name] = {}
-                    dic_func[name][f"url-{language}"] = url_base + col.a["href"]
-                dic_func[name][f"description-{language}"] = col.text
-                if dic_category:
-                    dic_func[name][f"category-{language}"] = dic_category[category_m][f"category-{language}"]
-
-        return dic_func
-
-    def get_all_functions(self) -> str:
-        """获取所有 Power Query 函数信息
-
-        :return: 文件下载路径
-        """
-        # 中文分类
-        category_cn = self.get_m_category("zh-cn")
-
-        # 英文分类，二参字典延续使用 category_cn
-        category_en = self.get_m_category("en-us", category_cn)
-
-        # 区域第一个和最后一个不需要的类别
-        category = category_en
-
-        all_func_dict = {}
-
-        # 通过类别循环获取函数信息
-        for c in category:
-            func_en = self.get_m(category_m=c, language="en-us", dic_category=category)
-            func_cn = self.get_m(category_m=c, language="zh-cn", dic_func=func_en, dic_category=category)
-            all_func_dict |= func_cn
+            for fx in group_en[1:]:
+                fx_url_en = url_base_en + fx.get("href")
+                fx_url_cn = url_base_cn + fx.get("href")
+                # i += 1
+                # print(i)
+                # print(fx.get("toc_title"))
+                func_dict[fx.get("toc_title")] = {"url-en-us"         : fx_url_en,
+                                                  "url-zh-cn"         : fx_url_cn,
+                                                  "description-en-us" : Utils.get_func_description(fx_url_en),
+                                                  "category-en-us"    : category_en,
+                                                  "url-category-en-us": url_base_en + group_en[0].get("href"),
+                                                  "category-zh-cn"    : category_cn,
+                                                  "url-category-zh-cn": url_base_en + group_en[0].get("href"),
+                                                  "description-zh-cn" : Utils.get_func_description(fx_url_cn)
+                                                  }
 
         # 函数信息使用 json 存放在当前文件夹下
-        json_path = os.path.join(self.base_dir(), "m.json")
-        self.write_json_in_file(json_path, all_func_dict)
+        json_path = os.path.join(Utils.base_dir(), "m.json")
+        Utils.write_json_in_file(json_path, func_dict)
         return json_path
 
 
@@ -161,8 +75,7 @@ if __name__ == "__main__":
 
     start_time = time.time()
     m = M()
-    download = m.get_all_functions()
+    download = m.get_m()
     print(f"Power Query 下载完毕！文件存放位置：{download}")
     end_time = time.time()
-    print(f"耗时 {(end_time - start_time):.2f} 秒！")
-    # m函数较多大约 耗时 192.54 秒！
+    print(f"耗时 {(end_time - start_time):.2f} 秒！")  # 耗时 386.98 秒！
