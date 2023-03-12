@@ -17,7 +17,8 @@ class DAX(object):
     """ DAX 官方文档获取为 json 文案 用于分析使用
     """
 
-    def get_dax(self) -> str:
+    @staticmethod
+    def get_dax() -> str:
         """通过 json 清洗为 需要的字典
 
         :return: 文件路径
@@ -40,21 +41,23 @@ class DAX(object):
             group_en = item_en.get("children")
             # print(group_en)
             for fx in group_en[1:]:
-                fx_url_en = url_base_en + fx.get("href")
-                fx_url_cn = url_base_cn + fx.get("href")
-                # i += 1
-                # print(i)
-                # print(fx.get("toc_title"))
-                func_dict[fx.get("toc_title")] = {"url-en-us"         : fx_url_en,
-                                                  "url-zh-cn"         : fx_url_cn,
-                                                  "description-en-us" : Utils.get_func_description(fx_url_en),
-                                                  "category-en-us"    : category_en,
-                                                  "url-category-en-us": url_base_en + group_en[0].get("href"),
-                                                  "category-zh-cn"    : category_cn,
-                                                  "url-category-zh-cn": url_base_en + group_en[0].get("href"),
-                                                  "description-zh-cn" : Utils.get_func_description(fx_url_cn),
-                                                  "url-dax-guide"     : f'https://dax.guide/{fx.get("toc_title").lower()}/'
-                                                  }
+                # 单独去除 path 的解释区域，不是函数；但这段内容很重要，建议反复阅读
+                if fx.get("toc_title").lower() != 'Understanding functions for parent-child hierarchies'.lower():
+                    fx_url_en = url_base_en + fx.get("href")
+                    fx_url_cn = url_base_cn + fx.get("href")
+                    # i += 1
+                    # print(i)
+                    # print(fx.get("toc_title"))
+                    func_dict[fx.get("toc_title")] = {"url-en-us"         : fx_url_en,
+                                                      "url-zh-cn"         : fx_url_cn,
+                                                      "description-en-us" : Utils.get_func_description(fx_url_en),
+                                                      "category-en-us"    : category_en,
+                                                      "url-category-en-us": url_base_en + group_en[0].get("href"),
+                                                      "category-zh-cn"    : category_cn,
+                                                      "url-category-zh-cn": url_base_en + group_en[0].get("href"),
+                                                      "description-zh-cn" : Utils.get_func_description(fx_url_cn),
+                                                      "url-dax-guide"     : f'https://dax.guide/{fx.get("toc_title").lower()}/'
+                                                      }
 
         # 函数信息使用 json 存放在当前文件夹下
         json_path = os.path.join(Utils.base_dir(), "dax.json")

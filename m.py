@@ -53,7 +53,7 @@ class M(object):
                 fx_url_cn = url_base_cn + fx.get("href")
                 # i += 1
                 # print(i)
-                # print(fx.get("toc_title"))
+                # print(fx_url_en)
                 func_dict[fx.get("toc_title")] = {"url-en-us"         : fx_url_en,
                                                   "url-zh-cn"         : fx_url_cn,
                                                   "description-en-us" : Utils.get_func_description(fx_url_en),
