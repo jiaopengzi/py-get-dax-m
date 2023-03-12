@@ -83,12 +83,15 @@ class Utils(object):
         except:
             raise Exception("请求失败")
 
-        html_content = response.text
-        bs = BeautifulSoup(html_content, "lxml")
-        class_div = {"class": "content"}
+        html_content = response.text  # 获取返回字符串
+        bs = BeautifulSoup(html_content, "lxml")  # lxml 格式
+        class_div = {"class": "content"}  # content div 标签 类名
         content = bs.find("div", class_div)
-        p = content.find("p")
-        return p.text
+        p = content.find("p").text  # 查找第一个 p 标签
+        if len(content.find_all("ul")) <= 1:
+            return p
+        ul = content.find_all("ul")[1].text  # 主要是 pq 的参数 dax几乎不是用
+        return p + ul
 
     @staticmethod
     def read_file_to_str(path: str) -> str:
@@ -130,3 +133,9 @@ class Utils(object):
         """
         with open(path, "w", encoding=encoding) as f:
             f.write(text_str)
+
+
+if __name__ == "__main__":
+    u = Utils()
+    u.get_func_description("https://learn.microsoft.com/en-us/powerquery-m/excel-workbook")
+    # u.get_func_description("https://learn.microsoft.com/en-us/powerquery-m/json-fromvalue")
