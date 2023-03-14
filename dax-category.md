@@ -1,13 +1,14 @@
 # DAX 函数文档(分类版)
-## 目录
-| **[1-聚合函数](#1-聚合函数)** | **[2-日期和时间函数](#2-日期和时间函数)** | **[3-筛选器函数](#3-筛选器函数)** |
+<h2 id="home"><a href="https://jiaopengzi.com/" class="a-button">点击返回主页</a></h2>
+<h2 id="content">目录</h2>
+| **<a href="#1">1、聚合函数]</a>** | **<a href="#2">2、日期和时间函数]</a>** | **<a href="#3">3、筛选器函数]</a>** |
 | :--: | :--: |:--: |
-| **[4-财务函数](#4-财务函数)** | **[5-信息函数](#5-信息函数)** | **[6-逻辑函数](#6-逻辑函数)** |
-| **[7-数学和三角函数](#7-数学和三角函数)** | **[8-其他函数](#8-其他函数)** | **[9-父函数和子函数](#9-父函数和子函数)** |
-| **[10-关系函数](#10-关系函数)** | **[11-统计函数](#11-统计函数)** | **[12-表操作函数](#12-表操作函数)** |
-| **[13-文本函数](#13-文本函数)** | **[14-时间智能函数](#14-时间智能函数)** |  |
-## 1-聚合函数
-[返回目录](#目录)
+| **<a href="#4">4、财务函数]</a>** | **<a href="#5">5、信息函数]</a>** | **<a href="#6">6、逻辑函数]</a>** |
+| **<a href="#7">7、数学和三角函数]</a>** | **<a href="#8">8、其他函数]</a>** | **<a href="#9">9、父函数和子函数]</a>** |
+| **<a href="#10">10、关系函数]</a>** | **<a href="#11">11、统计函数]</a>** | **<a href="#12">12、表操作函数]</a>** |
+| **<a href="#13">13、文本函数]</a>** | **<a href="#14">14、时间智能函数]</a>** |  |
+<h2 id='1'>1、聚合函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | APPROXIMATEDISTINCTCOUNT | 在列中返回唯一值的估计计数。 | [中文](https://learn.microsoft.com/zh-cn/dax/approximate-distinctcount-function-dax) [英文](https://learn.microsoft.com/en-us/dax/approximate-distinctcount-function-dax) [SQLBI](https://dax.guide/approximatedistinctcount/) |
@@ -32,8 +33,8 @@
 | PRODUCTX | 返回为表中的每一行计算的表达式的积。 | [中文](https://learn.microsoft.com/zh-cn/dax/productx-function-dax) [英文](https://learn.microsoft.com/en-us/dax/productx-function-dax) [SQLBI](https://dax.guide/productx/) |
 | SUM | 对某个列中的所有数值求和。 | [中文](https://learn.microsoft.com/zh-cn/dax/sum-function-dax) [英文](https://learn.microsoft.com/en-us/dax/sum-function-dax) [SQLBI](https://dax.guide/sum/) |
 | SUMX | 返回为表中的每一行计算的表达式的和。 | [中文](https://learn.microsoft.com/zh-cn/dax/sumx-function-dax) [英文](https://learn.microsoft.com/en-us/dax/sumx-function-dax) [SQLBI](https://dax.guide/sumx/) |
-## 2-日期和时间函数
-[返回目录](#目录)
+<h2 id='2'>2、日期和时间函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | CALENDAR | 返回一个表，其中有一个包含一组连续日期的名为“Date”的列。 | [中文](https://learn.microsoft.com/zh-cn/dax/calendar-function-dax) [英文](https://learn.microsoft.com/en-us/dax/calendar-function-dax) [SQLBI](https://dax.guide/calendar/) |
@@ -60,8 +61,8 @@
 | WEEKNUM | 根据 return_type 值返回给定日期的周数。 | [中文](https://learn.microsoft.com/zh-cn/dax/weeknum-function-dax) [英文](https://learn.microsoft.com/en-us/dax/weeknum-function-dax) [SQLBI](https://dax.guide/weeknum/) |
 | YEAR | 返回日期的年份，1900 到 9999 之间的四位整数。 | [中文](https://learn.microsoft.com/zh-cn/dax/year-function-dax) [英文](https://learn.microsoft.com/en-us/dax/year-function-dax) [SQLBI](https://dax.guide/year/) |
 | YEARFRAC | 计算由两个日期之间的整日数表示的年份分数。 | [中文](https://learn.microsoft.com/zh-cn/dax/yearfrac-function-dax) [英文](https://learn.microsoft.com/en-us/dax/yearfrac-function-dax) [SQLBI](https://dax.guide/yearfrac/) |
-## 3-筛选器函数
-[返回目录](#目录)
+<h2 id='3'>3、筛选器函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | ALL | 返回表中的所有行或列中的所有值，同时忽略可能已应用的任何筛选器。 | [中文](https://learn.microsoft.com/zh-cn/dax/all-function-dax) [英文](https://learn.microsoft.com/en-us/dax/all-function-dax) [SQLBI](https://dax.guide/all/) |
@@ -83,8 +84,8 @@
 | REMOVEFILTERS | 从指定表或列中清除筛选器。 | [中文](https://learn.microsoft.com/zh-cn/dax/removefilters-function-dax) [英文](https://learn.microsoft.com/en-us/dax/removefilters-function-dax) [SQLBI](https://dax.guide/removefilters/) |
 | SELECTEDVALUE | 如果筛选 columnName 的上下文后仅剩下一个非重复值，则返回该值。 | [中文](https://learn.microsoft.com/zh-cn/dax/selectedvalue-function) [英文](https://learn.microsoft.com/en-us/dax/selectedvalue-function) [SQLBI](https://dax.guide/selectedvalue/) |
 | WINDOW | 返回位于给定间隔内的多个行。 | [中文](https://learn.microsoft.com/zh-cn/dax/window-function-dax) [英文](https://learn.microsoft.com/en-us/dax/window-function-dax) [SQLBI](https://dax.guide/window/) |
-## 4-财务函数
-[返回目录](#目录)
+<h2 id='4'>4、财务函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | ACCRINT | 返回支付定期利息的证券的应计利息。 | [中文](https://learn.microsoft.com/zh-cn/dax/accrint-function-dax) [英文](https://learn.microsoft.com/en-us/dax/accrint-function-dax) [SQLBI](https://dax.guide/accrint/) |
@@ -138,8 +139,8 @@
 | YIELD | 返回支付定期利息的证券的收益率。 | [中文](https://learn.microsoft.com/zh-cn/dax/yield-function-dax) [英文](https://learn.microsoft.com/en-us/dax/yield-function-dax) [SQLBI](https://dax.guide/yield/) |
 | YIELDDISC | 返回贴现证券的年收益率。 | [中文](https://learn.microsoft.com/zh-cn/dax/yielddisc-function-dax) [英文](https://learn.microsoft.com/en-us/dax/yielddisc-function-dax) [SQLBI](https://dax.guide/yielddisc/) |
 | YIELDMAT | 返回支付到期利息的证券的年收益率。 | [中文](https://learn.microsoft.com/zh-cn/dax/yieldmat-function-dax) [英文](https://learn.microsoft.com/en-us/dax/yieldmat-function-dax) [SQLBI](https://dax.guide/yieldmat/) |
-## 5-信息函数
-[返回目录](#目录)
+<h2 id='5'>5、信息函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | COLUMNSTATISTICS | 返回关于模型中每张表每一列的统计信息表。 | [中文](https://learn.microsoft.com/zh-cn/dax/columnstatistics-function-dax) [英文](https://learn.microsoft.com/en-us/dax/columnstatistics-function-dax) [SQLBI](https://dax.guide/columnstatistics/) |
@@ -174,8 +175,8 @@
 | USERNAME | 从在连接时提供给系统的凭据中返回域名和用户名。 | [中文](https://learn.microsoft.com/zh-cn/dax/username-function-dax) [英文](https://learn.microsoft.com/en-us/dax/username-function-dax) [SQLBI](https://dax.guide/username/) |
 | USEROBJECTID | 返回当前用户的 Azure AD 对象 ID 或安全标识符 (SID)。 | [中文](https://learn.microsoft.com/zh-cn/dax/userobjectid-function-dax) [英文](https://learn.microsoft.com/en-us/dax/userobjectid-function-dax) [SQLBI](https://dax.guide/userobjectid/) |
 | USERPRINCIPALNAME | 返回用户主体名称。 | [中文](https://learn.microsoft.com/zh-cn/dax/userprincipalname-function-dax) [英文](https://learn.microsoft.com/en-us/dax/userprincipalname-function-dax) [SQLBI](https://dax.guide/userprincipalname/) |
-## 6-逻辑函数
-[返回目录](#目录)
+<h2 id='6'>6、逻辑函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | AND | 检查两个参数是否均为 TRUE，如果两个参数都是 TRUE，则返回 TRUE。 | [中文](https://learn.microsoft.com/zh-cn/dax/and-function-dax) [英文](https://learn.microsoft.com/en-us/dax/and-function-dax) [SQLBI](https://dax.guide/and/) |
@@ -193,8 +194,8 @@
 | OR | 检查某一个参数是否为 TRUE，如果是，则返回 TRUE。 | [中文](https://learn.microsoft.com/zh-cn/dax/or-function-dax) [英文](https://learn.microsoft.com/en-us/dax/or-function-dax) [SQLBI](https://dax.guide/or/) |
 | SWITCH | 针对值列表计算表达式，并返回多个可能的结果表达式之一。 | [中文](https://learn.microsoft.com/zh-cn/dax/switch-function-dax) [英文](https://learn.microsoft.com/en-us/dax/switch-function-dax) [SQLBI](https://dax.guide/switch/) |
 | TRUE | 返回逻辑值 TRUE。 | [中文](https://learn.microsoft.com/zh-cn/dax/true-function-dax) [英文](https://learn.microsoft.com/en-us/dax/true-function-dax) [SQLBI](https://dax.guide/true/) |
-## 7-数学和三角函数
-[返回目录](#目录)
+<h2 id='7'>7、数学和三角函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | ABS | 返回某一数字的绝对值。 | [中文](https://learn.microsoft.com/zh-cn/dax/abs-function-dax) [英文](https://learn.microsoft.com/en-us/dax/abs-function-dax) [SQLBI](https://dax.guide/abs/) |
@@ -246,8 +247,8 @@
 | TAN | 返回给定角度的正切值。 | [中文](https://learn.microsoft.com/zh-cn/dax/tan-function-dax) [英文](https://learn.microsoft.com/en-us/dax/tan-function-dax) [SQLBI](https://dax.guide/tan/) |
 | TANH | 返回某一数字的双曲正切值。 | [中文](https://learn.microsoft.com/zh-cn/dax/tanh-function-dax) [英文](https://learn.microsoft.com/en-us/dax/tanh-function-dax) [SQLBI](https://dax.guide/tanh/) |
 | TRUNC | 通过删除数字的小数或分数部分将数字截断为整数。 | [中文](https://learn.microsoft.com/zh-cn/dax/trunc-function-dax) [英文](https://learn.microsoft.com/en-us/dax/trunc-function-dax) [SQLBI](https://dax.guide/trunc/) |
-## 8-其他函数
-[返回目录](#目录)
+<h2 id='8'>8、其他函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | BLANK | 返回空白。 | [中文](https://learn.microsoft.com/zh-cn/dax/blank-function-dax) [英文](https://learn.microsoft.com/en-us/dax/blank-function-dax) [SQLBI](https://dax.guide/blank/) |
@@ -255,8 +256,8 @@
 | EVALUATEANDLOG | 返回第一个参数的值，并将其记录在 DAX 评估日志探查器事件中。 | [中文](https://learn.microsoft.com/zh-cn/dax/evaluateandlog-function-dax) [英文](https://learn.microsoft.com/en-us/dax/evaluateandlog-function-dax) [SQLBI](https://dax.guide/evaluateandlog/) |
 | TOCSV | 以 CSV 格式的字符串形式返回表。 | [中文](https://learn.microsoft.com/zh-cn/dax/tocsv-function-dax) [英文](https://learn.microsoft.com/en-us/dax/tocsv-function-dax) [SQLBI](https://dax.guide/tocsv/) |
 | TOJSON | 以 JSON 格式的字符串形式返回表。 | [中文](https://learn.microsoft.com/zh-cn/dax/tojson-function-dax) [英文](https://learn.microsoft.com/en-us/dax/tojson-function-dax) [SQLBI](https://dax.guide/tojson/) |
-## 9-父函数和子函数
-[返回目录](#目录)
+<h2 id='9'>9、父函数和子函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | PATH | 返回一个带分隔符的文本字符串，其中包含当前标识符的所有父级的标识符，从最早的父级开始，一直持续到当前。 | [中文](https://learn.microsoft.com/zh-cn/dax/path-function-dax) [英文](https://learn.microsoft.com/en-us/dax/path-function-dax) [SQLBI](https://dax.guide/path/) |
@@ -264,16 +265,16 @@
 | PATHITEM | 从 PATH 函数的计算结果得到的字符串，返回指定位置处的项  。 | [中文](https://learn.microsoft.com/zh-cn/dax/pathitem-function-dax) [英文](https://learn.microsoft.com/en-us/dax/pathitem-function-dax) [SQLBI](https://dax.guide/pathitem/) |
 | PATHITEMREVERSE | 从 PATH 函数的计算结果得到的字符串，返回指定位置处的项  。 | [中文](https://learn.microsoft.com/zh-cn/dax/pathitemreverse-function-dax) [英文](https://learn.microsoft.com/en-us/dax/pathitemreverse-function-dax) [SQLBI](https://dax.guide/pathitemreverse/) |
 | PATHLENGTH | 返回给定 PATH 结果中指定项的父项数目，包括自身。 | [中文](https://learn.microsoft.com/zh-cn/dax/pathlength-function-dax) [英文](https://learn.microsoft.com/en-us/dax/pathlength-function-dax) [SQLBI](https://dax.guide/pathlength/) |
-## 10-关系函数
-[返回目录](#目录)
+<h2 id='10'>10、关系函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | CROSSFILTER | 指定要用于计算两列之间存在的关系的交叉筛选方向。 | [中文](https://learn.microsoft.com/zh-cn/dax/crossfilter-function) [英文](https://learn.microsoft.com/en-us/dax/crossfilter-function) [SQLBI](https://dax.guide/crossfilter/) |
 | RELATED | 从其他表返回相关值。 | [中文](https://learn.microsoft.com/zh-cn/dax/related-function-dax) [英文](https://learn.microsoft.com/en-us/dax/related-function-dax) [SQLBI](https://dax.guide/related/) |
 | RELATEDTABLE | 在给定筛选器修改的上下文中计算表表达式。 | [中文](https://learn.microsoft.com/zh-cn/dax/relatedtable-function-dax) [英文](https://learn.microsoft.com/en-us/dax/relatedtable-function-dax) [SQLBI](https://dax.guide/relatedtable/) |
 | USERELATIONSHIP | 指定要在特定计算中使用的关系，如 columnName1 与 columnName2 之间存在的关系。 | [中文](https://learn.microsoft.com/zh-cn/dax/userelationship-function-dax) [英文](https://learn.microsoft.com/en-us/dax/userelationship-function-dax) [SQLBI](https://dax.guide/userelationship/) |
-## 11-统计函数
-[返回目录](#目录)
+<h2 id='11'>11、统计函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | BETA.DIST | 返回 beta 分布。 | [中文](https://learn.microsoft.com/zh-cn/dax/beta-dist-function-dax) [英文](https://learn.microsoft.com/en-us/dax/beta-dist-function-dax) [SQLBI](https://dax.guide/beta.dist/) |
@@ -319,8 +320,8 @@
 | VAR.P | 返回整个总体的方差。 | [中文](https://learn.microsoft.com/zh-cn/dax/var-p-function-dax) [英文](https://learn.microsoft.com/en-us/dax/var-p-function-dax) [SQLBI](https://dax.guide/var.p/) |
 | VARX.S | 返回样本总体的方差。 | [中文](https://learn.microsoft.com/zh-cn/dax/varx-s-function-dax) [英文](https://learn.microsoft.com/en-us/dax/varx-s-function-dax) [SQLBI](https://dax.guide/varx.s/) |
 | VARX.P | 返回整个总体的方差。 | [中文](https://learn.microsoft.com/zh-cn/dax/varx-p-function-dax) [英文](https://learn.microsoft.com/en-us/dax/varx-p-function-dax) [SQLBI](https://dax.guide/varx.p/) |
-## 12-表操作函数
-[返回目录](#目录)
+<h2 id='12'>12、表操作函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | ADDCOLUMNS | 将计算列添加到给定的表或表表达式。 | [中文](https://learn.microsoft.com/zh-cn/dax/addcolumns-function-dax) [英文](https://learn.microsoft.com/en-us/dax/addcolumns-function-dax) [SQLBI](https://dax.guide/addcolumns/) |
@@ -355,8 +356,8 @@
 | TREATAS | 将表表达式的结果作为筛选器应用于无关表中的列。 | [中文](https://learn.microsoft.com/zh-cn/dax/treatas-function) [英文](https://learn.microsoft.com/en-us/dax/treatas-function) [SQLBI](https://dax.guide/treatas/) |
 | UNION | 从一对表创建联合（联接）表。 | [中文](https://learn.microsoft.com/zh-cn/dax/union-function-dax) [英文](https://learn.microsoft.com/en-us/dax/union-function-dax) [SQLBI](https://dax.guide/union/) |
 | VALUES | 当输入参数为列名时，返回包含指定列中非重复值的单列表。 | [中文](https://learn.microsoft.com/zh-cn/dax/values-function-dax) [英文](https://learn.microsoft.com/en-us/dax/values-function-dax) [SQLBI](https://dax.guide/values/) |
-## 13-文本函数
-[返回目录](#目录)
+<h2 id='13'>13、文本函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | COMBINEVALUES | 将两个或更多个文本字符串联接成一个文本字符串。 | [中文](https://learn.microsoft.com/zh-cn/dax/combinevalues-function-dax) [英文](https://learn.microsoft.com/en-us/dax/combinevalues-function-dax) [SQLBI](https://dax.guide/combinevalues/) |
@@ -380,8 +381,8 @@
 | UNICODE | 返回与文本的首个字符对应的数字（代码）。 | [中文](https://learn.microsoft.com/zh-cn/dax/unicode-function-dax) [英文](https://learn.microsoft.com/en-us/dax/unicode-function-dax) [SQLBI](https://dax.guide/unicode/) |
 | UPPER | 将文本字符串转换为全大写字母。 | [中文](https://learn.microsoft.com/zh-cn/dax/upper-function-dax) [英文](https://learn.microsoft.com/en-us/dax/upper-function-dax) [SQLBI](https://dax.guide/upper/) |
 | VALUE | 将表示数值的文本字符串转换为数值。 | [中文](https://learn.microsoft.com/zh-cn/dax/value-function-dax) [英文](https://learn.microsoft.com/en-us/dax/value-function-dax) [SQLBI](https://dax.guide/value/) |
-## 14-时间智能函数
-[返回目录](#目录)
+<h2 id='14'>14、时间智能函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | CLOSINGBALANCEMONTH | 计算当前上下文中该月最后一个日期的表达式  。 | [中文](https://learn.microsoft.com/zh-cn/dax/closingbalancemonth-function-dax) [英文](https://learn.microsoft.com/en-us/dax/closingbalancemonth-function-dax) [SQLBI](https://dax.guide/closingbalancemonth/) |

@@ -10,6 +10,7 @@
 """
 import json
 import os
+import shutil
 import sys
 
 import requests
@@ -133,6 +134,33 @@ class Utils(object):
         """
         with open(path, "w", encoding=encoding) as f:
             f.write(text_str)
+
+    @staticmethod
+    def create_folder(folder):
+        """判断是否存在, 不存在就新建, 存在的话, 则pass
+
+        :param folder: 需要创建的文件夹绝对路径
+        :type folder: str
+        :return: None
+        :rtype: None
+        """
+
+        if not os.path.exists(folder):  # 判断是否存在,如果不存在则创建目录
+            os.makedirs(folder)
+
+    def init_folder(self, folder):
+        """初始化文件夹路径，有则删除后新建，无则新建，保证是空文件夹
+
+        :param folder: 需要创建的文件夹绝对路径
+        :type folder: str
+        :return: None
+        :rtype: None
+        """
+
+        self.create_folder(folder)
+        if os.path.getsize(folder):  # 判断是否为空,不为空则删除后新建
+            shutil.rmtree(folder)
+            os.makedirs(folder)
 
 
 if __name__ == "__main__":

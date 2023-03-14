@@ -1,16 +1,17 @@
 # Power Query M 函数文档(分类版)
-## 目录
-| **[1-数据访问函数](#1-数据访问函数)** | **[2-文本函数](#2-文本函数)** | **[3-二进制函数](#3-二进制函数)** |
+<h2 id="home"><a href="https://jiaopengzi.com/" class="a-button">点击返回主页</a></h2>
+<h2 id="content">目录</h2>
+| **<a href="#1">1、数据访问函数]</a>** | **<a href="#2">2、文本函数]</a>** | **<a href="#3">3、二进制函数]</a>** |
 | :--: | :--: |:--: |
-| **[4-合并器函数](#4-合并器函数)** | **[5-比较器函数](#5-比较器函数)** | **[6-日期函数](#6-日期函数)** |
-| **[7-日期/时间函数](#7-日期/时间函数)** | **[8-日期/时间/时区函数](#8-日期/时间/时区函数)** | **[9-持续时间函数](#9-持续时间函数)** |
-| **[10-错误处理函数](#10-错误处理函数)** | **[11-表达式函数](#11-表达式函数)** | **[12-函数值](#12-函数值)** |
-| **[13-行函数](#13-行函数)** | **[14-列表函数](#14-列表函数)** | **[15-逻辑函数](#15-逻辑函数)** |
-| **[16-数字函数](#16-数字函数)** | **[17-记录函数](#17-记录函数)** | **[18-替换器函数](#18-替换器函数)** |
-| **[19-拆分器函数](#19-拆分器函数)** | **[20-表函数](#20-表函数)** | **[21-时间函数](#21-时间函数)** |
-| **[22-类型函数](#22-类型函数)** | **[23-Uri 函数](#23-Uri 函数)** | **[24-值函数](#24-值函数)** |
-## 1-数据访问函数
-[返回目录](#目录)
+| **<a href="#4">4、合并器函数]</a>** | **<a href="#5">5、比较器函数]</a>** | **<a href="#6">6、日期函数]</a>** |
+| **<a href="#7">7、日期/时间函数]</a>** | **<a href="#8">8、日期/时间/时区函数]</a>** | **<a href="#9">9、持续时间函数]</a>** |
+| **<a href="#10">10、错误处理函数]</a>** | **<a href="#11">11、表达式函数]</a>** | **<a href="#12">12、函数值]</a>** |
+| **<a href="#13">13、行函数]</a>** | **<a href="#14">14、列表函数]</a>** | **<a href="#15">15、逻辑函数]</a>** |
+| **<a href="#16">16、数字函数]</a>** | **<a href="#17">17、记录函数]</a>** | **<a href="#18">18、替换器函数]</a>** |
+| **<a href="#19">19、拆分器函数]</a>** | **<a href="#20">20、表函数]</a>** | **<a href="#21">21、时间函数]</a>** |
+| **<a href="#22">22、类型函数]</a>** | **<a href="#23">23、Uri 函数]</a>** | **<a href="#24">24、值函数]</a>** |
+<h2 id='1'>1、数据访问函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | AccessControlEntry.ConditionToIdentities | 使用指定的 identityProvider，将 condition 转换为一个标识列表；对于该列表，condition 在以 identityProvider 作为标识提供程序的所有授权上下文中都将返回 true。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/accesscontrolentry-conditiontoidentities) [英文](https://learn.microsoft.com/en-us/powerquery-m/accesscontrolentry-conditiontoidentities) |
@@ -94,8 +95,8 @@
 | Web.Page | 返回 HTML 文档的内容（分解为其组成结构），以及删除标记后的完整文档及其文本的表示形式。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/web-page) [英文](https://learn.microsoft.com/en-us/powerquery-m/web-page) |
 | Xml.Document | 返回 XML 文档的内容作为层次结构表。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/xml-document) [英文](https://learn.microsoft.com/en-us/powerquery-m/xml-document) |
 | Xml.Tables | 返回 XML 文档的内容作为平展表的嵌套集合。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/xml-tables) [英文](https://learn.microsoft.com/en-us/powerquery-m/xml-tables) |
-## 2-文本函数
-[返回目录](#目录)
+<h2 id='2'>2、文本函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | Json.FromValue | 生成给定值 value 的 JSON 表示形式，其文本编码由 encoding 指定。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/json-fromvalue) [英文](https://learn.microsoft.com/en-us/powerquery-m/json-fromvalue) |
@@ -143,8 +144,8 @@
 | Text.TrimEnd | 返回从文本值 text 中删除所有尾随空格的结果。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/text-trimend) [英文](https://learn.microsoft.com/en-us/powerquery-m/text-trimend) |
 | Text.TrimStart | 返回从文本值 text 删除所有前导空格的结果。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/text-trimstart) [英文](https://learn.microsoft.com/en-us/powerquery-m/text-trimstart) |
 | Text.Upper | 返回将 text 中的所有字符转换为大写的结果。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/text-upper) [英文](https://learn.microsoft.com/en-us/powerquery-m/text-upper) |
-## 3-二进制函数
-[返回目录](#目录)
+<h2 id='3'>3、二进制函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | Binary.ApproximateLength | 返回 binary 的近似长度，或者如果数据源不支持近似长度，则返回错误。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/binary-approximatelength) [英文](https://learn.microsoft.com/en-us/powerquery-m/binary-approximatelength) |
@@ -171,8 +172,7 @@
 | BinaryFormat.Choice | 返回一个二进制格式，它基于已读取的值选择下一个二进制格式。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-choice) [英文](https://learn.microsoft.com/en-us/powerquery-m/binaryformat-choice) |
 | BinaryFormat.Decimal | 读取 .NET 16 字节十进制值的二进制格式。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-decimal) [英文](https://learn.microsoft.com/en-us/powerquery-m/binaryformat-decimal) |
 | BinaryFormat.Double | 读取 8 字节 IEEE 双精度浮点值的二进制格式。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-double) [英文](https://learn.microsoft.com/en-us/powerquery-m/binaryformat-double) |
-| BinaryFormat.Group | 参数如下：
-binaryFormat 参数指定键值的二进制格式。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-group) [英文](https://learn.microsoft.com/en-us/powerquery-m/binaryformat-group) |
+| BinaryFormat.Group | 参数如下： binaryFormat 参数指定键值的二进制格式。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-group) [英文](https://learn.microsoft.com/en-us/powerquery-m/binaryformat-group) |
 | BinaryFormat.Length | 返回一个二进制格式，它限制可读取的数据量。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-length) [英文](https://learn.microsoft.com/en-us/powerquery-m/binaryformat-length) |
 | BinaryFormat.List | 返回可读取项序列的二进制格式并且返回一个 list。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-list) [英文](https://learn.microsoft.com/en-us/powerquery-m/binaryformat-list) |
 | BinaryFormat.Null | 读取零字节并且返回 NULL 的二进制格式。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-null) [英文](https://learn.microsoft.com/en-us/powerquery-m/binaryformat-null) |
@@ -187,8 +187,8 @@ binaryFormat 参数指定键值的二进制格式。 | [中文](https://learn.mi
 | BinaryFormat.UnsignedInteger32 | 读取 32 位无符号整数的二进制格式。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-unsignedinteger32) [英文](https://learn.microsoft.com/en-us/powerquery-m/binaryformat-unsignedinteger32) |
 | BinaryFormat.UnsignedInteger64 | 读取 64 位无符号整数的二进制格式。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/binaryformat-unsignedinteger64) [英文](https://learn.microsoft.com/en-us/powerquery-m/binaryformat-unsignedinteger64) |
 | #binary | 从数字列表或一个 Base 64 编码文本值创建一个二进制值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/sharpbinary) [英文](https://learn.microsoft.com/en-us/powerquery-m/sharpbinary) |
-## 4-合并器函数
-[返回目录](#目录)
+<h2 id='4'>4、合并器函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | Combiner.CombineTextByDelimiter | 返回一个函数，它使用指定的分隔符将文本列表合并成单个文本。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/combiner-combinetextbydelimiter) [英文](https://learn.microsoft.com/en-us/powerquery-m/combiner-combinetextbydelimiter) |
@@ -196,16 +196,16 @@ binaryFormat 参数指定键值的二进制格式。 | [中文](https://learn.mi
 | Combiner.CombineTextByLengths | 返回一个函数，它使用指定的长度将文本列表合并成单个文本。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/combiner-combinetextbylengths) [英文](https://learn.microsoft.com/en-us/powerquery-m/combiner-combinetextbylengths) |
 | Combiner.CombineTextByPositions | 返回一个函数，它使用指定的位置将文本列表合并成单个文本。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/combiner-combinetextbypositions) [英文](https://learn.microsoft.com/en-us/powerquery-m/combiner-combinetextbypositions) |
 | Combiner.CombineTextByRanges | 返回一个函数，它使用指定的位置和长度将文本列表合并成单个文本。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/combiner-combinetextbyranges) [英文](https://learn.microsoft.com/en-us/powerquery-m/combiner-combinetextbyranges) |
-## 5-比较器函数
-[返回目录](#目录)
+<h2 id='5'>5、比较器函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | Comparer.Equals | 使用提供的 comparer，在对两个给定值（x 和 y）进行同等性检查的基础上返回一个 logical 值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/comparer-equals) [英文](https://learn.microsoft.com/en-us/powerquery-m/comparer-equals) |
 | Comparer.FromCulture | 返回一个比较器函数，得出用于比较的区分大小写的 culture 和逻辑值 ignoreCase。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/comparer-fromculture) [英文](https://learn.microsoft.com/en-us/powerquery-m/comparer-fromculture) |
 | Comparer.Ordinal | 返回使用 Ordinal 规则来比较提供的值 x 和 y 的比较器函数。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/comparer-ordinal) [英文](https://learn.microsoft.com/en-us/powerquery-m/comparer-ordinal) |
 | Comparer.OrdinalIgnoreCase | 返回使用 Ordinal 规则来比较提供的值 x 和 y 的不区分大小写的比较器函数。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/comparer-ordinalignorecase) [英文](https://learn.microsoft.com/en-us/powerquery-m/comparer-ordinalignorecase) |
-## 6-日期函数
-[返回目录](#目录)
+<h2 id='6'>6、日期函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | Date.AddDays | 返回将 numberOfDays 天数添加到 datetime 值 dateTime 所得到的 date、datetime 或 datetimezone 结果。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/date-adddays) [英文](https://learn.microsoft.com/en-us/powerquery-m/date-adddays) |
@@ -266,8 +266,8 @@ binaryFormat 参数指定键值的二进制格式。 | [中文](https://learn.mi
 | Date.WeekOfYear | 返回一个介于 1 到 54 之间的数值，该数值指示日期 dateTime 属于年份中的哪一周。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/date-weekofyear) [英文](https://learn.microsoft.com/en-us/powerquery-m/date-weekofyear) |
 | Date.Year | 返回所提供的 datetime 值 dateTime 的年份部分。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/date-year) [英文](https://learn.microsoft.com/en-us/powerquery-m/date-year) |
 | #date | 从表示年、月和日的整数创建日期值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/sharpdate) [英文](https://learn.microsoft.com/en-us/powerquery-m/sharpdate) |
-## 7-日期/时间函数
-[返回目录](#目录)
+<h2 id='7'>7、日期/时间函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | DateTime.AddZone | 将时区信息添加到 dateTime 值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/datetime-addzone) [英文](https://learn.microsoft.com/en-us/powerquery-m/datetime-addzone) |
@@ -296,8 +296,8 @@ binaryFormat 参数指定键值的二进制格式。 | [中文](https://learn.mi
 | DateTime.ToRecord | 返回包含给定日期/时间值 dateTime 的各个部分的记录。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/datetime-torecord) [英文](https://learn.microsoft.com/en-us/powerquery-m/datetime-torecord) |
 | DateTime.ToText | 返回 dateTime 的文本化表示形式。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/datetime-totext) [英文](https://learn.microsoft.com/en-us/powerquery-m/datetime-totext) |
 | #datetime | 从表示年、月、日、小时、分钟和（小数）秒的数值创建 datetime 值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/sharpdatetime) [英文](https://learn.microsoft.com/en-us/powerquery-m/sharpdatetime) |
-## 8-日期/时间/时区函数
-[返回目录](#目录)
+<h2 id='8'>8、日期/时间/时区函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | DateTimeZone.FixedLocalNow | 返回设置为系统上的当前日期和时间的 datetime 值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/datetimezone-fixedlocalnow) [英文](https://learn.microsoft.com/en-us/powerquery-m/datetimezone-fixedlocalnow) |
@@ -316,8 +316,8 @@ binaryFormat 参数指定键值的二进制格式。 | [中文](https://learn.mi
 | DateTimeZone.ZoneHours | 更改值的时区。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/datetimezone-zonehours) [英文](https://learn.microsoft.com/en-us/powerquery-m/datetimezone-zonehours) |
 | DateTimeZone.ZoneMinutes | 更改值的时区。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/datetimezone-zoneminutes) [英文](https://learn.microsoft.com/en-us/powerquery-m/datetimezone-zoneminutes) |
 | #datetimezone | 从表示年、月、日、小时、分钟、（小数）秒、（小数）偏移小时，以及偏移分钟的数值创建 datetimezone 值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/sharpdatetimezone) [英文](https://learn.microsoft.com/en-us/powerquery-m/sharpdatetimezone) |
-## 9-持续时间函数
-[返回目录](#目录)
+<h2 id='9'>9、持续时间函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | Duration.Days | 返回 duration 的天数部分。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/duration-days) [英文](https://learn.microsoft.com/en-us/powerquery-m/duration-days) |
@@ -333,22 +333,22 @@ binaryFormat 参数指定键值的二进制格式。 | [中文](https://learn.mi
 | Duration.TotalSeconds | 返回 duration 跨越的总秒数。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/duration-totalseconds) [英文](https://learn.microsoft.com/en-us/powerquery-m/duration-totalseconds) |
 | Duration.ToText | 以 "day.hour:mins:sec" 格式返回给定持续时间值 duration 的文本表示形式。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/duration-totext) [英文](https://learn.microsoft.com/en-us/powerquery-m/duration-totext) |
 | #duration | 从表示天、小时、分钟和（小数）秒的数值创建持续时间值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/sharpduration) [英文](https://learn.microsoft.com/en-us/powerquery-m/sharpduration) |
-## 10-错误处理函数
-[返回目录](#目录)
+<h2 id='10'>10、错误处理函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | Diagnostics.ActivityId | 为当前正在运行的计算返回不透明的标识符。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/diagnostics-activityid) [英文](https://learn.microsoft.com/en-us/powerquery-m/diagnostics-activityid) |
 | Diagnostics.Trace | 写入跟踪 message（如果已启用跟踪的话）并返回 value。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/diagnostics-trace) [英文](https://learn.microsoft.com/en-us/powerquery-m/diagnostics-trace) |
 | Error.Record | 从为原因、消息和详细信息提供的文本值返回错误记录。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/error-record) [英文](https://learn.microsoft.com/en-us/powerquery-m/error-record) |
-## 11-表达式函数
-[返回目录](#目录)
+<h2 id='11'>11、表达式函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | Expression.Constant | 返回常数值的 M 源代码表示形式。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/expression-constant) [英文](https://learn.microsoft.com/en-us/powerquery-m/expression-constant) |
 | Expression.Evaluate | 返回 M 表达式 document 的计算结果，其中可用的标识符可以由 environment 进行引用和定义。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/expression-evaluate) [英文](https://learn.microsoft.com/en-us/powerquery-m/expression-evaluate) |
 | Expression.Identifier | 返回标识符 name 的 M 源代码表示形式。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/expression-identifier) [英文](https://learn.microsoft.com/en-us/powerquery-m/expression-identifier) |
-## 12-函数值
-[返回目录](#目录)
+<h2 id='12'>12、函数值</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | Function.From | 采用一元函数 function 并创建一个类型为 functionType 的新函数，用于构造其参数列表，并将其传递给 function。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/function-from) [英文](https://learn.microsoft.com/en-us/powerquery-m/function-from) |
@@ -356,16 +356,16 @@ binaryFormat 参数指定键值的二进制格式。 | [中文](https://learn.mi
 | Function.InvokeAfter | 经过持续时间 delay 后，返回调用 function 的结果。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/function-invokeafter) [英文](https://learn.microsoft.com/en-us/powerquery-m/function-invokeafter) |
 | Function.IsDataSource | 返回是否将 function 视为数据源。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/function-isdatasource) [英文](https://learn.microsoft.com/en-us/powerquery-m/function-isdatasource) |
 | Function.ScalarVector | 返回 scalarFunctionType 类型的标量函数，该函数使用单行参数调用 vectorFunction 并返回其单个输出。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/function-scalarvector) [英文](https://learn.microsoft.com/en-us/powerquery-m/function-scalarvector) |
-## 13-行函数
-[返回目录](#目录)
+<h2 id='13'>13、行函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | Lines.FromBinary | 将二进制值转换为在换行符处拆分的文本值列表。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/lines-frombinary) [英文](https://learn.microsoft.com/en-us/powerquery-m/lines-frombinary) |
 | Lines.FromText | 将文本值转换为在换行符处拆分的文本值列表。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/lines-fromtext) [英文](https://learn.microsoft.com/en-us/powerquery-m/lines-fromtext) |
 | Lines.ToBinary | 使用指定的编码和 lineSeparator 将文本列表转换为二进制值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/lines-tobinary) [英文](https://learn.microsoft.com/en-us/powerquery-m/lines-tobinary) |
 | Lines.ToText | 将文本列表转换成单个文本。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/lines-totext) [英文](https://learn.microsoft.com/en-us/powerquery-m/lines-totext) |
-## 14-列表函数
-[返回目录](#目录)
+<h2 id='14'>14、列表函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | List.Accumulate | 使用 accumulator 从列表 list 中的项累积汇总值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/list-accumulate) [英文](https://learn.microsoft.com/en-us/powerquery-m/list-accumulate) |
@@ -439,15 +439,15 @@ binaryFormat 参数指定键值的二进制格式。 | [中文](https://learn.mi
 | List.TransformMany | 返回一个列表，其元素是基于输入列表投射而来的。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/list-transformmany) [英文](https://learn.microsoft.com/en-us/powerquery-m/list-transformmany) |
 | List.Union | 采用列表 lists 的列表，联合各个列表中的项，并在输出列表中返回这些项。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/list-union) [英文](https://learn.microsoft.com/en-us/powerquery-m/list-union) |
 | List.Zip | 提取列表 lists 的其中一个列表，并返回一个列表显示在同一位置合并项的列表。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/list-zip) [英文](https://learn.microsoft.com/en-us/powerquery-m/list-zip) |
-## 15-逻辑函数
-[返回目录](#目录)
+<h2 id='15'>15、逻辑函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | Logical.From | 从给定的 value 返回 logical 值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/logical-from) [英文](https://learn.microsoft.com/en-us/powerquery-m/logical-from) |
 | Logical.FromText | 从文本值 text（“true”或“false”）创建逻辑值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/logical-fromtext) [英文](https://learn.microsoft.com/en-us/powerquery-m/logical-fromtext) |
 | Logical.ToText | 从逻辑值 logicalValue（true 或 false）创建文本值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/logical-totext) [英文](https://learn.microsoft.com/en-us/powerquery-m/logical-totext) |
-## 16-数字函数
-[返回目录](#目录)
+<h2 id='16'>16、数字函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | Byte.From | 从给定的 value 中返回 8 位整数 number 值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/byte-from) [英文](https://learn.microsoft.com/en-us/powerquery-m/byte-from) |
@@ -502,8 +502,8 @@ binaryFormat 参数指定键值的二进制格式。 | [中文](https://learn.mi
 | Number.ToText | 根据 format 指定的格式，将数值 number 格式化为文本值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/number-totext) [英文](https://learn.microsoft.com/en-us/powerquery-m/number-totext) |
 | Percentage.From | 从给定的 value 返回 percentage 值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/percentage-from) [英文](https://learn.microsoft.com/en-us/powerquery-m/percentage-from) |
 | Single.From | 从给定的 value 返回单精度 number 值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/single-from) [英文](https://learn.microsoft.com/en-us/powerquery-m/single-from) |
-## 17-记录函数
-[返回目录](#目录)
+<h2 id='17'>17、记录函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | Geography.FromWellKnownText | 将以已知文本 (WKT) 格式表示地理值的文本转换为结构化记录。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/geography-fromwellknowntext) [英文](https://learn.microsoft.com/en-us/powerquery-m/geography-fromwellknowntext) |
@@ -529,14 +529,14 @@ binaryFormat 参数指定键值的二进制格式。 | [中文](https://learn.mi
 | Record.ToList | 返回包含输入 record 中的字段值的值列表。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/record-tolist) [英文](https://learn.microsoft.com/en-us/powerquery-m/record-tolist) |
 | Record.ToTable | 返回一个表，其中包含 Name 和 Value 列，且 record 中的每个字段都占一行。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/record-totable) [英文](https://learn.microsoft.com/en-us/powerquery-m/record-totable) |
 | Record.TransformFields | 在将列表 transformOperations 中指定的转换应用到 record 后返回一条记录。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/record-transformfields) [英文](https://learn.microsoft.com/en-us/powerquery-m/record-transformfields) |
-## 18-替换器函数
-[返回目录](#目录)
+<h2 id='18'>18、替换器函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | Replacer.ReplaceText | 将原始 text 中的 old 文本替换为 new 文本。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/replacer-replacetext) [英文](https://learn.microsoft.com/en-us/powerquery-m/replacer-replacetext) |
 | Replacer.ReplaceValue | 将原始 value 中的 old 值替换为 new 值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/replacer-replacevalue) [英文](https://learn.microsoft.com/en-us/powerquery-m/replacer-replacevalue) |
-## 19-拆分器函数
-[返回目录](#目录)
+<h2 id='19'>19、拆分器函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | Splitter.SplitByNothing | 返回不拆分且将其参数作为单元素列表返回的函数。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/splitter-splitbynothing) [英文](https://learn.microsoft.com/en-us/powerquery-m/splitter-splitbynothing) |
@@ -549,16 +549,14 @@ binaryFormat 参数指定键值的二进制格式。 | [中文](https://learn.mi
 | Splitter.SplitTextByRanges | 返回一个函数，它根据指定的偏移量和长度将文本拆分为文本列表。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/splitter-splittextbyranges) [英文](https://learn.microsoft.com/en-us/powerquery-m/splitter-splittextbyranges) |
 | Splitter.SplitTextByRepeatedLengths | 返回一个函数，此函数在指定的长度后反复将文本拆分为文本列表。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/splitter-splittextbyrepeatedlengths) [英文](https://learn.microsoft.com/en-us/powerquery-m/splitter-splittextbyrepeatedlengths) |
 | Splitter.SplitTextByWhitespace | 返回一个函数，它在空白处将文本拆分为文本列表。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/splitter-splittextbywhitespace) [英文](https://learn.microsoft.com/en-us/powerquery-m/splitter-splittextbywhitespace) |
-## 20-表函数
-[返回目录](#目录)
+<h2 id='20'>20、表函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
-| ItemExpression.From | 返回 function 的主体的抽象语法树 (AST)，规范化为项表达式：
-函数必须是包含 1 个参数的 lambda 函数。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/itemexpression-from) [英文](https://learn.microsoft.com/en-us/powerquery-m/itemexpression-from) |
+| ItemExpression.From | 返回 function 的主体的抽象语法树 (AST)，规范化为项表达式： 函数必须是包含 1 个参数的 lambda 函数。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/itemexpression-from) [英文](https://learn.microsoft.com/en-us/powerquery-m/itemexpression-from) |
 | ItemExpression.Item | 表示项表达式中项的抽象语法树 (AST) 节点。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/itemexpression-item) [英文](https://learn.microsoft.com/en-us/powerquery-m/itemexpression-item) |
 | RowExpression.Column | 返回一个抽象语法树 (AST)，该树表示对行表达式中行的列 columnName 的访问权限。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/rowexpression-column) [英文](https://learn.microsoft.com/en-us/powerquery-m/rowexpression-column) |
-| RowExpression.From | 返回 function 主体的抽象语法树 (AST)，规范化为行表达式：
-函数必须是包含 1 个参数的 lambda 函数。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/rowexpression-from) [英文](https://learn.microsoft.com/en-us/powerquery-m/rowexpression-from) |
+| RowExpression.From | 返回 function 主体的抽象语法树 (AST)，规范化为行表达式： 函数必须是包含 1 个参数的 lambda 函数。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/rowexpression-from) [英文](https://learn.microsoft.com/en-us/powerquery-m/rowexpression-from) |
 | RowExpression.Row | 表示行表达式中行的抽象语法树 (AST) 节点。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/rowexpression-row) [英文](https://learn.microsoft.com/en-us/powerquery-m/rowexpression-row) |
 | Table.AddColumn | 将名为 newColumnName 的列添加到表 table。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-addcolumn) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-addcolumn) |
 | Table.AddFuzzyClusterColumn | 使用 columnName 的代表值将新列 newColumnName 添加到 table 中。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-addfuzzyclustercolumn) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-addfuzzyclustercolumn) |
@@ -592,8 +590,7 @@ binaryFormat 参数指定键值的二进制格式。 | [中文](https://learn.mi
 | Table.FilterWithDataTable | 此函数仅计划供内部使用。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-filterwithdatatable) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-filterwithdatatable) |
 | Table.FindText | 返回表 table 中包含文本 text 的行。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-findtext) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-findtext) |
 | Table.First | 返回 table 的第一行，或如果表为空，则返回可选默认值 default。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-first) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-first) |
-| Table.FirstN | 根据 countOrCondition 的值，返回 table 表的第一行：
-如果 countOrCondition 是数字，则返回多个行（从顶部开始）。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-firstn) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-firstn) |
+| Table.FirstN | 根据 countOrCondition 的值，返回 table 表的第一行： 如果 countOrCondition 是数字，则返回多个行（从顶部开始）。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-firstn) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-firstn) |
 | Table.FirstValue | 返回表 table 的第一行的第一列或指定的默认值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-firstvalue) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-firstvalue) |
 | Table.FromColumns | 从包含嵌套列表的列表 lists 中创建一个类型为 columns 的表，此表中具有列名称和值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-fromcolumns) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-fromcolumns) |
 | Table.FromList | 通过将可选的拆分函数 splitter 应用于列表中的每一项，将列表 list 转换为表。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-fromlist) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-fromlist) |
@@ -612,8 +609,7 @@ binaryFormat 参数指定键值的二进制格式。 | [中文](https://learn.mi
 | Table.Join | 基于 key1（对于 table1）和 key2（对于 table2）所选择的键列的值的相等性，联接 table1 的行与 table2 的行。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-join) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-join) |
 | Table.Keys | 返回指定表的键。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-keys) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-keys) |
 | Table.Last | 返回 table 的最后一行，或如果表为空，则返回可选默认值 default。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-last) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-last) |
-| Table.LastN | 根据 countOrCondition 的值，返回 table 表的最后一行（或几行）：
-如果 countOrCondition 是数字，则将返回从末尾 - countOrCondition 位置开始的多行。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-lastn) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-lastn) |
+| Table.LastN | 根据 countOrCondition 的值，返回 table 表的最后一行（或几行）： 如果 countOrCondition 是数字，则将返回从末尾 - countOrCondition 位置开始的多行。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-lastn) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-lastn) |
 | Table.MatchesAllRows | 指示 table 中的所有行是否与给定的 condition 匹配。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-matchesallrows) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-matchesallrows) |
 | Table.MatchesAnyRows | 指示 table 中的任何行是否与给定的 condition 匹配。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-matchesanyrows) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-matchesanyrows) |
 | Table.Max | 给定 comparisonCriteria，返回 table 中最大的行。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-max) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-max) |
@@ -674,8 +670,8 @@ binaryFormat 参数指定键值的二进制格式。 | [中文](https://learn.mi
 | Table.ViewFunction | 基于 function 创建视图函数，此函数可以在 Table.View 创建的视图中处理。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/table-viewfunction) [英文](https://learn.microsoft.com/en-us/powerquery-m/table-viewfunction) |
 | Tables.GetRelationships | 获取一组表之间的关系。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/tables-getrelationships) [英文](https://learn.microsoft.com/en-us/powerquery-m/tables-getrelationships) |
 | #table | 从 columns 和 rows 创建表值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/sharptable) [英文](https://learn.microsoft.com/en-us/powerquery-m/sharptable) |
-## 21-时间函数
-[返回目录](#目录)
+<h2 id='21'>21、时间函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | Time.EndOfHour | 返回由 dateTime 表示的小时结束值，包括分数秒。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/time-endofhour) [英文](https://learn.microsoft.com/en-us/powerquery-m/time-endofhour) |
@@ -688,8 +684,8 @@ binaryFormat 参数指定键值的二进制格式。 | [中文](https://learn.mi
 | Time.ToRecord | 返回包含给定时间值 time 的各个部分的记录。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/time-torecord) [英文](https://learn.microsoft.com/en-us/powerquery-m/time-torecord) |
 | Time.ToText | 返回 time 的文本化表示形式。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/time-totext) [英文](https://learn.microsoft.com/en-us/powerquery-m/time-totext) |
 | #time | 从表示小时、分钟和（小数）秒的数值创建 time 值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/sharptime) [英文](https://learn.microsoft.com/en-us/powerquery-m/sharptime) |
-## 22-类型函数
-[返回目录](#目录)
+<h2 id='22'>22、类型函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | Type.AddTableKey | 向给定表类型添加键。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/type-addtablekey) [英文](https://learn.microsoft.com/en-us/powerquery-m/type-addtablekey) |
@@ -714,16 +710,16 @@ binaryFormat 参数指定键值的二进制格式。 | [中文](https://learn.mi
 | Type.TableRow | 返回指定表类型的行类型。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/type-tablerow) [英文](https://learn.microsoft.com/en-us/powerquery-m/type-tablerow) |
 | Type.TableSchema | 返回描述 tableType 列的表。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/type-tableschema) [英文](https://learn.microsoft.com/en-us/powerquery-m/type-tableschema) |
 | Type.Union | 返回 types 中类型的联合。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/type-union) [英文](https://learn.microsoft.com/en-us/powerquery-m/type-union) |
-## 23-Uri 函数
-[返回目录](#目录)
+<h2 id='23'>23、Uri 函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | Uri.BuildQueryString | 将记录 query 汇编入 URI 查询字符串，根据需要转义字符。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/uri-buildquerystring) [英文](https://learn.microsoft.com/en-us/powerquery-m/uri-buildquerystring) |
 | Uri.Combine | 返回一个绝对 URI，这是输入 baseUri 和 relativeUri 的组合。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/uri-combine) [英文](https://learn.microsoft.com/en-us/powerquery-m/uri-combine) |
 | Uri.EscapeDataString | 根据 RFC 3986 的规则对输入 data 中的特殊字符进行编码。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/uri-escapedatastring) [英文](https://learn.microsoft.com/en-us/powerquery-m/uri-escapedatastring) |
 | Uri.Parts | 以记录形式返回输入 absoluteUri 的组成部分，包含方案、主机、端口、路径、查询、片段、用户名和密码等值。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/uri-parts) [英文](https://learn.microsoft.com/en-us/powerquery-m/uri-parts) |
-## 24-值函数
-[返回目录](#目录)
+<h2 id='24'>24、值函数</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | DirectQueryCapabilities.From | 此函数仅计划供内部使用。 | [中文](https://learn.microsoft.com/zh-cn/powerquery-m/directquerycapabilities-from) [英文](https://learn.microsoft.com/en-us/powerquery-m/directquerycapabilities-from) |

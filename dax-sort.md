@@ -1,8 +1,9 @@
 # DAX 函数文档(排序版)
-## 目录
-**[A](#A)** **[B](#B)** **[C](#C)** **[D](#D)** **[E](#E)** **[F](#F)** **[G](#G)** **[H](#H)** **[I](#I)** **[K](#K)** **[L](#L)** **[M](#M)** **[N](#N)** **[O](#O)** **[P](#P)** **[Q](#Q)** **[R](#R)** **[S](#S)** **[T](#T)** **[U](#U)** **[V](#V)** **[W](#W)** **[X](#X)** **[Y](#Y)** 
-## A
-[返回目录](#目录)
+<h2 id="home"><a href="https://jiaopengzi.com/" class="a-button">点击返回主页</a></h2>
+<h2 id="content">目录</h2>
+**<a href="#1" >A</a>** **<a href="#2" >B</a>** **<a href="#3" >C</a>** **<a href="#4" >D</a>** **<a href="#5" >E</a>** **<a href="#6" >F</a>** **<a href="#7" >G</a>** **<a href="#8" >H</a>** **<a href="#9" >I</a>** **<a href="#10" >K</a>** **<a href="#11" >L</a>** **<a href="#12" >M</a>** **<a href="#13" >N</a>** **<a href="#14" >O</a>** **<a href="#15" >P</a>** **<a href="#16" >Q</a>** **<a href="#17" >R</a>** **<a href="#18" >S</a>** **<a href="#19" >T</a>** **<a href="#20" >U</a>** **<a href="#21" >V</a>** **<a href="#22" >W</a>** **<a href="#23" >X</a>** **<a href="#24" >Y</a>** 
+<h2 id='1'>A</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | ABS | 返回某一数字的绝对值。 | [中文](https://learn.microsoft.com/zh-cn/dax/abs-function-dax) [英文](https://learn.microsoft.com/en-us/dax/abs-function-dax) [SQLBI](https://dax.guide/abs/) |
@@ -30,8 +31,8 @@
 | AVERAGE | 返回列中所有数字的平均值（算术平均值）。 | [中文](https://learn.microsoft.com/zh-cn/dax/average-function-dax) [英文](https://learn.microsoft.com/en-us/dax/average-function-dax) [SQLBI](https://dax.guide/average/) |
 | AVERAGEA | 返回列中值的平均值（算术平均值）。 | [中文](https://learn.microsoft.com/zh-cn/dax/averagea-function-dax) [英文](https://learn.microsoft.com/en-us/dax/averagea-function-dax) [SQLBI](https://dax.guide/averagea/) |
 | AVERAGEX | 计算针对表进行计算的一组表达式的平均值（算术平均值）。 | [中文](https://learn.microsoft.com/zh-cn/dax/averagex-function-dax) [英文](https://learn.microsoft.com/en-us/dax/averagex-function-dax) [SQLBI](https://dax.guide/averagex/) |
-## B
-[返回目录](#目录)
+<h2 id='2'>B</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | BETA.DIST | 返回 beta 分布。 | [中文](https://learn.microsoft.com/zh-cn/dax/beta-dist-function-dax) [英文](https://learn.microsoft.com/en-us/dax/beta-dist-function-dax) [SQLBI](https://dax.guide/beta.dist/) |
@@ -42,8 +43,8 @@
 | BITRSHIFT | 返回一个按指定位数向右移动的数字。 | [中文](https://learn.microsoft.com/zh-cn/dax/bitrshift-function-dax) [英文](https://learn.microsoft.com/en-us/dax/bitrshift-function-dax) [SQLBI](https://dax.guide/bitrshift/) |
 | BITXOR | 返回两个数字的按位 XOR。 | [中文](https://learn.microsoft.com/zh-cn/dax/bitxor-function-dax) [英文](https://learn.microsoft.com/en-us/dax/bitxor-function-dax) [SQLBI](https://dax.guide/bitxor/) |
 | BLANK | 返回空白。 | [中文](https://learn.microsoft.com/zh-cn/dax/blank-function-dax) [英文](https://learn.microsoft.com/en-us/dax/blank-function-dax) [SQLBI](https://dax.guide/blank/) |
-## C
-[返回目录](#目录)
+<h2 id='3'>C</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | CALCULATE | 在已修改的筛选器上下文中计算表达式。 | [中文](https://learn.microsoft.com/zh-cn/dax/calculate-function-dax) [英文](https://learn.microsoft.com/en-us/dax/calculate-function-dax) [SQLBI](https://dax.guide/calculate/) |
@@ -95,8 +96,8 @@
 | CURRENCY | 计算参数并以货币数据类型的形式返回结果。 | [中文](https://learn.microsoft.com/zh-cn/dax/currency-function-dax) [英文](https://learn.microsoft.com/en-us/dax/currency-function-dax) [SQLBI](https://dax.guide/currency/) |
 | CURRENTGROUP | 从 GROUPBY 表达式的 table 参数中返回一组行，这些行属于 GROUPBY 结果的当前行。 | [中文](https://learn.microsoft.com/zh-cn/dax/currentgroup-function-dax) [英文](https://learn.microsoft.com/en-us/dax/currentgroup-function-dax) [SQLBI](https://dax.guide/currentgroup/) |
 | CUSTOMDATA | 返回连接字符串中 CustomData 属性的内容  。 | [中文](https://learn.microsoft.com/zh-cn/dax/customdata-function-dax) [英文](https://learn.microsoft.com/en-us/dax/customdata-function-dax) [SQLBI](https://dax.guide/customdata/) |
-## D
-[返回目录](#目录)
+<h2 id='4'>D</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | DATATABLE | 提供用于声明内联数据值集的机制。 | [中文](https://learn.microsoft.com/zh-cn/dax/datatable-function) [英文](https://learn.microsoft.com/en-us/dax/datatable-function) [SQLBI](https://dax.guide/datatable/) |
@@ -123,8 +124,8 @@
 | DOLLARDE | 将以整数部分加小数部分表示的美元价格（如 1.02）转换为以小数表示的美元价格。 | [中文](https://learn.microsoft.com/zh-cn/dax/dollarde-function-dax) [英文](https://learn.microsoft.com/en-us/dax/dollarde-function-dax) [SQLBI](https://dax.guide/dollarde/) |
 | DOLLARFR | 将以小数表示的美元价格转换为以整数部分加小数部分表示的美元价格（如 1.02）。 | [中文](https://learn.microsoft.com/zh-cn/dax/dollarfr-function-dax) [英文](https://learn.microsoft.com/en-us/dax/dollarfr-function-dax) [SQLBI](https://dax.guide/dollarfr/) |
 | DURATION | 返回假定面值为 \$100 的麦考利久期。 | [中文](https://learn.microsoft.com/zh-cn/dax/duration-function-dax) [英文](https://learn.microsoft.com/en-us/dax/duration-function-dax) [SQLBI](https://dax.guide/duration/) |
-## E
-[返回目录](#目录)
+<h2 id='5'>E</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | EARLIER | 返回所述列的外部计算传递中指定列的当前值。 | [中文](https://learn.microsoft.com/zh-cn/dax/earlier-function-dax) [英文](https://learn.microsoft.com/en-us/dax/earlier-function-dax) [SQLBI](https://dax.guide/earlier/) |
@@ -142,8 +143,8 @@
 | EXCEPT | 返回未在第二个表中显示的第一个表中的行。 | [中文](https://learn.microsoft.com/zh-cn/dax/except-function-dax) [英文](https://learn.microsoft.com/en-us/dax/except-function-dax) [SQLBI](https://dax.guide/except/) |
 | EXP | 返回 e 的指定次方。 | [中文](https://learn.microsoft.com/zh-cn/dax/exp-function-dax) [英文](https://learn.microsoft.com/en-us/dax/exp-function-dax) [SQLBI](https://dax.guide/exp/) |
 | EXPON.DIST | 返回指数分布。 | [中文](https://learn.microsoft.com/zh-cn/dax/expon-dist-function-dax) [英文](https://learn.microsoft.com/en-us/dax/expon-dist-function-dax) [SQLBI](https://dax.guide/expon.dist/) |
-## F
-[返回目录](#目录)
+<h2 id='6'>F</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | FACT | 返回一个数字的阶乘，等于序列 1*2*3*...*（以给定数字结尾）。 | [中文](https://learn.microsoft.com/zh-cn/dax/fact-function-dax) [英文](https://learn.microsoft.com/en-us/dax/fact-function-dax) [SQLBI](https://dax.guide/fact/) |
@@ -158,8 +159,8 @@
 | FLOOR | 向零方向将数值向下舍入为最接近的基数倍数。 | [中文](https://learn.microsoft.com/zh-cn/dax/floor-function-dax) [英文](https://learn.microsoft.com/en-us/dax/floor-function-dax) [SQLBI](https://dax.guide/floor/) |
 | FORMAT | 根据所指定的格式将值转换为文本。 | [中文](https://learn.microsoft.com/zh-cn/dax/format-function-dax) [英文](https://learn.microsoft.com/en-us/dax/format-function-dax) [SQLBI](https://dax.guide/format/) |
 | FV | 根据固定利率计算投资的未来价值。 | [中文](https://learn.microsoft.com/zh-cn/dax/fv-function-dax) [英文](https://learn.microsoft.com/en-us/dax/fv-function-dax) [SQLBI](https://dax.guide/fv/) |
-## G
-[返回目录](#目录)
+<h2 id='7'>G</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | GCD | 返回两个或多个整数的最大公约数。 | [中文](https://learn.microsoft.com/zh-cn/dax/gcd-function-dax) [英文](https://learn.microsoft.com/en-us/dax/gcd-function-dax) [SQLBI](https://dax.guide/gcd/) |
@@ -169,15 +170,15 @@
 | GEOMEAN | 返回列中数字的几何平均值。 | [中文](https://learn.microsoft.com/zh-cn/dax/geomean-function-dax) [英文](https://learn.microsoft.com/en-us/dax/geomean-function-dax) [SQLBI](https://dax.guide/geomean/) |
 | GEOMEANX | 返回针对表中的每一行计算的表达式的几何平均值。 | [中文](https://learn.microsoft.com/zh-cn/dax/geomeanx-function-dax) [英文](https://learn.microsoft.com/en-us/dax/geomeanx-function-dax) [SQLBI](https://dax.guide/geomeanx/) |
 | GROUPBY | GROUPBY 函数与 SUMMARIZE 函数类似。 | [中文](https://learn.microsoft.com/zh-cn/dax/groupby-function-dax) [英文](https://learn.microsoft.com/en-us/dax/groupby-function-dax) [SQLBI](https://dax.guide/groupby/) |
-## H
-[返回目录](#目录)
+<h2 id='8'>H</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | HASONEFILTER | 如果 columnName 上的直接筛选值的数目为一个，则返回 TRUE；否则，返回 FALSE。 | [中文](https://learn.microsoft.com/zh-cn/dax/hasonefilter-function-dax) [英文](https://learn.microsoft.com/en-us/dax/hasonefilter-function-dax) [SQLBI](https://dax.guide/hasonefilter/) |
 | HASONEVALUE | 如果筛选 columnName 的上下文后仅剩下一个非重复值，则返回 TRUE   。 | [中文](https://learn.microsoft.com/zh-cn/dax/hasonevalue-function-dax) [英文](https://learn.microsoft.com/en-us/dax/hasonevalue-function-dax) [SQLBI](https://dax.guide/hasonevalue/) |
 | HOUR | 以数字形式返回小时值，0 (12:00 A.M.) 到 23 (11:00 P.M.) 之间的数字。 | [中文](https://learn.microsoft.com/zh-cn/dax/hour-function-dax) [英文](https://learn.microsoft.com/en-us/dax/hour-function-dax) [SQLBI](https://dax.guide/hour/) |
-## I
-[返回目录](#目录)
+<h2 id='9'>I</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | IF | 检查条件，如果为 TRUE，则返回一个值，否则返回第二个值。 | [中文](https://learn.microsoft.com/zh-cn/dax/if-function-dax) [英文](https://learn.microsoft.com/en-us/dax/if-function-dax) [SQLBI](https://dax.guide/if/) |
@@ -207,13 +208,13 @@
 | ISSELECTEDMEASURE | 由表达式中的计算项用于确定上下文中的度量值是度量值列表中指定的度量值之一。 | [中文](https://learn.microsoft.com/zh-cn/dax/isselectedmeasure-function-dax) [英文](https://learn.microsoft.com/en-us/dax/isselectedmeasure-function-dax) [SQLBI](https://dax.guide/isselectedmeasure/) |
 | ISSUBTOTAL | 使用 SUMMARIZE 表达式另外创建一列；如果该行包含作为参数提供的列的小计值，则返回 True，否则返回 False。 | [中文](https://learn.microsoft.com/zh-cn/dax/issubtotal-function-dax) [英文](https://learn.microsoft.com/en-us/dax/issubtotal-function-dax) [SQLBI](https://dax.guide/issubtotal/) |
 | ISTEXT | 检查值是否为文本，并返回 TRUE 或 FALSE。 | [中文](https://learn.microsoft.com/zh-cn/dax/istext-function-dax) [英文](https://learn.microsoft.com/en-us/dax/istext-function-dax) [SQLBI](https://dax.guide/istext/) |
-## K
-[返回目录](#目录)
+<h2 id='10'>K</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | KEEPFILTERS | 计算 CALCULATE 或 CALCULATETABLE 函数时，修改应用筛选器的方式。 | [中文](https://learn.microsoft.com/zh-cn/dax/keepfilters-function-dax) [英文](https://learn.microsoft.com/en-us/dax/keepfilters-function-dax) [SQLBI](https://dax.guide/keepfilters/) |
-## L
-[返回目录](#目录)
+<h2 id='11'>L</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | LASTDATE | 返回当前上下文中指定日期列的最后一个日期。 | [中文](https://learn.microsoft.com/zh-cn/dax/lastdate-function-dax) [英文](https://learn.microsoft.com/en-us/dax/lastdate-function-dax) [SQLBI](https://dax.guide/lastdate/) |
@@ -229,8 +230,8 @@
 | LOG10 | 返回某一数字以 10 为底的对数。 | [中文](https://learn.microsoft.com/zh-cn/dax/log10-function-dax) [英文](https://learn.microsoft.com/en-us/dax/log10-function-dax) [SQLBI](https://dax.guide/log10/) |
 | LOOKUPVALUE | 返回满足一个或多个搜索条件所指定的所有条件的行的值。 | [中文](https://learn.microsoft.com/zh-cn/dax/lookupvalue-function-dax) [英文](https://learn.microsoft.com/en-us/dax/lookupvalue-function-dax) [SQLBI](https://dax.guide/lookupvalue/) |
 | LOWER | 将文本字符串中的所有字母都转换为小写。 | [中文](https://learn.microsoft.com/zh-cn/dax/lower-function-dax) [英文](https://learn.microsoft.com/en-us/dax/lower-function-dax) [SQLBI](https://dax.guide/lower/) |
-## M
-[返回目录](#目录)
+<h2 id='12'>M</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | MAX | 返回列中或两个标量表达式之间的最大值。 | [中文](https://learn.microsoft.com/zh-cn/dax/max-function-dax) [英文](https://learn.microsoft.com/en-us/dax/max-function-dax) [SQLBI](https://dax.guide/max/) |
@@ -247,8 +248,8 @@
 | MOD | 返回一个被除数除以一个除数后所得的余数。 | [中文](https://learn.microsoft.com/zh-cn/dax/mod-function-dax) [英文](https://learn.microsoft.com/en-us/dax/mod-function-dax) [SQLBI](https://dax.guide/mod/) |
 | MONTH | 以数字形式返回月份值，1（一月）到 12（十二月）之间的数字。 | [中文](https://learn.microsoft.com/zh-cn/dax/month-function-dax) [英文](https://learn.microsoft.com/en-us/dax/month-function-dax) [SQLBI](https://dax.guide/month/) |
 | MROUND | 返回舍入到所需倍数的一个数字。 | [中文](https://learn.microsoft.com/zh-cn/dax/mround-function-dax) [英文](https://learn.microsoft.com/en-us/dax/mround-function-dax) [SQLBI](https://dax.guide/mround/) |
-## N
-[返回目录](#目录)
+<h2 id='13'>N</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | NATURALINNERJOIN | 执行一个表与另一个表的内部联接。 | [中文](https://learn.microsoft.com/zh-cn/dax/naturalinnerjoin-function-dax) [英文](https://learn.microsoft.com/en-us/dax/naturalinnerjoin-function-dax) [SQLBI](https://dax.guide/naturalinnerjoin/) |
@@ -267,8 +268,8 @@
 | NOT | 将 FALSE 更改为 TRUE，或者将 TRUE 更改为 FALSE。 | [中文](https://learn.microsoft.com/zh-cn/dax/not-function-dax) [英文](https://learn.microsoft.com/en-us/dax/not-function-dax) [SQLBI](https://dax.guide/not/) |
 | NOW | 以日期/时间格式返回当前日期和时间  。 | [中文](https://learn.microsoft.com/zh-cn/dax/now-function-dax) [英文](https://learn.microsoft.com/en-us/dax/now-function-dax) [SQLBI](https://dax.guide/now/) |
 | NPER | 返回基于定期固定付款和固定利率计算得出的投资周期数。 | [中文](https://learn.microsoft.com/zh-cn/dax/nper-function-dax) [英文](https://learn.microsoft.com/en-us/dax/nper-function-dax) [SQLBI](https://dax.guide/nper/) |
-## O
-[返回目录](#目录)
+<h2 id='14'>O</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | ODD | 返回向上舍入到最接近的奇数的数字。 | [中文](https://learn.microsoft.com/zh-cn/dax/odd-function-dax) [英文](https://learn.microsoft.com/en-us/dax/odd-function-dax) [SQLBI](https://dax.guide/odd/) |
@@ -282,8 +283,8 @@
 | OPENINGBALANCEYEAR | 计算当前上下文中该年份第一个日期的表达式  。 | [中文](https://learn.microsoft.com/zh-cn/dax/openingbalanceyear-function-dax) [英文](https://learn.microsoft.com/en-us/dax/openingbalanceyear-function-dax) [SQLBI](https://dax.guide/openingbalanceyear/) |
 | OR | 检查某一个参数是否为 TRUE，如果是，则返回 TRUE。 | [中文](https://learn.microsoft.com/zh-cn/dax/or-function-dax) [英文](https://learn.microsoft.com/en-us/dax/or-function-dax) [SQLBI](https://dax.guide/or/) |
 | ORDERBY | 定义用于确定每个窗口函数分区内排序顺序的列。 | [中文](https://learn.microsoft.com/zh-cn/dax/orderby-function-dax) [英文](https://learn.microsoft.com/en-us/dax/orderby-function-dax) [SQLBI](https://dax.guide/orderby/) |
-## P
-[返回目录](#目录)
+<h2 id='15'>P</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | PARALLELPERIOD | 返回一个表，此表包含一列日期，表示与当前上下文中指定的 dates 列中的日期平行的时间段，日期是按间隔数向未来推移或者向过去推移的  。 | [中文](https://learn.microsoft.com/zh-cn/dax/parallelperiod-function-dax) [英文](https://learn.microsoft.com/en-us/dax/parallelperiod-function-dax) [SQLBI](https://dax.guide/parallelperiod/) |
@@ -314,14 +315,14 @@
 | PRODUCT | 返回列中的数的乘积。 | [中文](https://learn.microsoft.com/zh-cn/dax/product-function-dax) [英文](https://learn.microsoft.com/en-us/dax/product-function-dax) [SQLBI](https://dax.guide/product/) |
 | PRODUCTX | 返回为表中的每一行计算的表达式的积。 | [中文](https://learn.microsoft.com/zh-cn/dax/productx-function-dax) [英文](https://learn.microsoft.com/en-us/dax/productx-function-dax) [SQLBI](https://dax.guide/productx/) |
 | PV | 根据固定利率计算贷款或投资的现值。 | [中文](https://learn.microsoft.com/zh-cn/dax/pv-function-dax) [英文](https://learn.microsoft.com/en-us/dax/pv-function-dax) [SQLBI](https://dax.guide/pv/) |
-## Q
-[返回目录](#目录)
+<h2 id='16'>Q</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | QUARTER | 将季度返回为从 1（一月 - 三月）到 4（十月 - 十二月）之间的数值。 | [中文](https://learn.microsoft.com/zh-cn/dax/quarter-function-dax) [英文](https://learn.microsoft.com/en-us/dax/quarter-function-dax) [SQLBI](https://dax.guide/quarter/) |
 | QUOTIENT | 执行除法运算，并仅返回除法运算结果的整数部分。 | [中文](https://learn.microsoft.com/zh-cn/dax/quotient-function-dax) [英文](https://learn.microsoft.com/en-us/dax/quotient-function-dax) [SQLBI](https://dax.guide/quotient/) |
-## R
-[返回目录](#目录)
+<h2 id='17'>R</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | RADIANS | 将度转换为弧度。 | [中文](https://learn.microsoft.com/zh-cn/dax/radians-function-dax) [英文](https://learn.microsoft.com/en-us/dax/radians-function-dax) [SQLBI](https://dax.guide/radians/) |
@@ -346,8 +347,8 @@
 | ROUNDUP | 按远离 0（零）的方向向上舍入某一数字。 | [中文](https://learn.microsoft.com/zh-cn/dax/roundup-function-dax) [英文](https://learn.microsoft.com/en-us/dax/roundup-function-dax) [SQLBI](https://dax.guide/roundup/) |
 | ROW | 返回一个具有单行的表，其中包含针对每一列计算表达式得出的值。 | [中文](https://learn.microsoft.com/zh-cn/dax/row-function-dax) [英文](https://learn.microsoft.com/en-us/dax/row-function-dax) [SQLBI](https://dax.guide/row/) |
 | RRI | 返回投资增长的等效利率。 | [中文](https://learn.microsoft.com/zh-cn/dax/rri-function-dax) [英文](https://learn.microsoft.com/en-us/dax/rri-function-dax) [SQLBI](https://dax.guide/rri/) |
-## S
-[返回目录](#目录)
+<h2 id='18'>S</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | SAMEPERIODLASTYEAR | 返回一个表，其中包含指定 dates 列中的日期在当前上下文中前一年的日期列  。 | [中文](https://learn.microsoft.com/zh-cn/dax/sameperiodlastyear-function-dax) [英文](https://learn.microsoft.com/en-us/dax/sameperiodlastyear-function-dax) [SQLBI](https://dax.guide/sameperiodlastyear/) |
@@ -380,8 +381,8 @@
 | SUMX | 返回为表中的每一行计算的表达式的和。 | [中文](https://learn.microsoft.com/zh-cn/dax/sumx-function-dax) [英文](https://learn.microsoft.com/en-us/dax/sumx-function-dax) [SQLBI](https://dax.guide/sumx/) |
 | SWITCH | 针对值列表计算表达式，并返回多个可能的结果表达式之一。 | [中文](https://learn.microsoft.com/zh-cn/dax/switch-function-dax) [英文](https://learn.microsoft.com/en-us/dax/switch-function-dax) [SQLBI](https://dax.guide/switch/) |
 | SYD | 返回指定期间内资产的年限总额折旧。 | [中文](https://learn.microsoft.com/zh-cn/dax/syd-function-dax) [英文](https://learn.microsoft.com/en-us/dax/syd-function-dax) [SQLBI](https://dax.guide/syd/) |
-## T
-[返回目录](#目录)
+<h2 id='19'>T</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | T.DIST | 返回学生的左尾 t 分布。 | [中文](https://learn.microsoft.com/zh-cn/dax/t-dist-dax) [英文](https://learn.microsoft.com/en-us/dax/t-dist-dax) [SQLBI](https://dax.guide/t.dist/) |
@@ -408,8 +409,8 @@
 | TRUE | 返回逻辑值 TRUE。 | [中文](https://learn.microsoft.com/zh-cn/dax/true-function-dax) [英文](https://learn.microsoft.com/en-us/dax/true-function-dax) [SQLBI](https://dax.guide/true/) |
 | TRUNC | 通过删除数字的小数或分数部分将数字截断为整数。 | [中文](https://learn.microsoft.com/zh-cn/dax/trunc-function-dax) [英文](https://learn.microsoft.com/en-us/dax/trunc-function-dax) [SQLBI](https://dax.guide/trunc/) |
 | Table constructor | 返回包含一列或多列的表。 | [中文](https://learn.microsoft.com/zh-cn/dax/table-constructor) [英文](https://learn.microsoft.com/en-us/dax/table-constructor) [SQLBI](https://dax.guide/table constructor/) |
-## U
-[返回目录](#目录)
+<h2 id='20'>U</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | UNICHAR | 返回由数值引用的 Unicode 字符。 | [中文](https://learn.microsoft.com/zh-cn/dax/unichar-function-dax) [英文](https://learn.microsoft.com/en-us/dax/unichar-function-dax) [SQLBI](https://dax.guide/unichar/) |
@@ -423,8 +424,8 @@
 | USERPRINCIPALNAME | 返回用户主体名称。 | [中文](https://learn.microsoft.com/zh-cn/dax/userprincipalname-function-dax) [英文](https://learn.microsoft.com/en-us/dax/userprincipalname-function-dax) [SQLBI](https://dax.guide/userprincipalname/) |
 | UTCNOW | 返回当前的 UTC 日期和时间。 | [中文](https://learn.microsoft.com/zh-cn/dax/utcnow-function-dax) [英文](https://learn.microsoft.com/en-us/dax/utcnow-function-dax) [SQLBI](https://dax.guide/utcnow/) |
 | UTCTODAY | 返回当前的 UTC 日期。 | [中文](https://learn.microsoft.com/zh-cn/dax/utctoday-function-dax) [英文](https://learn.microsoft.com/en-us/dax/utctoday-function-dax) [SQLBI](https://dax.guide/utctoday/) |
-## V
-[返回目录](#目录)
+<h2 id='21'>V</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | VALUE | 将表示数值的文本字符串转换为数值。 | [中文](https://learn.microsoft.com/zh-cn/dax/value-function-dax) [英文](https://learn.microsoft.com/en-us/dax/value-function-dax) [SQLBI](https://dax.guide/value/) |
@@ -434,21 +435,21 @@
 | VARX.P | 返回整个总体的方差。 | [中文](https://learn.microsoft.com/zh-cn/dax/varx-p-function-dax) [英文](https://learn.microsoft.com/en-us/dax/varx-p-function-dax) [SQLBI](https://dax.guide/varx.p/) |
 | VARX.S | 返回样本总体的方差。 | [中文](https://learn.microsoft.com/zh-cn/dax/varx-s-function-dax) [英文](https://learn.microsoft.com/en-us/dax/varx-s-function-dax) [SQLBI](https://dax.guide/varx.s/) |
 | VDB | 使用双倍余额递减法或你指定的其他一些方法，返回你指定的任何期间（包括部分期间）的资产折旧。 | [中文](https://learn.microsoft.com/zh-cn/dax/vdb-function-dax) [英文](https://learn.microsoft.com/en-us/dax/vdb-function-dax) [SQLBI](https://dax.guide/vdb/) |
-## W
-[返回目录](#目录)
+<h2 id='22'>W</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | WEEKDAY | 返回指示日期属于星期几的数字，1 到 7 之间的数字。 | [中文](https://learn.microsoft.com/zh-cn/dax/weekday-function-dax) [英文](https://learn.microsoft.com/en-us/dax/weekday-function-dax) [SQLBI](https://dax.guide/weekday/) |
 | WEEKNUM | 根据 return_type 值返回给定日期的周数。 | [中文](https://learn.microsoft.com/zh-cn/dax/weeknum-function-dax) [英文](https://learn.microsoft.com/en-us/dax/weeknum-function-dax) [SQLBI](https://dax.guide/weeknum/) |
 | WINDOW | 返回位于给定间隔内的多个行。 | [中文](https://learn.microsoft.com/zh-cn/dax/window-function-dax) [英文](https://learn.microsoft.com/en-us/dax/window-function-dax) [SQLBI](https://dax.guide/window/) |
-## X
-[返回目录](#目录)
+<h2 id='23'>X</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | XIRR | 返回不一定具有周期性的现金流时间表的内部收益率。 | [中文](https://learn.microsoft.com/zh-cn/dax/xirr-function-dax) [英文](https://learn.microsoft.com/en-us/dax/xirr-function-dax) [SQLBI](https://dax.guide/xirr/) |
 | XNPV | 返回不一定具有周期性的现金流时间表的现值。 | [中文](https://learn.microsoft.com/zh-cn/dax/xnpv-function-dax) [英文](https://learn.microsoft.com/en-us/dax/xnpv-function-dax) [SQLBI](https://dax.guide/xnpv/) |
-## Y
-[返回目录](#目录)
+<h2 id='24'>Y</h2>
+<a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | YEAR | 返回日期的年份，1900 到 9999 之间的四位整数。 | [中文](https://learn.microsoft.com/zh-cn/dax/year-function-dax) [英文](https://learn.microsoft.com/en-us/dax/year-function-dax) [SQLBI](https://dax.guide/year/) |

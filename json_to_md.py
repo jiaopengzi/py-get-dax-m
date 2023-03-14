@@ -32,9 +32,11 @@ class JTM(object):
         :return: 更新后的 md_list
         """
         line = ""
-        md_list.append("## 目录")
+        md_list.append('<h2 id="home"><a href="https://jiaopengzi.com/" class="a-button">点击返回主页</a></h2>')
+        md_list.append('<h2 id="content">目录</h2>')
         for index, c in enumerate(category):
-            text = f"**[{index + 1}-{c}](#{index + 1}-{c})**"
+            # text = f"**[{index + 1}、{c}](#{index + 1}-{c})**"
+            text = f'**<a href="#{index + 1}">{index + 1}、{c}]</a>**'
             count = len(category)
             col = index % cols
             rows = len(category) // cols
@@ -49,7 +51,7 @@ class JTM(object):
             elif col == 2:
                 line = f'{line}| {text} |'
                 md_list.append(line)
-        md_list.insert(3, self.table_mark3)
+        md_list.insert(4, self.table_mark3)
         return md_list
 
     @staticmethod
@@ -62,9 +64,10 @@ class JTM(object):
         """
         line = ""
         # 设置目录标题
-        md_list.append("## 目录")
-        for c in category:
-            line = f"{line}**[{c}](#{c})** "
+        md_list.append('<h2 id="home"><a href="https://jiaopengzi.com/" class="a-button">点击返回主页</a></h2>')
+        md_list.append('<h2 id="content">目录</h2>')
+        for index, c in enumerate(category):
+            line = f'{line}**<a href="#{index + 1}" >{c}</a>** '
         md_list.append(line)
         return md_list
 
@@ -86,19 +89,20 @@ class JTM(object):
 
         for index, c in enumerate(category):
             # 换行显示目录返回锚点
-            h2 = f"## {index + 1}-{c}\n[返回目录](#目录)"
-            md_list.append(h2) # 二级标题
+            h2 = f"<h2 id='{index + 1}'>{index + 1}、{c}</h2>\n<a href='#content'>返回目录</a>"
+            md_list.append(h2)  # 二级标题
             md_list.append(self.field_fun3)
             md_list.append(self.table_mark3)
             for key in m_dic:
                 if m_dic[key]["category-zh-cn"] == c:
                     # 描述中只取第一句简单介绍。
-                    des = f'{m_dic[key]["description-zh-cn"].split("。")[0]}。'
+                    des = m_dic[key]["description-zh-cn"].replace("\n", " ").strip()
+                    des = f'{des.split("。")[0]}。'
                     line_n = f'| {key} | {des} | [中文]({m_dic[key]["url-zh-cn"]}) [英文]({m_dic[key]["url-en-us"]}) |'
                     # line_n = line_n.replace("\n", " ")
                     md_list.append(line_n)
 
-        path_md = os.path.join(Utils.base_dir(), "m_category.md")
+        path_md = os.path.join(Utils.base_dir(), "m-category.md")
         md_str = "\n".join(md_list)
         return Utils.write_str_in_file(path_md, md_str)
 
@@ -116,20 +120,21 @@ class JTM(object):
         md_list = [h1]
         category = {key[0].upper(): "category" for key in keys}
         md_list = self.contents_capital(category, md_list)
-        for capital in category:
+        for index, capital in enumerate(category):
             # 换行显示目录返回锚点
-            h2 = f"## {capital}\n[返回目录](#目录)"
+            h2 = f"<h2 id='{index + 1}'>{capital}</h2>\n<a href='#content'>返回目录</a>"
             md_list.append(h2)
             md_list.append(self.field_fun3)
             md_list.append(self.table_mark3)
             for key in keys:
                 if key[0].upper() == capital:
                     # 描述中只取第一句简单介绍。
-                    des = f'{m_dic[key]["description-zh-cn"].split("。")[0]}。'
+                    des = m_dic[key]["description-zh-cn"].replace("\n", " ").strip()
+                    des = f'{des.split("。")[0]}。'
                     line_n = f'| {key} | {des} | [中文]({m_dic[key]["url-zh-cn"]}) [英文]({m_dic[key]["url-en-us"]}) |'
                     md_list.append(line_n)
 
-        path_md = os.path.join(Utils.base_dir(), "m_sort.md")
+        path_md = os.path.join(Utils.base_dir(), "m-sort.md")
         md_str = "\n".join(md_list)
         return Utils.write_str_in_file(path_md, md_str)
 
@@ -150,18 +155,20 @@ class JTM(object):
 
         for index, c in enumerate(category):
             # 换行显示目录返回锚点
-            h2 = f"## {index + 1}-{c}\n[返回目录](#目录)"
+
+            h2 = f"<h2 id='{index + 1}'>{index + 1}、{c}</h2>\n<a href='#content'>返回目录</a>"
             md_list.append(h2)
             md_list.append(self.field_fun3)
             md_list.append(self.table_mark3)
             for key in dax_dic:
                 if dax_dic[key]["category-zh-cn"] == c:
                     # 描述中只取第一句简单介绍。
-                    des = f'{dax_dic[key]["description-zh-cn"].split("。")[0]}。'
+                    des = dax_dic[key]["description-zh-cn"].replace("\n", " ").strip()
+                    des = f'{des.split("。")[0]}。'
                     line_n = f'| {key} | {des} | [中文]({dax_dic[key]["url-zh-cn"]}) [英文]({dax_dic[key]["url-en-us"]}) [SQLBI]({dax_dic[key]["url-dax-guide"]}) |'
                     md_list.append(line_n)
 
-        path_md = os.path.join(Utils.base_dir(), "dax_category.md")
+        path_md = os.path.join(Utils.base_dir(), "dax-category.md")
         md_str = "\n".join(md_list)
         return Utils.write_str_in_file(path_md, md_str)
 
@@ -181,19 +188,20 @@ class JTM(object):
         category = {key[0].upper(): "category" for key in keys}
         md_list = self.contents_capital(category, md_list)
 
-        for capital in category:
-            h2 = f"## {capital}\n[返回目录](#目录)"
+        for index, capital in enumerate(category):
+            h2 = f"<h2 id='{index + 1}'>{capital}</h2>\n<a href='#content'>返回目录</a>"
             md_list.append(h2)
             md_list.append(self.field_fun3)
             md_list.append(self.table_mark3)
             for key in keys:
                 if key[0].upper() == capital:
                     # 描述中只取第一句简单介绍。
-                    des = f'{dax_dic[key]["description-zh-cn"].split("。")[0]}。'
+                    des = dax_dic[key]["description-zh-cn"].replace("\n"," ").strip()
+                    des = f'{des.split("。")[0]}。'
                     line_n = f'| {key} | {des} | [中文]({dax_dic[key]["url-zh-cn"]}) [英文]({dax_dic[key]["url-en-us"]}) [SQLBI]({dax_dic[key]["url-dax-guide"]}) |'
                     md_list.append(line_n)
 
-        path_md = os.path.join(Utils.base_dir(), "dax_sort.md")
+        path_md = os.path.join(Utils.base_dir(), "dax-sort.md")
         md_str = "\n".join(md_list)
         return Utils.write_str_in_file(path_md, md_str)
 

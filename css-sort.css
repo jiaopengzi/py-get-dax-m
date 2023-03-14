@@ -1,0 +1,35 @@
+/*========================================所有表格都按照如下比例显示 */
+td:nth-child(1) {
+  width: 25%;
+}
+
+/* td:nth-child(2) {
+  width: 60%;
+} */
+td:nth-child(3) {
+  width: 15%;
+}
+/*========================================所有表格都按照如下比例显示 */
+
+
+/*========================================返回主页的 a 标签的样式 */
+.a-button {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid #4c4c4c;
+  border-radius: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #fff;
+  color: #4c4c4c;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.a-button:hover {
+  background-color: #4c4c4c;
+  color: #fff;
+}
+/*========================================返回主页的 a 标签的样式 */
