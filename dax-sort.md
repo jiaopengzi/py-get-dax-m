@@ -1,5 +1,5 @@
 # DAX 函数文档(排序版)
-<h2 id="home"><a href="https://jiaopengzi.com/" class="a-button">点击返回主页</a></h2>
+<h2 id="home"><a href="https://jiaopengzi.com/doc" class="a-button">点击返回主页</a></h2>
 <h2 id="content">目录</h2>
 **<a href="#1" >A</a>** **<a href="#2" >B</a>** **<a href="#3" >C</a>** **<a href="#4" >D</a>** **<a href="#5" >E</a>** **<a href="#6" >F</a>** **<a href="#7" >G</a>** **<a href="#8" >H</a>** **<a href="#9" >I</a>** **<a href="#10" >K</a>** **<a href="#11" >L</a>** **<a href="#12" >M</a>** **<a href="#13" >N</a>** **<a href="#14" >O</a>** **<a href="#15" >P</a>** **<a href="#16" >Q</a>** **<a href="#17" >R</a>** **<a href="#18" >S</a>** **<a href="#19" >T</a>** **<a href="#20" >U</a>** **<a href="#21" >V</a>** **<a href="#22" >W</a>** **<a href="#23" >X</a>** **<a href="#24" >Y</a>** 
 <h2 id='1'>A</h2>

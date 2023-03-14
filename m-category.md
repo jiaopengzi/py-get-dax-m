@@ -1,5 +1,5 @@
 # Power Query M 函数文档(分类版)
-<h2 id="home"><a href="https://jiaopengzi.com/" class="a-button">点击返回主页</a></h2>
+<h2 id="home"><a href="https://jiaopengzi.com/doc" class="a-button">点击返回主页</a></h2>
 <h2 id="content">目录</h2>
 | **<a href="#1">1、数据访问函数]</a>** | **<a href="#2">2、文本函数]</a>** | **<a href="#3">3、二进制函数]</a>** |
 | :--: | :--: |:--: |

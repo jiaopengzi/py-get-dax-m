@@ -32,7 +32,7 @@ class JTM(object):
         :return: 更新后的 md_list
         """
         line = ""
-        md_list.append('<h2 id="home"><a href="https://jiaopengzi.com/" class="a-button">点击返回主页</a></h2>')
+        md_list.append('<h2 id="home"><a href="https://jiaopengzi.com/doc" class="a-button">点击返回主页</a></h2>')
         md_list.append('<h2 id="content">目录</h2>')
         for index, c in enumerate(category):
             # text = f"**[{index + 1}、{c}](#{index + 1}-{c})**"
@@ -64,7 +64,7 @@ class JTM(object):
         """
         line = ""
         # 设置目录标题
-        md_list.append('<h2 id="home"><a href="https://jiaopengzi.com/" class="a-button">点击返回主页</a></h2>')
+        md_list.append('<h2 id="home"><a href="https://jiaopengzi.com/doc" class="a-button">点击返回主页</a></h2>')
         md_list.append('<h2 id="content">目录</h2>')
         for index, c in enumerate(category):
             line = f'{line}**<a href="#{index + 1}" >{c}</a>** '
