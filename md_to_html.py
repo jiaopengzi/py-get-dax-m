@@ -22,6 +22,7 @@ def md_to_html(c_or_s: str, path_html_old: str, path_html_new: str) -> None:
     :return: None
     """
     u = Utils()
+
     # 读取 html
     html = u.read_file_to_str(path_html_old)
 
@@ -33,6 +34,15 @@ def md_to_html(c_or_s: str, path_html_old: str, path_html_new: str) -> None:
         path_css_sort = "css-sort.css"
         css = u.read_file_to_str(path_css_sort)
 
+    favicon = """
+        <link rel="shortcut icon" href="https://image.jiaopengzi.com/favicon.ico">
+    	<link rel="apple-touch-icon" sizes="114x114" href="https://image.jiaopengzi.com/favicon.ico">
+        """
+    # 加入 favicon
+    h_list = html.split("</head>")
+    h_list.insert(1, f"{favicon}</head>")
+    html = "".join(h_list)
+    
     # 找到 css 的最后结点增加 css
     h_list = html.split("</style>")
     h_list.insert(1, f"{css}</style>")
