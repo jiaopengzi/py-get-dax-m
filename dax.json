@@ -651,23 +651,23 @@
     "OFFSET": {
         "url-en-us": "https://learn.microsoft.com/en-us/dax/offset-function-dax",
         "url-zh-cn": "https://learn.microsoft.com/zh-cn/dax/offset-function-dax",
-        "description-en-us": "Returns a single row that is positioned either before or after the current row within the same table, by a given offset. If the current row cannot be deduced to a single row, multiple rows may be returned.\nIf there is exactly one corresponding outer column, its value is used.\nIf there is no corresponding outer column, then:\n\nOFFSET will first determine all <orderBy> and <partitionBy> columns that have no corresponding outer column.\nFor every combination of existing values for these columns in OFFSET’s parent context, OFFSET is evaluated and a row is returned.\nOFFSET’s final output is a union of these rows.\n\n\nIf there is more than one corresponding outer column, an error is returned.\n",
+        "description-en-us": "Returns a single row that is positioned either before or after the current row within the same table, by a given offset. If the current row cannot be deduced to a single row, multiple rows may be returned.\nIf there is exactly one corresponding outer column, its value is used.\nIf there is no corresponding outer column, then:\n\nOFFSET will first determine all columns that have no corresponding outer column.\nFor every combination of existing values for these columns in OFFSET’s parent context, OFFSET is evaluated and a row is returned.\nOFFSET’s final output is a union of these rows.\n\n\nIf there is more than one corresponding outer column, an error is returned.\n",
         "category-en-us": "Filter functions",
         "url-category-en-us": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
         "category-zh-cn": "筛选器函数",
         "url-category-zh-cn": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
-        "description-zh-cn": "返回一个行，该行位于同一表中的当前行之前或之后（按给定的偏移量）。 如果当前行无法推导为单行，则可能返回多行。\n如果正好有一个对应的外部列，则使用其值。\n如果没有对应的外部列，则：\nOFFSET 将首先确定没有相应外部列的所有 <orderBy> 和 <partitionBy> 列。\n对于 OFFSET 的父上下文中这些列的现有值的每个组合，将计算 OFFSET 并返回一行。\nOFFSET 的最终输出是这些行的并集。\n\n\n如果有多个对应的外部列，则会返回错误。\n",
+        "description-zh-cn": "返回一个行，该行位于同一表中的当前行之前或之后（按给定的偏移量）。 如果当前行无法推导为单行，则可能返回多行。\n如果正好有一个对应的外部列，则使用其值。\n如果没有对应的外部列，则：\nOFFSET 将首先确定没有对应外部列的所有列。\n对于 OFFSET 的父上下文中这些列的现有值的每个组合，将计算 OFFSET 并返回一行。\nOFFSET 的最终输出是这些行的并集。\n\n\n如果有多个对应的外部列，则会返回错误。\n",
         "url-dax-guide": "https://dax.guide/offset/"
     },
     "ORDERBY": {
         "url-en-us": "https://learn.microsoft.com/en-us/dax/orderby-function-dax",
         "url-zh-cn": "https://learn.microsoft.com/zh-cn/dax/orderby-function-dax",
-        "description-en-us": "Defines the columns that determine the sort order within each of a window function’s partitions.",
+        "description-en-us": "Defines the expressions that determine the sort order within each of a window function’s partitions.",
         "category-en-us": "Filter functions",
         "url-category-en-us": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
         "category-zh-cn": "筛选器函数",
         "url-category-zh-cn": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
-        "description-zh-cn": "定义用于确定每个窗口函数分区内排序顺序的列。",
+        "description-zh-cn": "定义用于确定每个 WINDOW 函数分区内排序顺序的表达式。",
         "url-dax-guide": "https://dax.guide/orderby/"
     },
     "PARTITIONBY": {
@@ -678,8 +678,19 @@
         "url-category-en-us": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
         "category-zh-cn": "筛选器函数",
         "url-category-zh-cn": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
-        "description-zh-cn": "Defines the columns that are used to partition a window function’s <relation> parameter.",
+        "description-zh-cn": "定义用于对 WINDOW 函数的 <relation> 参数进行分区的列。",
         "url-dax-guide": "https://dax.guide/partitionby/"
+    },
+    "RANK": {
+        "url-en-us": "https://learn.microsoft.com/en-us/dax/rank-function-dax",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/dax/rank-function-dax",
+        "description-en-us": "Returns the ranking for the current context within the specified partition, sorted by the specified order. If a match cannot be found then then rank is blank.\nEach <orderBy> and <partitionBy> column must have a corresponding outer value to help define the current row on which to operate, with the following behavior:\n\nIf there is exactly one corresponding outer column, its value is used.\nIf there is no corresponding outer column, then:\n\nRANK will first determine all <orderBy> and <partitionBy> columns that have no corresponding outer column.\nFor every combination of existing values for these columns in RANK parent context, RANK is evaluated and a row is returned.\nRANK’s final output is a rank number.\n\n\n\n\nIf the columns specified within <orderBy> and <partitionBy> can't uniquely identify every row in <relation>, then two or more rows may have the same ranking and the ranking will be determined by the ties parameter.\n\nRANK returns a blank value for total rows. It's recommended that you test your expression thoroughly.\n\nRANK does not compare to RANKX as SUM compares to SUMX.\n\n",
+        "category-en-us": "Filter functions",
+        "url-category-en-us": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
+        "category-zh-cn": "筛选器函数",
+        "url-category-zh-cn": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
+        "description-zh-cn": "返回当前上下文在指定分区内按指定顺序排序的级别。 如果找不到匹配项，则级别为空。\n每个 <orderBy> 和 <partitionBy> 列都必须具有相应的外部值，帮助定义要操作的当前行，其行为如下：\n\n如果正好有一个对应的外部列，则使用其值。\n如果没有对应的外部列，则：\nRANK 将首先确定没有相应外部列的所有 <orderBy> 和 <partitionBy> 列。\n对于 RANK 父上下文中这些列的现有值的每个组合，将计算 RANK 并返回一行。\nRANK 的最终输出是级别号。\n\n\n\n\n如果在 <orderBy> 和 <partitionBy> 中指定的列无法唯一标识 <relation> 中的每一行，则两行或更多行可能具有相同的级别，级别将由 ties 参数确定。\n\nRANK 返回总行数的空白值。 建议全面测试表达式。\n\nRANK 无法与 RANKX 进行比较，但 SUM 可与 SUMX 相比较。\n\n",
+        "url-dax-guide": "https://dax.guide/rank/"
     },
     "REMOVEFILTERS": {
         "url-en-us": "https://learn.microsoft.com/en-us/dax/removefilters-function-dax",
@@ -691,6 +702,17 @@
         "url-category-zh-cn": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
         "description-zh-cn": "从指定表或列中清除筛选器。\nREMOVEFILTERS 只能用于清除筛选器，不能返回表。\n\n在已计算的列或行级安全性 (RLS) 规则中使用时，不支持在 DirectQuery 模式下使用此函数。\n\n",
         "url-dax-guide": "https://dax.guide/removefilters/"
+    },
+    "ROWNUMBER": {
+        "url-en-us": "https://learn.microsoft.com/en-us/dax/rownumber-function-dax",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/dax/rownumber-function-dax",
+        "description-en-us": "Returns the unique ranking for the current context within the specified partition, sorted by the specified order. If a match cannot be found then then rownumber is blank.\nIf there is exactly one corresponding outer column, its value is used.\nIf there is no corresponding outer column, then:\n\nROWNUMBER will first determine all <orderBy> and <partitionBy> columns that have no corresponding outer column.\nFor every combination of existing values for these columns in ROWNUMBER parent context, ROWNUMBER is evaluated and a row is returned.\nROWNUMBER’s final output is a union of these rows.\n\n\nIf there is more than one corresponding outer column, an error is returned.\n",
+        "category-en-us": "Filter functions",
+        "url-category-en-us": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
+        "category-zh-cn": "筛选器函数",
+        "url-category-zh-cn": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
+        "description-zh-cn": "返回当前上下文在指定分区内按指定顺序排序的唯一级别。 如果找不到匹配项，则行号为空。\n如果正好有一个对应的外部列，则使用其值。\n如果没有对应的外部列，则：\nROWNUMBER 将首先确定没有相应外部列的所有 <orderBy> 和 <partitionBy> 列。\n对于 ROWNUMBER 父上下文中这些列的现有值的每个组合，将计算 ROWNUMBER 并返回一行。\nROWNUMBER 的最终输出是这些行的并集。\n\n\n如果有多个对应的外部列，则会返回错误。\n",
+        "url-dax-guide": "https://dax.guide/rownumber/"
     },
     "SELECTEDVALUE": {
         "url-en-us": "https://learn.microsoft.com/en-us/dax/selectedvalue-function",
@@ -706,12 +728,12 @@
     "WINDOW": {
         "url-en-us": "https://learn.microsoft.com/en-us/dax/window-function-dax",
         "url-zh-cn": "https://learn.microsoft.com/zh-cn/dax/window-function-dax",
-        "description-en-us": "Returns multiple rows which are positioned within the given interval.\nIf there is exactly one corresponding outer column, its value is used.\nIf there is no corresponding outer column:\n\nWINDOW will first determine all <orderBy> and <partitionBy> columns that have no corresponding outer column.\nFor every combination of existing values for these columns in WINDOW’s parent context, WINDOW is evaluated, and the corresponding rows is returned.\nWINDOW final output is a union of these rows.\n\n\nIf there is more than one corresponding outer column, an error is returned.\n",
+        "description-en-us": "Returns multiple rows which are positioned within the given interval.\nIf there is exactly one corresponding outer column, its value is used.\nIf there is no corresponding outer column:\n\nWINDOW will first determine all columns that have no corresponding outer column.\nFor every combination of existing values for these columns in WINDOW’s parent context, WINDOW is evaluated, and the corresponding rows is returned.\nWINDOW final output is a union of these rows.\n\n\nIf there is more than one corresponding outer column, an error is returned.\n",
         "category-en-us": "Filter functions",
         "url-category-en-us": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
         "category-zh-cn": "筛选器函数",
         "url-category-zh-cn": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
-        "description-zh-cn": "返回位于给定间隔内的多个行。\n如果正好有一个对应的外部列，则使用其值。\n如果没有对应的外部列：\nWINDOW 将首先确定没有相应外部列的所有 <orderBy> 和 <partitionBy> 列。\n对于 WINDOW 父上下文中这些列的现有值的每个组合，将计算 WINDOW，并返回相应的行。\nWINDOW 的最终输出是这些行的并集。\n\n\n如果有多个对应的外部列，则会返回错误。\n",
+        "description-zh-cn": "返回位于给定间隔内的多个行。\n如果正好有一个对应的外部列，则使用其值。\n如果没有对应的外部列：\nWINDOW 将首先确定没有对应外部列的所有列。\n对于 WINDOW 父上下文中这些列的现有值的每个组合，将计算 WINDOW，并返回相应的行。\nWINDOW 的最终输出是这些行的并集。\n\n\n如果有多个对应的外部列，则会返回错误。\n",
         "url-dax-guide": "https://dax.guide/window/"
     },
     "ACCRINT": {

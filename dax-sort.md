@@ -1,7 +1,7 @@
 # DAX 函数文档(首字母排序版)
 <h2 id="home"><a href="https://jiaopengzi.com/doc" class="a-button">点击返回主页</a></h2><span id="jiaopengzi"><a href="https://jiaopengzi.com/">焦棚子</a>整理</span>
 <h2 id="content">目录</h2>
-**<a href="#1" >A(25)</a>** **<a href="#2" >B(8)</a>** **<a href="#3" >C(49)</a>** **<a href="#4" >D(24)</a>** **<a href="#5" >E(15)</a>** **<a href="#6" >F(12)</a>** **<a href="#7" >G(7)</a>** **<a href="#8" >H(3)</a>** **<a href="#9" >I(27)</a>** **<a href="#10" >K(1)</a>** **<a href="#11" >L(13)</a>** **<a href="#12" >M(14)</a>** **<a href="#13" >N(16)</a>** **<a href="#14" >O(11)</a>** **<a href="#15" >P(28)</a>** **<a href="#16" >Q(2)</a>** **<a href="#17" >R(22)</a>** **<a href="#18" >S(30)</a>** **<a href="#19" >T(24)</a>** **<a href="#20" >U(11)</a>** **<a href="#21" >V(7)</a>** **<a href="#22" >W(3)</a>** **<a href="#23" >X(2)</a>** **<a href="#24" >Y(5)</a>** 
+**<a href="#1" >A(25)</a>** **<a href="#2" >B(8)</a>** **<a href="#3" >C(49)</a>** **<a href="#4" >D(24)</a>** **<a href="#5" >E(15)</a>** **<a href="#6" >F(12)</a>** **<a href="#7" >G(7)</a>** **<a href="#8" >H(3)</a>** **<a href="#9" >I(27)</a>** **<a href="#10" >K(1)</a>** **<a href="#11" >L(13)</a>** **<a href="#12" >M(14)</a>** **<a href="#13" >N(16)</a>** **<a href="#14" >O(11)</a>** **<a href="#15" >P(28)</a>** **<a href="#16" >Q(2)</a>** **<a href="#17" >R(24)</a>** **<a href="#18" >S(30)</a>** **<a href="#19" >T(24)</a>** **<a href="#20" >U(11)</a>** **<a href="#21" >V(7)</a>** **<a href="#22" >W(3)</a>** **<a href="#23" >X(2)</a>** **<a href="#24" >Y(5)</a>** 
 <h2 id='1'>A</h2>
 <a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
@@ -282,13 +282,13 @@
 | OPENINGBALANCEQUARTER | 计算当前上下文中该季度第一个日期的表达式  。 | [中文](https://learn.microsoft.com/zh-cn/dax/openingbalancequarter-function-dax) [英文](https://learn.microsoft.com/en-us/dax/openingbalancequarter-function-dax) [SQLBI](https://dax.guide/openingbalancequarter/) |
 | OPENINGBALANCEYEAR | 计算当前上下文中该年份第一个日期的表达式  。 | [中文](https://learn.microsoft.com/zh-cn/dax/openingbalanceyear-function-dax) [英文](https://learn.microsoft.com/en-us/dax/openingbalanceyear-function-dax) [SQLBI](https://dax.guide/openingbalanceyear/) |
 | OR | 检查某一个参数是否为 TRUE，如果是，则返回 TRUE。 | [中文](https://learn.microsoft.com/zh-cn/dax/or-function-dax) [英文](https://learn.microsoft.com/en-us/dax/or-function-dax) [SQLBI](https://dax.guide/or/) |
-| ORDERBY | 定义用于确定每个窗口函数分区内排序顺序的列。 | [中文](https://learn.microsoft.com/zh-cn/dax/orderby-function-dax) [英文](https://learn.microsoft.com/en-us/dax/orderby-function-dax) [SQLBI](https://dax.guide/orderby/) |
+| ORDERBY | 定义用于确定每个 WINDOW 函数分区内排序顺序的表达式。 | [中文](https://learn.microsoft.com/zh-cn/dax/orderby-function-dax) [英文](https://learn.microsoft.com/en-us/dax/orderby-function-dax) [SQLBI](https://dax.guide/orderby/) |
 <h2 id='15'>P</h2>
 <a href='#content'>返回目录</a>
 | 函数名称 | 描述 | 链接 |
 | :--: | :--: |:--: |
 | PARALLELPERIOD | 返回一个表，此表包含一列日期，表示与当前上下文中指定的 dates 列中的日期平行的时间段，日期是按间隔数向未来推移或者向过去推移的  。 | [中文](https://learn.microsoft.com/zh-cn/dax/parallelperiod-function-dax) [英文](https://learn.microsoft.com/en-us/dax/parallelperiod-function-dax) [SQLBI](https://dax.guide/parallelperiod/) |
-| PARTITIONBY | Defines the columns that are used to partition a window function’s <relation> parameter.。 | [中文](https://learn.microsoft.com/zh-cn/dax/partitionby-function-dax) [英文](https://learn.microsoft.com/en-us/dax/partitionby-function-dax) [SQLBI](https://dax.guide/partitionby/) |
+| PARTITIONBY | 定义用于对 WINDOW 函数的 <relation> 参数进行分区的列。 | [中文](https://learn.microsoft.com/zh-cn/dax/partitionby-function-dax) [英文](https://learn.microsoft.com/en-us/dax/partitionby-function-dax) [SQLBI](https://dax.guide/partitionby/) |
 | PATH | 返回一个带分隔符的文本字符串，其中包含当前标识符的所有父级的标识符，从最早的父级开始，一直持续到当前。 | [中文](https://learn.microsoft.com/zh-cn/dax/path-function-dax) [英文](https://learn.microsoft.com/en-us/dax/path-function-dax) [SQLBI](https://dax.guide/path/) |
 | PATHCONTAINS | 如果指定的路径中存在指定的项，则返回 TRUE。 | [中文](https://learn.microsoft.com/zh-cn/dax/pathcontains-function-dax) [英文](https://learn.microsoft.com/en-us/dax/pathcontains-function-dax) [SQLBI](https://dax.guide/pathcontains/) |
 | PATHITEM | 从 PATH 函数的计算结果得到的字符串，返回指定位置处的项  。 | [中文](https://learn.microsoft.com/zh-cn/dax/pathitem-function-dax) [英文](https://learn.microsoft.com/en-us/dax/pathitem-function-dax) [SQLBI](https://dax.guide/pathitem/) |
@@ -328,6 +328,7 @@
 | RADIANS | 将度转换为弧度。 | [中文](https://learn.microsoft.com/zh-cn/dax/radians-function-dax) [英文](https://learn.microsoft.com/en-us/dax/radians-function-dax) [SQLBI](https://dax.guide/radians/) |
 | RAND | 返回大于或等于 0 并且小于 1 的随机数字（平均分布）。 | [中文](https://learn.microsoft.com/zh-cn/dax/rand-function-dax) [英文](https://learn.microsoft.com/en-us/dax/rand-function-dax) [SQLBI](https://dax.guide/rand/) |
 | RANDBETWEEN | 返回指定的两个数值之间的一个随机数。 | [中文](https://learn.microsoft.com/zh-cn/dax/randbetween-function-dax) [英文](https://learn.microsoft.com/en-us/dax/randbetween-function-dax) [SQLBI](https://dax.guide/randbetween/) |
+| RANK | 返回当前上下文在指定分区内按指定顺序排序的级别。 | [中文](https://learn.microsoft.com/zh-cn/dax/rank-function-dax) [英文](https://learn.microsoft.com/en-us/dax/rank-function-dax) [SQLBI](https://dax.guide/rank/) |
 | RANK.EQ | 返回某个数字在数字列表中的排名。 | [中文](https://learn.microsoft.com/zh-cn/dax/rank-eq-function-dax) [英文](https://learn.microsoft.com/en-us/dax/rank-eq-function-dax) [SQLBI](https://dax.guide/rank.eq/) |
 | RANKX | 针对 table 参数中每一行，返回某个数字在数字列表中的排名  。 | [中文](https://learn.microsoft.com/zh-cn/dax/rankx-function-dax) [英文](https://learn.microsoft.com/en-us/dax/rankx-function-dax) [SQLBI](https://dax.guide/rankx/) |
 | RATE | 返回年金的每个周期的利率。 | [中文](https://learn.microsoft.com/zh-cn/dax/rate-function-dax) [英文](https://learn.microsoft.com/en-us/dax/rate-function-dax) [SQLBI](https://dax.guide/rate/) |
@@ -346,6 +347,7 @@
 | ROUNDDOWN | 向零的方向向下舍入某一数字。 | [中文](https://learn.microsoft.com/zh-cn/dax/rounddown-function-dax) [英文](https://learn.microsoft.com/en-us/dax/rounddown-function-dax) [SQLBI](https://dax.guide/rounddown/) |
 | ROUNDUP | 按远离 0（零）的方向向上舍入某一数字。 | [中文](https://learn.microsoft.com/zh-cn/dax/roundup-function-dax) [英文](https://learn.microsoft.com/en-us/dax/roundup-function-dax) [SQLBI](https://dax.guide/roundup/) |
 | ROW | 返回一个具有单行的表，其中包含针对每一列计算表达式得出的值。 | [中文](https://learn.microsoft.com/zh-cn/dax/row-function-dax) [英文](https://learn.microsoft.com/en-us/dax/row-function-dax) [SQLBI](https://dax.guide/row/) |
+| ROWNUMBER | 返回当前上下文在指定分区内按指定顺序排序的唯一级别。 | [中文](https://learn.microsoft.com/zh-cn/dax/rownumber-function-dax) [英文](https://learn.microsoft.com/en-us/dax/rownumber-function-dax) [SQLBI](https://dax.guide/rownumber/) |
 | RRI | 返回投资增长的等效利率。 | [中文](https://learn.microsoft.com/zh-cn/dax/rri-function-dax) [英文](https://learn.microsoft.com/en-us/dax/rri-function-dax) [SQLBI](https://dax.guide/rri/) |
 <h2 id='18'>S</h2>
 <a href='#content'>返回目录</a>

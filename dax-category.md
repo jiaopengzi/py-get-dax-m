@@ -1,7 +1,7 @@
 # DAX 函数文档(功能分类版)
 <h2 id="home"><a href="https://jiaopengzi.com/doc" class="a-button">点击返回主页</a></h2><span id="jiaopengzi"><a href="https://jiaopengzi.com/">焦棚子</a>整理</span>
 <h2 id="content">目录</h2>
-| **<a href="#1">1、聚合函数(22)</a>** | **<a href="#2">2、日期和时间函数(24)</a>** | **<a href="#3">3、筛选器函数(19)</a>** |
+| **<a href="#1">1、聚合函数(22)</a>** | **<a href="#2">2、日期和时间函数(24)</a>** | **<a href="#3">3、筛选器函数(21)</a>** |
 | :--: | :--: |:--: |
 | **<a href="#4">4、财务函数(51)</a>** | **<a href="#5">5、信息函数(32)</a>** | **<a href="#6">6、逻辑函数(15)</a>** |
 | **<a href="#7">7、数学和三角函数(49)</a>** | **<a href="#8">8、其他函数(5)</a>** | **<a href="#9">9、父函数和子函数(5)</a>** |
@@ -79,9 +79,11 @@
 | KEEPFILTERS | 计算 CALCULATE 或 CALCULATETABLE 函数时，修改应用筛选器的方式。 | [中文](https://learn.microsoft.com/zh-cn/dax/keepfilters-function-dax) [英文](https://learn.microsoft.com/en-us/dax/keepfilters-function-dax) [SQLBI](https://dax.guide/keepfilters/) |
 | LOOKUPVALUE | 返回满足一个或多个搜索条件所指定的所有条件的行的值。 | [中文](https://learn.microsoft.com/zh-cn/dax/lookupvalue-function-dax) [英文](https://learn.microsoft.com/en-us/dax/lookupvalue-function-dax) [SQLBI](https://dax.guide/lookupvalue/) |
 | OFFSET | 返回一个行，该行位于同一表中的当前行之前或之后（按给定的偏移量）。 | [中文](https://learn.microsoft.com/zh-cn/dax/offset-function-dax) [英文](https://learn.microsoft.com/en-us/dax/offset-function-dax) [SQLBI](https://dax.guide/offset/) |
-| ORDERBY | 定义用于确定每个窗口函数分区内排序顺序的列。 | [中文](https://learn.microsoft.com/zh-cn/dax/orderby-function-dax) [英文](https://learn.microsoft.com/en-us/dax/orderby-function-dax) [SQLBI](https://dax.guide/orderby/) |
-| PARTITIONBY | Defines the columns that are used to partition a window function’s <relation> parameter.。 | [中文](https://learn.microsoft.com/zh-cn/dax/partitionby-function-dax) [英文](https://learn.microsoft.com/en-us/dax/partitionby-function-dax) [SQLBI](https://dax.guide/partitionby/) |
+| ORDERBY | 定义用于确定每个 WINDOW 函数分区内排序顺序的表达式。 | [中文](https://learn.microsoft.com/zh-cn/dax/orderby-function-dax) [英文](https://learn.microsoft.com/en-us/dax/orderby-function-dax) [SQLBI](https://dax.guide/orderby/) |
+| PARTITIONBY | 定义用于对 WINDOW 函数的 <relation> 参数进行分区的列。 | [中文](https://learn.microsoft.com/zh-cn/dax/partitionby-function-dax) [英文](https://learn.microsoft.com/en-us/dax/partitionby-function-dax) [SQLBI](https://dax.guide/partitionby/) |
+| RANK | 返回当前上下文在指定分区内按指定顺序排序的级别。 | [中文](https://learn.microsoft.com/zh-cn/dax/rank-function-dax) [英文](https://learn.microsoft.com/en-us/dax/rank-function-dax) [SQLBI](https://dax.guide/rank/) |
 | REMOVEFILTERS | 从指定表或列中清除筛选器。 | [中文](https://learn.microsoft.com/zh-cn/dax/removefilters-function-dax) [英文](https://learn.microsoft.com/en-us/dax/removefilters-function-dax) [SQLBI](https://dax.guide/removefilters/) |
+| ROWNUMBER | 返回当前上下文在指定分区内按指定顺序排序的唯一级别。 | [中文](https://learn.microsoft.com/zh-cn/dax/rownumber-function-dax) [英文](https://learn.microsoft.com/en-us/dax/rownumber-function-dax) [SQLBI](https://dax.guide/rownumber/) |
 | SELECTEDVALUE | 如果筛选 columnName 的上下文后仅剩下一个非重复值，则返回该值。 | [中文](https://learn.microsoft.com/zh-cn/dax/selectedvalue-function) [英文](https://learn.microsoft.com/en-us/dax/selectedvalue-function) [SQLBI](https://dax.guide/selectedvalue/) |
 | WINDOW | 返回位于给定间隔内的多个行。 | [中文](https://learn.microsoft.com/zh-cn/dax/window-function-dax) [英文](https://learn.microsoft.com/en-us/dax/window-function-dax) [SQLBI](https://dax.guide/window/) |
 <h2 id='4'>4、财务函数</h2>

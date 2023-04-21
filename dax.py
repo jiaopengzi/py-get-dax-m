@@ -33,7 +33,7 @@ class DAX(object):
         items_en = dic_en.get("items")[0].get("children")[1].get("children")
         items_cn = dic_cn.get("items")[0].get("children")[1].get("children")
         # print(items_cn)
-        # i = 0
+        i = 0
         for item_en, item_cn in zip(items_en[2:], items_cn[2:]):
 
             category_en = item_en.get("toc_title")
@@ -45,9 +45,9 @@ class DAX(object):
                 if fx.get("toc_title").lower() != 'Understanding functions for parent-child hierarchies'.lower():
                     fx_url_en = url_base_en + fx.get("href")
                     fx_url_cn = url_base_cn + fx.get("href")
-                    # i += 1
-                    # print(i)
-                    # print(fx.get("toc_title"))
+                    i += 1
+                    print(i)
+                    print(fx.get("toc_title"))
                     func_dict[fx.get("toc_title")] = {"url-en-us"         : fx_url_en,
                                                       "url-zh-cn"         : fx_url_cn,
                                                       "description-en-us" : Utils.get_func_description(fx_url_en),

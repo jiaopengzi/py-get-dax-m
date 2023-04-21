@@ -692,12 +692,12 @@
     "SharePoint.Tables": {
         "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/sharepoint-tables",
         "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/sharepoint-tables",
-        "description-en-us": "Returns a table containing a row for each List item found at the specified SharePoint list, url. Each row contains properties of the List. options may be specified to control the following options:\nApiVersion: A number (14 or 15) or the text \"Auto\" that specifies the SharePoint API version to use for this site. When not specified, API version 14 is used. When Auto is specified, the server version will be automatically discovered if possible, otherwise version defaults to 14. Non-English SharePoint sites require at least version 15.\nImplementation\nViewMode\n",
+        "description-en-us": "Returns a table containing a row for each List item found at the specified SharePoint list, url. Each row contains properties of the List. options may be specified to control the following options:\nApiVersion: A number (14 or 15) or the text \"Auto\" that specifies the SharePoint API version to use for this site. When not specified, API version 14 is used. When Auto is specified, the server version will be automatically discovered if possible, otherwise version defaults to 14. Non-English SharePoint sites require at least version 15.\nImplementation: Optional. Specifies which version of the SharePoint connector to use. Accepted values are \"2.0\" or null. If the value is \"2.0\", the 2.0 implementation of the SharePoint connector is used. If the value is null, the original implementation of the SharePoint connector is used.\nViewMode: Optional. This option is only valid for implementation 2.0. Accepted values are \"All\" and \"Default\". If no value is specified, the value is set to \"All\". When \"All\"; is specified, the view includes all user-created and system-defined columns. When \"Default\" is specified, the view will match what the user sees when looking at the list online in whichever view that user set as Default in their settings. If the user edits their default view to add or remove either user-created or system-defined columns, or by creating a new view and setting it as default, these changes will propagate through the connector.\n",
         "category-en-us": "Accessing data functions",
         "url-category-en-us": "https://learn.microsoft.com/en-us/powerquery-m/accessing-data-functions",
         "category-zh-cn": "数据访问函数",
         "url-category-zh-cn": "https://learn.microsoft.com/en-us/powerquery-m/accessing-data-functions",
-        "description-zh-cn": "返回一个表，该表包含在指定 SharePoint 列表 url 处找到的每个列表项的行。 每一行都包含该列表的属性。 可以指定 options 来控制以下选项：\nApiVersion：一个数字（14 或 15）或文本“Auto”，用于指定此站点要使用的 SharePoint API 版本。 如果未指定，则使用 API 版本 14。 如果指定 Auto，则将自动发现服务器版本（如果可能），否则版本默认为 14。 非英语的 SharePoint 站点至少需要版本 15。\nImplementation\nViewMode\n"
+        "description-zh-cn": "返回一个表，该表包含在指定 SharePoint 列表 url 处找到的每个列表项的行。 每一行都包含该列表的属性。 可以指定 options 来控制以下选项：\nApiVersion：一个数字（14 或 15）或文本“Auto”，用于指定此站点要使用的 SharePoint API 版本。 如果未指定，则使用 API 版本 14。 如果指定 Auto，则将自动发现服务器版本（如果可能），否则版本默认为 14。 非英语的 SharePoint 站点至少需要版本 15。\nImplementation：可选。 指定要使用的 SharePoint 连接器版本。 接受的值为“2.0”或 null。 如果值为“2.0”，则使用 SharePoint 连接器的 2.0 实现。 如果值为“null”，则使用 SharePoint 连接器的原始实现。\nViewMode：可选。 此选项仅适用于实现 2.0。 接受的值为“All”和“Default”。 如果未指定任何值，则该值设置为“All”。 如果指定为“All”，则视图包括所有用户创建的列和系统定义的列。 如果指定为“Default”，视图将与用户在设置中设置为“Default”的视图中联机查看列表时看到的内容匹配。 如果用户编辑其默认视图以添加或删除用户创建或系统定义的列，或者通过创建新视图并将其设置为默认值，则这些更改将通过连接器传播。\n"
     },
     "Soda.Feed": {
         "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/soda-feed",
@@ -5132,12 +5132,12 @@
     "Table.SingleRow": {
         "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/table-singlerow",
         "url-zh-cn": "https://learn.microsoft.com/zh-cn/powerquery-m/table-singlerow",
-        "description-en-us": "Returns the single row in the one row table. If the table has more than one row, an exception is thrown.",
+        "description-en-us": "Returns the single row in the one row table. If the table does not contain exactly one row, an error is raised.",
         "category-en-us": "Table functions",
         "url-category-en-us": "https://learn.microsoft.com/en-us/powerquery-m/table-functions",
         "category-zh-cn": "表函数",
         "url-category-zh-cn": "https://learn.microsoft.com/en-us/powerquery-m/table-functions",
-        "description-zh-cn": "返回包含一行 table 中的单行。 如果 table 包含多个行，会引发异常。"
+        "description-zh-cn": "返回包含一行 table 中的单行。 如果 table 并非恰好包含一行，则会引发错误。"
     },
     "Table.Skip": {
         "url-en-us": "https://learn.microsoft.com/en-us/powerquery-m/table-skip",

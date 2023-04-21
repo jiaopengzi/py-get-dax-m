@@ -32,15 +32,15 @@ class Utils(object):
         :return: json 转换后的字典
         """
 
-        try:
-            response = requests.get(url)
-            response.encoding = 'utf-8'
-            if response.status_code != 200:
-                print(f"{url} 状态非 200,访问失败")
-                return
-            return response.json()
-        except:
-            raise Exception("请求失败")
+        # try:
+        response = requests.get(url=url, timeout=200)
+        response.encoding = 'utf-8'
+        if response.status_code != 200:
+            print(f"{url} 状态非 200,访问失败")
+            return
+        return response.json()
+        # except:
+        #     raise Exception("请求失败")
 
     @staticmethod
     def write_json_in_file(path: str, json_dic: dict) -> None:
@@ -75,14 +75,14 @@ class Utils(object):
         :return: 该函数的描述信息
         """
 
-        try:
-            response = requests.get(url)
-            response.encoding = 'utf-8'
-            if response.status_code != 200:
-                print(f"{url_dax} 不是200,访问失败")
-                return
-        except:
-            raise Exception("请求失败")
+        # try:
+        response = requests.get(url=url, timeout=200)
+        response.encoding = 'utf-8'
+        if response.status_code != 200:
+            print(f"{url_dax} 不是200,访问失败")
+            return
+        # except:
+        #     raise Exception("请求失败")
 
         html_content = response.text  # 获取返回字符串
         bs = BeautifulSoup(html_content, "lxml")  # lxml 格式

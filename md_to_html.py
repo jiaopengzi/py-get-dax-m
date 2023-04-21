@@ -14,7 +14,7 @@ from utils import Utils
 
 
 def md_to_html(c_or_s: str, path_html_old: str, path_html_new: str) -> None:
-    """markdown 转换为 html 修改样式 和 第一个表格
+    """markdown 转换为 html 修改样式 和 第一个表格( Typora 手动导出的 html)
 
     :param c_or_s: 是 sort 或者 category
     :param path_html_old: 导出的 html 路径
@@ -42,7 +42,7 @@ def md_to_html(c_or_s: str, path_html_old: str, path_html_new: str) -> None:
     h_list = html.split("</head>")
     h_list.insert(1, f"{favicon}</head>")
     html = "".join(h_list)
-    
+
     # 找到 css 的最后结点增加 css
     h_list = html.split("</style>")
     h_list.insert(1, f"{css}</style>")
@@ -76,7 +76,7 @@ def init_md_to_html(folder_old: str, folder_new: str) -> None:
 
 
 if __name__ == "__main__":
-    folder_old = "C:/desktop/"
+    folder_old = "C:/desktop/"  # ( Typora 手动导出的 html 路径)
     folder_new = "C:/desktop/new/"
     init_md_to_html(folder_old, folder_new)
     print("完成")
