@@ -27,8 +27,8 @@ class DAX(object):
         url_base_cn = "https://learn.microsoft.com/zh-cn/dax/"
         url_en = "https://learn.microsoft.com/en-us/dax/toc.json"
         url_cn = "https://learn.microsoft.com/zh-cn/dax/toc.json"
-        dic_en = Utils.response_json_to_dict(url_en)
-        dic_cn = Utils.response_json_to_dict(url_cn)
+        dic_en = Utils.response_json_to_dict(Utils, url_en)
+        dic_cn = Utils.response_json_to_dict(Utils, url_cn)
         func_dict = {}
         items_en = dic_en.get("items")[0].get("children")[1].get("children")
         items_cn = dic_cn.get("items")[0].get("children")[1].get("children")
@@ -50,12 +50,12 @@ class DAX(object):
                     print(fx.get("toc_title"))
                     func_dict[fx.get("toc_title")] = {"url-en-us"         : fx_url_en,
                                                       "url-zh-cn"         : fx_url_cn,
-                                                      "description-en-us" : Utils.get_func_description(fx_url_en),
+                                                      "description-en-us" : Utils.get_func_description(Utils, fx_url_en),
                                                       "category-en-us"    : category_en,
                                                       "url-category-en-us": url_base_en + group_en[0].get("href"),
                                                       "category-zh-cn"    : category_cn,
                                                       "url-category-zh-cn": url_base_en + group_en[0].get("href"),
-                                                      "description-zh-cn" : Utils.get_func_description(fx_url_cn),
+                                                      "description-zh-cn" : Utils.get_func_description(Utils, fx_url_cn),
                                                       "url-dax-guide"     : f'https://dax.guide/{fx.get("toc_title").lower()}/'
                                                       }
 

@@ -618,12 +618,12 @@
     "INDEX": {
         "url-en-us": "https://learn.microsoft.com/en-us/dax/index-function-dax",
         "url-zh-cn": "https://learn.microsoft.com/zh-cn/dax/index-function-dax",
-        "description-en-us": "Returns a row at an absolute position, specified by the position parameter, within the specified partition, sorted by the specified order. If the current partition can't be deduced to a single partition, multiple rows may be returned.\nIf there is exactly one corresponding outer column, its value is used.\nIf there is no corresponding outer column:\n\nINDEX will first determine all <partitionBy> columns that have no corresponding outer column.\nFor every combination of existing values for these columns in INDEX’s parent context, INDEX is evaluated and a row is returned.\nINDEX’s final output is a union of these rows.\n\n\nIf there is more than one corresponding outer column, an error is returned.\n",
+        "description-en-us": "Returns a row at an absolute position, specified by the position parameter, within the specified partition, sorted by the specified order. If the current partition can't be deduced to a single partition, multiple rows may be returned.\nIf there is exactly one corresponding outer column, its value is used.\nIf there is no corresponding outer column:\n\nINDEX will first determine all <partitionBy> and <matchBy> columns that have no corresponding outer column.\nFor every combination of existing values for these columns in INDEX’s parent context, INDEX is evaluated and a row is returned.\nINDEX’s final output is a union of these rows.\n\n\nIf there is more than one corresponding outer column, an error is returned.\n",
         "category-en-us": "Filter functions",
         "url-category-en-us": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
         "category-zh-cn": "筛选器函数",
         "url-category-zh-cn": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
-        "description-zh-cn": "在指定分区（按指定顺序排序）的绝对位置（由位置参数指定）处返回一行。 如果当前分区无法推导为单个分区，则可能会返回多个行。\n如果正好有一个对应的外部列，则使用其值。\n如果没有对应的外部列：\nINDEX 将首先确定没有对应外部列的所有 <partitionBy> 列。\n对于 INDEX 的父上下文中这些列的现有值的每个组合，将计算 INDEX 并返回一行。\nINDEX 的最终输出是这些行的并集。\n\n\n如果有多个对应的外部列，则会返回错误。\n",
+        "description-zh-cn": "在指定分区（按指定顺序排序）的绝对位置（由位置参数指定）处返回一行。 如果当前分区无法推导为单个分区，则可能会返回多个行。\n如果正好有一个对应的外部列，则使用其值。\n如果没有对应的外部列：\nINDEX 将首先确定没有对应外部列的所有 <partitionBy> 和 <matchBy> 列。\n对于 INDEX 的父上下文中这些列的现有值的每个组合，将计算 INDEX 并返回一行。\nINDEX 的最终输出是这些行的并集。\n\n\n如果有多个对应的外部列，则会返回错误。\n",
         "url-dax-guide": "https://dax.guide/index/"
     },
     "KEEPFILTERS": {
@@ -647,6 +647,17 @@
         "url-category-zh-cn": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
         "description-zh-cn": "返回满足一个或多个搜索条件所指定的所有条件的行的值。\n如果“结果”和“搜索”表之间存在关系，则在大多数情况下，使用 RELATED 函数（而不是 LOOKUPVALUE）会更高效并可以提供更好的性能。\n\n在函数循环访问搜索表中的行之前，将计算 search_value 和 alternateResult 参数 。\n\n避免使用 ISERROR 或 IFERROR 函数来捕获 LOOKUPVALUE 返回的错误。 如果函数的某些输入在无法确定单个输出值时导致错误，则提供 alternateResult 参数是处理错误的最可靠、性能最高的方式。\n\n如果在 PowerPivot 计算列中指定了 alternateResult 参数，该参数将引发错误。\n\n在已计算的列或行级安全性 (RLS) 规则中使用时，不支持在 DirectQuery 模式下使用此函数。\n\n",
         "url-dax-guide": "https://dax.guide/lookupvalue/"
+    },
+    "MATCHBY": {
+        "url-en-us": "https://learn.microsoft.com/en-us/dax/matchby-function-dax",
+        "url-zh-cn": "https://learn.microsoft.com/zh-cn/dax/matchby-function-dax",
+        "description-en-us": "In window functions, defines the columns that are used to determine how to match data and identify the current row.",
+        "category-en-us": "Filter functions",
+        "url-category-en-us": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
+        "category-zh-cn": "筛选器函数",
+        "url-category-zh-cn": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
+        "description-zh-cn": "在窗口函数中，定义用于确定如何匹配数据和标识当前行的列。",
+        "url-dax-guide": "https://dax.guide/matchby/"
     },
     "OFFSET": {
         "url-en-us": "https://learn.microsoft.com/en-us/dax/offset-function-dax",
@@ -684,12 +695,12 @@
     "RANK": {
         "url-en-us": "https://learn.microsoft.com/en-us/dax/rank-function-dax",
         "url-zh-cn": "https://learn.microsoft.com/zh-cn/dax/rank-function-dax",
-        "description-en-us": "Returns the ranking for the current context within the specified partition, sorted by the specified order. If a match cannot be found then then rank is blank.\nEach <orderBy> and <partitionBy> column must have a corresponding outer value to help define the current row on which to operate, with the following behavior:\n\nIf there is exactly one corresponding outer column, its value is used.\nIf there is no corresponding outer column, then:\n\nRANK will first determine all <orderBy> and <partitionBy> columns that have no corresponding outer column.\nFor every combination of existing values for these columns in RANK parent context, RANK is evaluated and a row is returned.\nRANK’s final output is a rank number.\n\n\n\n\nIf the columns specified within <orderBy> and <partitionBy> can't uniquely identify every row in <relation>, then two or more rows may have the same ranking and the ranking will be determined by the ties parameter.\n\nRANK returns a blank value for total rows. It's recommended that you test your expression thoroughly.\n\nRANK does not compare to RANKX as SUM compares to SUMX.\n\n",
+        "description-en-us": "Returns the ranking for the current context within the specified partition, sorted by the specified order. If a match cannot be found then then rank is blank.DEFAULT (the default value), where the behavior for numerical values is blank values are ordered between zero and negative values. The behavior for strings is blank values are ordered before all strings, including empty strings.FIRST, blanks are always ordered on the beginning, regardless of ascending or descending sorting order.LAST, blanks are always ordered on the end, regardless of ascending or descending sorting order. ",
         "category-en-us": "Filter functions",
         "url-category-en-us": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
         "category-zh-cn": "筛选器函数",
         "url-category-zh-cn": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
-        "description-zh-cn": "返回当前上下文在指定分区内按指定顺序排序的级别。 如果找不到匹配项，则级别为空。\n每个 <orderBy> 和 <partitionBy> 列都必须具有相应的外部值，帮助定义要操作的当前行，其行为如下：\n\n如果正好有一个对应的外部列，则使用其值。\n如果没有对应的外部列，则：\nRANK 将首先确定没有相应外部列的所有 <orderBy> 和 <partitionBy> 列。\n对于 RANK 父上下文中这些列的现有值的每个组合，将计算 RANK 并返回一行。\nRANK 的最终输出是级别号。\n\n\n\n\n如果在 <orderBy> 和 <partitionBy> 中指定的列无法唯一标识 <relation> 中的每一行，则两行或更多行可能具有相同的级别，级别将由 ties 参数确定。\n\nRANK 返回总行数的空白值。 建议全面测试表达式。\n\nRANK 无法与 RANKX 进行比较，但 SUM 可与 SUMX 相比较。\n\n",
+        "description-zh-cn": "返回当前上下文在指定分区内按指定顺序排序的级别。 如果找不到匹配项，则级别为空。采用 DEFAULT（默认值）时，数值的行为是空白值在零和负值之间排序。 字符串的行为是空白值排列在所有字符串（包括空字符串）之前。采用 FIRST 时，无论升序或降序排序，空格始终排在开头。采用 LAST 时，无论升序或降序排序，空格始终排在末尾。 ",
         "url-dax-guide": "https://dax.guide/rank/"
     },
     "REMOVEFILTERS": {
@@ -706,12 +717,12 @@
     "ROWNUMBER": {
         "url-en-us": "https://learn.microsoft.com/en-us/dax/rownumber-function-dax",
         "url-zh-cn": "https://learn.microsoft.com/zh-cn/dax/rownumber-function-dax",
-        "description-en-us": "Returns the unique ranking for the current context within the specified partition, sorted by the specified order. If a match cannot be found then then rownumber is blank.\nIf there is exactly one corresponding outer column, its value is used.\nIf there is no corresponding outer column, then:\n\nROWNUMBER will first determine all <orderBy> and <partitionBy> columns that have no corresponding outer column.\nFor every combination of existing values for these columns in ROWNUMBER parent context, ROWNUMBER is evaluated and a row is returned.\nROWNUMBER’s final output is a union of these rows.\n\n\nIf there is more than one corresponding outer column, an error is returned.\n",
+        "description-en-us": "Returns the unique ranking for the current context within the specified partition, sorted by the specified order. If a match cannot be found then then rownumber is blank.DEFAULT (the default value), where the behavior for numerical values is blank values are ordered between zero and negative values. The behavior for strings is blank values are ordered before all strings, including empty strings.FIRST, blanks are always ordered on the beginning, regardless of ascending or descending sorting order.LAST, blanks are always ordered on the end, regardless of ascending or descending sorting order. ",
         "category-en-us": "Filter functions",
         "url-category-en-us": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
         "category-zh-cn": "筛选器函数",
         "url-category-zh-cn": "https://learn.microsoft.com/en-us/dax/filter-functions-dax",
-        "description-zh-cn": "返回当前上下文在指定分区内按指定顺序排序的唯一级别。 如果找不到匹配项，则行号为空。\n如果正好有一个对应的外部列，则使用其值。\n如果没有对应的外部列，则：\nROWNUMBER 将首先确定没有相应外部列的所有 <orderBy> 和 <partitionBy> 列。\n对于 ROWNUMBER 父上下文中这些列的现有值的每个组合，将计算 ROWNUMBER 并返回一行。\nROWNUMBER 的最终输出是这些行的并集。\n\n\n如果有多个对应的外部列，则会返回错误。\n",
+        "description-zh-cn": "返回当前上下文在指定分区内按指定顺序排序的唯一级别。 如果找不到匹配项，则行号为空。采用 DEFAULT（默认值）时，数值的行为是空白值在零和负值之间排序。 字符串的行为是空白值排列在所有字符串（包括空字符串）之前。采用 FIRST 时，无论升序或降序排序，空格始终排在开头。采用 LAST 时，无论升序或降序排序，空格始终排在末尾。 ",
         "url-dax-guide": "https://dax.guide/rownumber/"
     },
     "SELECTEDVALUE": {
@@ -1575,12 +1586,12 @@
     "SELECTEDMEASURE": {
         "url-en-us": "https://learn.microsoft.com/en-us/dax/selectedmeasure-function-dax",
         "url-zh-cn": "https://learn.microsoft.com/zh-cn/dax/selectedmeasure-function-dax",
-        "description-en-us": "Used by expressions for calculation items to reference the measure that is in context.\nCan only be referenced in the expression for a calculation item.\n\nThis function is not supported for use in DirectQuery mode when used in calculated columns or row-level security (RLS) rules.\n\n",
+        "description-en-us": "Used by expressions for calculation items or dynamic format strings to reference the measure that is in context.\nCan only be referenced in the expression for a calculation item or format string.\n\nThis function is not supported for use in DirectQuery mode when used in calculated columns or row-level security (RLS) rules.\n\n",
         "category-en-us": "Information functions",
         "url-category-en-us": "https://learn.microsoft.com/en-us/dax/information-functions-dax",
         "category-zh-cn": "信息函数",
         "url-category-zh-cn": "https://learn.microsoft.com/en-us/dax/information-functions-dax",
-        "description-zh-cn": "由表达式的计算项用于引用上下文中的度量值。\n只能在计算项的表达式中引用。\n\n在已计算的列或行级安全性 (RLS) 规则中使用时，不支持在 DirectQuery 模式下使用此函数。\n\n",
+        "description-zh-cn": "由计算项或动态格式字符串的表达式用于引用上下文中的度量值。\n只能在计算项或格式字符串的表达式中引用。\n\n在已计算的列或行级安全性 (RLS) 规则中使用时，不支持在 DirectQuery 模式下使用此函数。\n\n",
         "url-dax-guide": "https://dax.guide/selectedmeasure/"
     },
     "SELECTEDMEASUREFORMATSTRING": {
@@ -3401,12 +3412,12 @@
     "FORMAT": {
         "url-en-us": "https://learn.microsoft.com/en-us/dax/format-function-dax",
         "url-zh-cn": "https://learn.microsoft.com/zh-cn/dax/format-function-dax",
-        "description-en-us": "Converts a value to text according to the specified format.\nPredefined format strings use the model culture property when formatting the result. By default, the model culture property is set according to the user locale of the computer. For new Power BI Desktop models, the model culture property can be changed in Options > Regional Settings > Model language. For Analysis Services, model culture is set according to the Language property initially defined by the instance.\n\nThe format strings supported as an argument to the DAX FORMAT function are based on the format strings used by Visual Basic (OLE Automation), not on the format strings used by the .NET Framework. Therefore, you might get unexpected results or an error if the argument doesn't match any defined format strings. For example, \"p\" as an abbreviation for \"Percent\" isn't supported. Strings that you provide as an argument to the FORMAT function that aren't included in the list of predefined format strings are handled as part of a custom format string, or as a string literal.\n\nTo learn more specifying a locale with FORMAT, check out this video.\n\nThis function is not supported for use in DirectQuery mode when used in calculated columns or row-level security (RLS) rules.\n\n",
+        "description-en-us": "Converts a value to text according to the specified format.\nPredefined format strings use the model culture property when formatting the result. By default, the model culture property is set according to the user locale of the computer. For new Power BI Desktop models, the model culture property can be changed in Options > Regional Settings > Model language. For Analysis Services, model culture is set according to the Language property initially defined by the instance.\n\nThe format strings supported as an argument to the DAX FORMAT function are based on the format strings used by Visual Basic (OLE Automation), not on the format strings used by the .NET Framework. Therefore, you might get unexpected results or an error if the argument doesn't match any defined format strings. For example, \"p\" as an abbreviation for \"Percent\" isn't supported. Strings that you provide as an argument to the FORMAT function that aren't included in the list of predefined format strings are handled as part of a custom format string, or as a string literal.\n\nTo learn more specifying a locale with FORMAT, check out this video.\n\nUsing FORMAT changes a measure result to a text data type. If the measure result is originally of numeric data type, then with FORMAT, the measure can't be used on visuals where the values section requires a numeric data type, like with charts. In Power BI, you can alternatively use Dynamic format strings for measures specify a conditional format string that maintains the numeric data type of the measure.\n\nThis function is not supported for use in DirectQuery mode when used in calculated columns or row-level security (RLS) rules.\n\n",
         "category-en-us": "Text functions",
         "url-category-en-us": "https://learn.microsoft.com/en-us/dax/text-functions-dax",
         "category-zh-cn": "文本函数",
         "url-category-zh-cn": "https://learn.microsoft.com/en-us/dax/text-functions-dax",
-        "description-zh-cn": "根据所指定的格式将值转换为文本。\n设置结果的格式时，预定义的格式字符串使用模型区域性属性。 默认情况下，根据计算机的用户区域设置设置模型区域性属性。 对于新的 Power BI Desktop 模型，可以在“选项”>“区域设置”>“模型语言”中更改模型区域性属性。 对于 Analysis Services，模型区域性根据实例最初定义的语言属性进行设置。\n\n格式字符串作为 DAX FORMAT 函数的支持参数，以 Visual Basic（OLE 自动化）使用的格式字符串为基础，而不以 NET Framework 使用的格式字符串为基础。 因此，如果参数与任何定义的格式字符串都不匹配，则可能会出现意外结果或错误。 例如，不支持将“p”作为“Percent”的缩写。 作为 FORMAT 函数的参数提供，且未包括在预定义格式字符串中的字符串将作为自定义格式字符串的一部分或字符串文本处理。\n\n要详细了解如何使用 FORMAT 指定区域设置，请观看此视频。\n\n在已计算的列或行级安全性 (RLS) 规则中使用时，不支持在 DirectQuery 模式下使用此函数。\n\n",
+        "description-zh-cn": "根据所指定的格式将值转换为文本。\n设置结果的格式时，预定义的格式字符串使用模型区域性属性。 默认情况下，根据计算机的用户区域设置设置模型区域性属性。 对于新的 Power BI Desktop 模型，可以在“选项”>“区域设置”>“模型语言”中更改模型区域性属性。 对于 Analysis Services，模型区域性根据实例最初定义的语言属性进行设置。\n\n格式字符串作为 DAX FORMAT 函数的支持参数，以 Visual Basic（OLE 自动化）使用的格式字符串为基础，而不以 NET Framework 使用的格式字符串为基础。 因此，如果参数与任何定义的格式字符串都不匹配，则可能会出现意外结果或错误。 例如，不支持将“p”作为“Percent”的缩写。 作为 FORMAT 函数的参数提供，且未包括在预定义格式字符串中的字符串将作为自定义格式字符串的一部分或字符串文本处理。\n\n要详细了解如何使用 FORMAT 指定区域设置，请观看此视频。\n\n使用 FORMAT 将度量结果更改为文本数据类型。 如果度量结果最初为数值数据类型，则使用 FORMAT 时，无法在值部分需要数值数据类型的视觉对象上使用度量值，如图表所示。 在 Power BI 中，也可以对度量值使用动态格式字符串，指定保留度量值数值数据类型的条件格式字符串。\n\n在已计算的列或行级安全性 (RLS) 规则中使用时，不支持在 DirectQuery 模式下使用此函数。\n\n",
         "url-dax-guide": "https://dax.guide/format/"
     },
     "LEFT": {

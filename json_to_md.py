@@ -22,6 +22,8 @@ class JTM(object):
     field_fun3 = '| 函数名称 | 描述 | 链接 |'
     # markdown 表格标识
     table_mark3 = '| :--: | :--: |:--: |'
+    # mvp 查询参数
+    mvp_query = "?WT.mc_id=DP-MVP-5005257"
 
     def contents_category(self, category: dict, md_list: list, cols: int = 3) -> list:
         """目录按照功能分类
@@ -32,8 +34,12 @@ class JTM(object):
         :return: 更新后的 md_list
         """
         line = ""
-        md_list.append('<h2 id="home"><a href="https://jiaopengzi.com/doc" class="a-button">点击返回主页</a></h2><span id="jiaopengzi"><a href="https://jiaopengzi.com/">焦棚子</a>整理</span>')
-        md_list.append('<h2 id="content">目录</h2>')
+        md_list.extend(
+            (
+                '<h2 id="home"><a href="https://jiaopengzi.com/doc" class="a-button">点击返回主页</a></h2><span id="jiaopengzi"><a href="https://jiaopengzi.com/">焦棚子</a>整理</span>',
+                '<h2 id="content">目录</h2>',
+            )
+        )
         for index, c in enumerate(category):
             # text = f"**[{index + 1}、{c}](#{index + 1}-{c})**"
             text = f'**<a href="#{index + 1}">{index + 1}、{c}({category[c]})</a>**'
@@ -63,9 +69,12 @@ class JTM(object):
         :return: 更新后的 md_list
         """
         line = ""
-        # 设置目录标题
-        md_list.append('<h2 id="home"><a href="https://jiaopengzi.com/doc" class="a-button">点击返回主页</a></h2><span id="jiaopengzi"><a href="https://jiaopengzi.com/">焦棚子</a>整理</span>')
-        md_list.append('<h2 id="content">目录</h2>')
+        md_list.extend(
+            (
+                '<h2 id="home"><a href="https://jiaopengzi.com/doc" class="a-button">点击返回主页</a></h2><span id="jiaopengzi"><a href="https://jiaopengzi.com/">焦棚子</a>整理</span>',
+                '<h2 id="content">目录</h2>',
+            )
+        )
         for index, c in enumerate(category):
             line = f'{line}**<a href="#{index + 1}" >{c}({category[c]})</a>** '
         md_list.append(line)
@@ -101,7 +110,7 @@ class JTM(object):
                     # 描述中只取第一句简单介绍。
                     des = m_dic[key]["description-zh-cn"].replace("\n", " ").strip()
                     des = f'{des.split("。")[0]}。'
-                    line_n = f'| {key} | {des} | [中文]({m_dic[key]["url-zh-cn"]}) [英文]({m_dic[key]["url-en-us"]}) |'
+                    line_n = f'| {key} | {des} | [中文]({m_dic[key]["url-zh-cn"]}{self.mvp_query}) [英文]({m_dic[key]["url-en-us"]}{self.mvp_query}) |'
                     # line_n = line_n.replace("\n", " ")
                     md_list.append(line_n)
 
@@ -138,7 +147,7 @@ class JTM(object):
                     # 描述中只取第一句简单介绍。
                     des = m_dic[key]["description-zh-cn"].replace("\n", " ").strip()
                     des = f'{des.split("。")[0]}。'
-                    line_n = f'| {key} | {des} | [中文]({m_dic[key]["url-zh-cn"]}) [英文]({m_dic[key]["url-en-us"]}) |'
+                    line_n = f'| {key} | {des} | [中文]({m_dic[key]["url-zh-cn"]}{self.mvp_query}) [英文]({m_dic[key]["url-en-us"]}{self.mvp_query}) |'
                     md_list.append(line_n)
 
         path_md = os.path.join(Utils.base_dir(), "m-sort.md")
@@ -176,7 +185,7 @@ class JTM(object):
                     # 描述中只取第一句简单介绍。
                     des = dax_dic[key]["description-zh-cn"].replace("\n", " ").strip()
                     des = f'{des.split("。")[0]}。'
-                    line_n = f'| {key} | {des} | [中文]({dax_dic[key]["url-zh-cn"]}) [英文]({dax_dic[key]["url-en-us"]}) [SQLBI]({dax_dic[key]["url-dax-guide"]}) |'
+                    line_n = f'| {key} | {des} | [中文]({dax_dic[key]["url-zh-cn"]}{self.mvp_query}) [英文]({dax_dic[key]["url-en-us"]}{self.mvp_query}) [SQLBI]({dax_dic[key]["url-dax-guide"]}) |'
                     md_list.append(line_n)
 
         path_md = os.path.join(Utils.base_dir(), "dax-category.md")
@@ -213,7 +222,7 @@ class JTM(object):
                     # 描述中只取第一句简单介绍。
                     des = dax_dic[key]["description-zh-cn"].replace("\n", " ").strip()
                     des = f'{des.split("。")[0]}。'
-                    line_n = f'| {key} | {des} | [中文]({dax_dic[key]["url-zh-cn"]}) [英文]({dax_dic[key]["url-en-us"]}) [SQLBI]({dax_dic[key]["url-dax-guide"]}) |'
+                    line_n = f'| {key} | {des} | [中文]({dax_dic[key]["url-zh-cn"]}{self.mvp_query}) [英文]({dax_dic[key]["url-en-us"]}{self.mvp_query}) [SQLBI]({dax_dic[key]["url-dax-guide"]}) |'
                     md_list.append(line_n)
 
         path_md = os.path.join(Utils.base_dir(), "dax-sort.md")

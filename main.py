@@ -9,6 +9,7 @@
 @Description    :   获取 dax & m 官方文档信息 入口文件
 """
 
+import random
 import time
 
 from dax import DAX
@@ -16,11 +17,13 @@ from m import M
 
 # DAX
 start_time_dax = time.time()
-# dax = DAX()
-# download_dax = dax.get_dax()
-# print(f"DAX 下载完毕！文件存放位置：{download_dax}")
-# end_time_dax = time.time()
-# print(f"耗时 {(end_time_dax - start_time_dax):.2f} 秒！")  # 耗时 276.18 秒！,注意英文版需要 科 + 学 + 上 + 网
+dax = DAX()
+download_dax = dax.get_dax()
+print(f"DAX 下载完毕！文件存放位置：{download_dax}")
+end_time_dax = time.time()
+print(f"耗时 {(end_time_dax - start_time_dax):.2f} 秒！")  # 耗时 387.04 秒！,注意英文版需要 科 + 学 + 上 + 网
+
+time.sleep(random.uniform(10, 30))  # 增加10到30秒的随机延时 延时避免报错
 
 # Power Query
 start_time_m = time.time()
@@ -28,4 +31,4 @@ m = M()
 download_m = m.get_m()
 print(f"Power Query 下载完毕！文件存放位置：{download_m}")
 end_time_m = time.time()
-print(f"耗时 {(end_time_m - start_time_m):.2f} 秒！")  # 耗时 386.98 秒！
+print(f"耗时 {(end_time_m - start_time_m):.2f} 秒！")  # 耗时 692.87 秒！

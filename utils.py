@@ -10,11 +10,14 @@
 """
 import json
 import os
+import random
 import shutil
 import sys
 
 import requests
 from bs4 import BeautifulSoup
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 
 class Utils(object):
@@ -22,7 +25,35 @@ class Utils(object):
     """
 
     @staticmethod
-    def response_json_to_dict(url: str) -> dict:
+    def get_url_auto_retry(url: str, total: int = 5) -> requests.Response:
+        """
+        自动重试的请求函数
+
+        Args:
+            url:  请求的 url
+            total: 最大重试次数 (default: 5)
+
+        Returns: requests.Response 对象
+
+        """
+        # 创建 Session 对象
+        session = requests.Session()
+        # 定义自动重试逻辑
+        retries = Retry(
+                total=total,  # 最大重试次数为 5 次
+                backoff_factor=random.uniform(1, 5),  # 设置每次重试之间的延迟因子，单位秒
+                status_forcelist=[500, 502, 503, 504],  # 在遇到以下状态码时进行重试
+                allowed_methods=["HEAD", "GET", "OPTIONS", "POST"]  # 需要自动重试的请求方法
+        )
+        # 使用最大重试次数创建 HTTPAdapter 对象
+        adapter = HTTPAdapter(max_retries=retries)
+        # 为 http 和 https 协议添加自动重试适配器
+        session.mount("http://", adapter)
+        session.mount("https://", adapter)
+
+        return session.get(url, timeout=5000)
+
+    def response_json_to_dict(self, url: str) -> dict:
         """获取文档中函数的 json 数据
 
         # url = "https://learn.microsoft.com/en-us/powerquery-m/toc.json"
@@ -33,7 +64,8 @@ class Utils(object):
         """
 
         # try:
-        response = requests.get(url=url, timeout=200)
+        # response = requests.get(url=url, timeout=5000)
+        response = self.get_url_auto_retry(url=url)
         response.encoding = 'utf-8'
         if response.status_code != 200:
             print(f"{url} 状态非 200,访问失败")
@@ -67,16 +99,15 @@ class Utils(object):
             return os.path.dirname(os.path.abspath(sys.executable))
         return os.path.dirname(os.path.abspath(__file__))
 
-    @staticmethod
-    def get_func_description(url: str) -> str:
+    def get_func_description(self, url: str) -> str:
         """获取函数描述信息。
 
         :param url: 函数对应的链接
         :return: 该函数的描述信息
         """
-
         # try:
-        response = requests.get(url=url, timeout=200)
+        # response = requests.get(url=url, timeout=5000)
+        response = self.get_url_auto_retry(url=url)
         response.encoding = 'utf-8'
         if response.status_code != 200:
             print(f"{url_dax} 不是200,访问失败")

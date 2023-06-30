@@ -76,7 +76,7 @@ def init_md_to_html(folder_old: str, folder_new: str) -> None:
 
 
 if __name__ == "__main__":
-    folder_old = "C:/desktop/"  # ( Typora 手动导出的 html 路径)
+    folder_old = "C:/desktop/old/"  # ( Typora 手动导出的 html 路径)
     folder_new = "C:/desktop/new/"
     init_md_to_html(folder_old, folder_new)
     print("完成")
